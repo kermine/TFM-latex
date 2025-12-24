@@ -1,0 +1,42 @@
+\capitulo{8}{Tecnologías utilizadas}
+
+Las tecnologías empleadas a lo largo del proyecto han sido las siguientes
+
+\section{Python}
+Python: principal lenguaje de programación en el que se ha creado el jupyter Notebook para realizar el entrenamiento del modelo de Llama3 al modelo especifico.
+
+\section{Unsloth}
+A la hora de realizar el re entrenamiento de modelos tras realizar varias pruebas e investigar diferentes alternativas me he decidido por Unsloth \cite{Unsloth} que se trata de un framework open-source que permite realizar fine-tunning de LLMs de una manera muy eficiente.
+
+\begin{itemize}
+    \item Totch (Pytorch): Librería enfocada en el deep learning, puede emplear tanto la CPU como la GPU para realizar las operaciones matemáticas, en el caso de que queramos usar la GPU sera necesario emplear CUDA de NVIDIA. Aunque Unsloth se ejecuta solo empleando GPU en pytorch.\cite{pytorch}
+
+    \item Transformers: Es la librería de HuggingFace que nos permite cargar modelos ya entrenados por otras personas o modelos open-source que las empresas suben a la propia plataforma.\cite{transformers}
+
+    \item Datasets: librería que emplea Unsloth con el fin de el manejo de datasets masivos, con el fin de alimentar a los modelos en el re entrenamiento.\cite{datasets}
+\end{itemize}
+
+\section{Discord}
+
+Discord es una aplicación gratuita que permite la comunicación a través de texto, voz y vídeo con las personas que tienes agregadas a tu lista de amigos. También permite la creación de servidores en los cuales la gente que se encuentre en ellos puede hablar  e interactuar entre ellos. Discord está disponible en Windows, macOS, Linux, iOS, iPadOS, Android y navegadores web \cite{discord}.
+
+Discord ha sido la herramienta utilizada principalmente para resolver bugs y problemas con la librería de Unsloth\cite{Unsloth}, ya que como sucede muchas veces en python que es un lenguaje muy dependiente de librerias anidadas a lo largo del desarrollo del notebook y generación del modelo reentrenado han ocurrido bugs que he tenido que comunicar por el foro del grupo de discord, en el cual los desarrolladores de la librería han ayudado a resolver.
+
+\section{GanttProject}
+GanttProject es una aplicación gratuita para la elaboración de diagramas de Gantt \cite{ganttProyect}, la cual se ha utilizado para realizar los diagramas de gantt referentes a la planificación del proyecto. El principal motivo de uso es su licencia gratuita. y conocimiento de previos proyectos.
+
+\section{Overleaf}
+
+Overleaf es una herramienta de publicación y redacción colaborativa en línea empleada como editor LaTeX \cite{overleaf}. LaTex es una herramienta de composición de textos centrada en documentos científicos, ya que permite una capacidad de configuración de las formas y texto muy superiores a otros editores de texto.
+
+\section {Modelo de gran lenguaje}
+
+Como hemos comentado en secciones anteriores y tras compararlo con el resto de lenguajes open-source que podíamos escoger Llama 3 de 8B de parámetros, que ademas es uno de los principales motivos por los que se ha seleccionado Unsloth ya que es uno de los modelos soportados por este framework. Y que mas soporte de la comunidad tiene
+
+\section {Uso del modelo}
+
+El modelo se empleará a través de la interfaz creada con el  proyecto de openwebui\cite{openwebui} ya que ofrece una cantidad de características muy completas ademas de la portabilidad que permite que se ejecute en un contenedor de docker.
+
+
+
+

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: memoria.aux
+A level-1 auxiliary file: ./tex/capitulos/1_Introduccion.aux
+A level-1 auxiliary file: ./tex/capitulos/2_Metodologia_y_Planificacion.aux
+A level-1 auxiliary file: ./tex/capitulos/3_Conceptos_teoricos.aux
+A level-1 auxiliary file: ./tex/capitulos/4_Alternativas_diferentes_IA.aux
+A level-1 auxiliary file: ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
+A level-1 auxiliary file: ./tex/capitulos/6_Dataset_reentrenamiento.aux
+A level-1 auxiliary file: ./tex/capitulos/7_Tecnologias_utilizadas.aux
+A level-1 auxiliary file: ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
+A level-1 auxiliary file: ./tex/B_Requisitos.aux
+A level-1 auxiliary file: ./tex/C_Diseno.aux
+A level-1 auxiliary file: ./tex/D_Manual_usuario.aux
+The style file: plain.bst
+Database file #1: bibliografia.bib
+You've used 20 entries,
+            2118 wiz_defined-function locations,
+            590 strings with 6475 characters,
+and the built_in function-call counts, 4212 in all, are:
+= -- 400
+> -- 140
+< -- 0
++ -- 60
+- -- 40
+* -- 112
+:= -- 711
+add.period$ -- 70
+call.type$ -- 20
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 140
+empty$ -- 441
+format.name$ -- 40
+if$ -- 921
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 0
+newline$ -- 113
+num.names$ -- 40
+pop$ -- 190
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 119
+stack$ -- 0
+substring$ -- 100
+swap$ -- 20
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 0
+while$ -- 40
+width$ -- 22
+write$ -- 212

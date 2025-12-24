@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{discord}
+{ Jason Citron y Stan Vishnevskiy}.
+\newblock {Web oficial de Discord}.
+\newblock \url{https://discord.com/}.
+\newblock último acceso: Diciembre 2025.
+
+\bibitem{RAG-Amazon}
+Amazon.
+\newblock ¿qué es la rag (generación aumentada por recuperación)?, 2025.
+\newblock [Internet; recuperado el 21 de junio de 2025].
+
+\bibitem{InformacionOllama}
+Diego B.
+\newblock ¿qué es ollama? principales características y modelos, 2025.
+\newblock [Internet; recuperado el 5 de julio de 2025].
+
+\bibitem{Gpu-Finetuning}
+Sebastian Buzdugan.
+\newblock What’s the best gpu for fine-tuning llms? a no-nonsense guide, 2025.
+\newblock [Internet; recuperado el 21 de junio de 2025].
+
+\bibitem{CloudFlare-LoRA}
+CloudFlare.
+\newblock ¿qué es la adaptación de bajo rango (lora)?, 2025.
+\newblock [Internet; recuperado el 21 de junio de 2025].
+
+\bibitem{definicionIA}
+Gobierno de~España.
+\newblock Definicion ia según la comisión europea, 2023.
+\newblock [Internet; recuperado el 7 de junio de 2025].
+
+\bibitem{DeepSeek-coder}
+DeepSeek-coder.
+\newblock Deepseek-coder repositorio, 2025.
+\newblock [Internet; recuperado el 13 de junio de 2025].
+
+\bibitem{ganttProyect}
+{ganttProyect}.
+\newblock {ganttProyect}.
+\newblock \url{https://www.ganttproject.biz/}.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{datasets}
+{huggingFace}.
+\newblock {datasets}.
+\newblock \url{https://huggingface.co/docs/datasets/index}.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{transformers}
+{huggingFace}.
+\newblock {transformers}.
+\newblock \url{https://huggingface.co/docs/transformers/index}.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{overleaf}
+{John Hammersley and John Lees-Miller}.
+\newblock {Web oficial de Overleaf}.
+\newblock \url{https://es.overleaf.com/}.
+\newblock último acceso: Diciembre 2025.
+
+\bibitem{cascada}
+{Lucidchart}.
+\newblock {Waterfall. La historia detrás del error}.
+\newblock \url{https://www.lucidchart.com/blog/es/pros-y-contras-de-la-metodologia-de-cascada}.
+\newblock Último acceso: Octubre 2025.
+
+\bibitem{HuggingFace-LoRA}
+Younes B Tim Dettmers Artidoro Pagnoni Sylvain Gugger~Sourab Mangrulkar.
+\newblock Making llms even more accessible with bitsandbytes, 4-bit quantization and qlora, 2025.
+\newblock [Internet; recuperado el 21 de junio de 2025].
+
+\bibitem{historiaCascada}
+{Martín Alaimo}.
+\newblock {Modelo de cascada: Ventajas y desventajas}.
+\newblock \url{https://medium.com/@kleer.la/waterfall-la-historia-detr%C3%A1s-del-error-39f589a12115}.
+\newblock Último acceso: Octubre 2025.
+
+\bibitem{formatoLlama2}
+{Meta}.
+\newblock {formatoLlama2}.
+\newblock \url{https://www.llama.com/docs/model-cards-and-prompt-formats/meta-llama-2/}.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{Ollama}
+Ollama.
+\newblock Ollama, 2025.
+\newblock [Internet; recuperado el 5 de julio de 2025].
+
+\bibitem{GithubOllama}
+Ollama.
+\newblock Ollama, 2025.
+\newblock [Internet; recuperado el 5 de julio de 2025].
+
+\bibitem{openwebui}
+{openwebui}.
+\newblock {openwebui}.
+\newblock \url{https://docs.openwebui.com/}.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{pytorch}
+{pytorch}.
+\newblock {pytorch}.
+\newblock \url{https://pytorch.org/ }.
+\newblock Último acceso: Diciembre 2025.
+
+\bibitem{Unsloth}
+Unsloth.
+\newblock Unsloth, 2025.
+\newblock [Internet; recuperado el 25 de septiembre de 2025].
+
+\end{thebibliography}

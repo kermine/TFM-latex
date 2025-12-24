@@ -1,0 +1,107 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\'{I}ndice general}{\es@scroman {iii}}{section*.1}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vi}}{section*.2}%
+\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {vii}}{section*.3}%
+\contentsline {part}{Memoria}{1}{section*.3}%
+\contentsline {chapter}{1. Introducción}{3}{chapter*.6}%
+\contentsline {section}{\numberline {1.1}Contexto}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Nicho de mercado}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estructura de la memoria}{5}{section.1.4}%
+\contentsline {chapter}{2. Metodología y planificación}{7}{chapter*.7}%
+\contentsline {section}{\numberline {2.1}Metodología en cascada}{7}{section.2.1}%
+\contentsline {subsection}{Fases del Proyecto}{8}{section*.8}%
+\contentsline {section}{\numberline {2.2}Planificación inicial del proyecto}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagrama de Gantt inicial del proyecto}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Planificación inicial del proyecto}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Plan de Riesgos}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Planificación final del proyecto}{14}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Plan de Presupuesto}{17}{section.2.7}%
+\contentsline {subsection}{Presupuesto Software}{17}{section*.9}%
+\contentsline {subsection}{Presupuesto Hardware}{17}{section*.10}%
+\contentsline {subsection}{Presupuesto recursos humanos e infraestructura}{18}{section*.11}%
+\contentsline {subsection}{Presupuesto total}{19}{section*.12}%
+\contentsline {chapter}{3. Conceptos teóricos}{21}{chapter*.13}%
+\contentsline {section}{\numberline {3.1}Terminología empleada}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Formas de adaptación de un modelo al contexto}{22}{section.3.2}%
+\contentsline {subsection}{RAG (Retrieval-Augmented Generation)}{22}{section*.14}%
+\contentsline {subsubsection}{Funcionamiento}{23}{section*.15}%
+\contentsline {subsubsection}{Requisitos Hardware}{23}{section*.16}%
+\contentsline {subsubsection}{Ventajas}{24}{section*.17}%
+\contentsline {subsubsection}{Desventajas}{24}{section*.18}%
+\contentsline {subsubsection}{Casos de uso}{25}{section*.19}%
+\contentsline {subsection}{LoRA / QLoRA (Low-Rank Adaptation)}{25}{section*.20}%
+\contentsline {subsubsection}{Funcionamiento}{26}{section*.21}%
+\contentsline {subsubsection}{Requisitos Hardware}{26}{section*.22}%
+\contentsline {subsubsection}{Ventajas}{27}{section*.23}%
+\contentsline {subsubsection}{Desventajas}{27}{section*.24}%
+\contentsline {subsubsection}{Casos de uso}{28}{section*.25}%
+\contentsline {subsection}{Fine-tuning completo del modelo}{28}{section*.26}%
+\contentsline {subsubsection}{Funcionamiento}{28}{section*.27}%
+\contentsline {subsubsection}{Requisitos Hardware}{29}{section*.28}%
+\contentsline {subsubsection}{Ventajas}{29}{section*.29}%
+\contentsline {subsubsection}{Desventajas}{30}{section*.30}%
+\contentsline {chapter}{4. Alternativas de diferentes IA´s}{31}{chapter*.31}%
+\contentsline {section}{\numberline {4.1}Descripción del problema}{31}{section.4.1}%
+\contentsline {subsection}{Usuarios}{31}{section*.32}%
+\contentsline {subsection}{Asignatura}{31}{section*.33}%
+\contentsline {subsection}{Tamaño del modelo}{32}{section*.34}%
+\contentsline {subsection}{Coste del modelo}{32}{section*.35}%
+\contentsline {section}{\numberline {4.2}Búsqueda de modelos}{32}{section.4.2}%
+\contentsline {subsection}{DeepSeek-Coder}{32}{section*.36}%
+\contentsline {subsubsection}{Ventajas}{33}{section*.37}%
+\contentsline {subsubsection}{Desventajas}{34}{section*.38}%
+\contentsline {subsection}{CodeLlama}{34}{section*.39}%
+\contentsline {subsubsection}{Ventajas}{34}{section*.40}%
+\contentsline {subsubsection}{Desventajas}{34}{section*.41}%
+\contentsline {subsection}{Llama 3}{34}{section*.42}%
+\contentsline {subsubsection}{Ventajas}{35}{section*.43}%
+\contentsline {subsubsection}{Desventajas}{35}{section*.44}%
+\contentsline {subsection}{StarCoder2}{35}{section*.45}%
+\contentsline {subsubsection}{Ventajas}{35}{section*.46}%
+\contentsline {subsubsection}{Desventajas}{36}{section*.47}%
+\contentsline {subsection}{CodeGeeX2}{36}{section*.48}%
+\contentsline {subsubsection}{Ventajas}{36}{section*.49}%
+\contentsline {subsubsection}{Desventajas}{36}{section*.50}%
+\contentsline {chapter}{7. Selección de modelo y proceso de adaptación}{37}{chapter*.51}%
+\contentsline {subsection}{Pruebas realizadas sobre los modelos}{37}{section*.52}%
+\contentsline {subsection}{Modelo elegido inicialmente}{37}{section*.53}%
+\contentsline {subsection}{Forma de adaptación del modelo}{38}{section*.54}%
+\contentsline {subsection}{Problemas que surgieron con Code-Llama tras el entrenamiento con Lora}{38}{section*.55}%
+\contentsline {subsection}{Reemplazo del modelo}{39}{section*.56}%
+\contentsline {chapter}{6. Dataset para reentrenar el modelo y frontal}{41}{chapter*.57}%
+\contentsline {section}{\numberline {6.1}Obtencion de los datos de entrenamiento}{41}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Estructura del conjunto de entrenamiento}{42}{section.6.2}%
+\contentsline {subsection}{Generación de código en base a lenguaje natural}{42}{section*.58}%
+\contentsline {subsection}{Generación de código en base a lenguaje natural y un input}{42}{section*.59}%
+\contentsline {subsection}{Elección del frontal}{43}{section*.60}%
+\contentsline {chapter}{8. Tecnologías utilizadas}{45}{chapter*.61}%
+\contentsline {section}{\numberline {8.1}Python}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Unsloth}{45}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Discord}{46}{section.8.3}%
+\contentsline {section}{\numberline {8.4}GanttProject}{46}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Overleaf}{46}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Modelo de gran lenguaje}{46}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Uso del modelo}{47}{section.8.7}%
+\contentsline {chapter}{9. Conclusiones y Líneas de trabajo futuras}{49}{chapter*.62}%
+\contentsline {section}{\numberline {9.1}Conclusiones generales}{49}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitaciones encontradas}{50}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Lineas de trabajo futuras}{50}{section.9.3}%
+\contentsline {part}{Apéndices}{52}{section.9.3}%
+\contentsline {appendix}{\chapternumberline {A}Especificación de Requisitos}{55}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Introducción}{55}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Objetivos generales}{55}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Catalogo de requisitos}{55}{section.Alph1.3}%
+\contentsline {section}{\numberline {A.4}Especificación de requisitos}{55}{section.Alph1.4}%
+\contentsline {appendix}{\chapternumberline {B}Especificación de diseño}{57}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Introducción}{57}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Diseño de datos}{57}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Diseño procedimental}{57}{section.Alph2.3}%
+\contentsline {section}{\numberline {B.4}Diseño arquitectónico}{57}{section.Alph2.4}%
+\contentsline {appendix}{\chapternumberline {C}Documentación de usuario}{59}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Introducción}{59}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Requisitos de usuarios}{59}{section.Alph3.2}%
+\contentsline {section}{\numberline {C.3}Instalación}{59}{section.Alph3.3}%
+\contentsline {section}{\numberline {C.4}Manual del usuario}{60}{section.Alph3.4}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{63}{appendix*.65}%
