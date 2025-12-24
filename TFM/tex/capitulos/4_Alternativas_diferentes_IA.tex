@@ -1,0 +1,98 @@
+\capitulo{4}{Alternativas de diferentes IA´s}
+En este capitulo se centra principalmente en la investigación realizada para encontrar un modelo adecuado para la tarea del proyecto partiendo de un analisis inicial del problema hasta los posibles lenguajes candidatos. 
+
+\section{Descripción del problema}
+Uno de los dos problemas a la hora de empezar a desarrollar la idea del TFM es encontrar el mejor modelo LLM que se adapte al caso de uso, teniendo en cuenta las características del problema:
+
+\subsection{Usuarios}
+Los usuarios que emplearán este modelo de IA con el fin de obtener respuesta a preguntas realizadas tanto en lenguaje natural como enviando código Java serán alumnos de 1º de carrera de la Universidad de Valladolid (UVA), por lo tanto, estamos hablando de personas que están empezando su etapa como ingenieros informáticos así como empezando con la programación, ya que existirán alumnos que, como fue mi caso, no han programado todavía antes de entrar a la carrera.
+
+\subsection{Asignatura}
+El modelo de IA está destinado concretamente para la asignatura de Fundamentos de Programación, que se imparte en el primer cuatrimestre del primer año de ingeniería informática. en la cual se enseñan las bases de la programación estructurada en el lenguaje de programación Java. Por lo que el modelo que tendremos que elegir será un modelo que esté preparado o entrenado de base con un conjunto de datos de texto o información relacionada con los lenguajes de programación y específicamente con Java.
+
+\subsection{Tamaño del modelo}
+El modelo es necesario que no sea muy grande, ya que la tarea que desempeñará está bastante acotada por el contenido de la asignatura, ya que este modelo de IA que se escoja usará también datos obtenidos de programas Java facilitados por la Universidad de Valladolid con el fin de que las respuestas que devuelva el modelo estén basadas en los contenidos que se imparten en esta asignatura.
+
+Pero si es importante que a pesar de que el tamaño del modelo este acotado se opte por un modelo el cual la principal fuente de datos con los que ha sido entrenado sea codigo, en conncreto interesaría sobretodo con código Java
+
+\subsection{Coste del modelo}
+Debido a la naturaleza del proyecto y su uso universitario, alternativas de pago como la API de ChatGPT, Claude, Sonet, Gemini, entre otros LLM's de pago que quedan descartados, por lo que se optará por buscar LLM's que sean open source y gratuitos ademas de que las licencias que emplean permitan su uso y explotación.
+
+\section{Búsqueda de modelos}
+
+Tras realizar una búsqueda con las necesidades del proyecto se han elegido los siguientes candidatos:
+
+\subsection{DeepSeek-Coder}
+Se trata de un modelo entrenado con un total de 2 billones de tokens, en el que de esos tokens alrededor del 87\% es código y el resto son tokens en lenguaje natural en los idiomas inglés y chino. Ademas de que se nos ofrece el modelo con diferentes parámetros  de 1.3B a 33B asi como un modelo base que sobretodo sirve para el autorellenado de código y otro instruct el cual esta entrenado para responder y resolver preguntas en lenguaje natural. \cite{DeepSeek-coder}.
+
+En el propio repositorio de github nos ofrece una comparación con el resto de modelos open-source en los diferentes lenguajes de programación de una manera muy gráfica:
+
+\imagen{img-1}{Grafico de comparación del rendimiento con respecto otros modelos open source basados en código \cite{DeepSeek-coder}}
+
+\subsubsection{Ventajas}
+\begin{itemize}
+	\item Es un modelo muy moderno, su primera versión es de noviembre de 2023.
+	\item Como nos muestran en sus comparativas tanto el modelo con 7B y 33B parámetros tiene unos resultados muy buenos en todos los lenguajes superando a otros modelos como por ejemplo CodeLlama-34B en casi todos los lenguajes.
+    \item Posee un modelo instruct que esta adaptado tanto para recibir código como preguntas en lenguaje natural.
+    \item Emplea licencia MIT
+\end{itemize}
+\subsubsection{Desventajas}
+\begin{itemize}
+	\item En los últimos meses se han realizado diferentes noticias sobre la seguridad del uso de DeepSeek con respecto a la protección de los datos sobretodo no introduciendo datos sensibles en ella ni personales.
+    \item No dispone de tanta comunidad como otros modelos mas populares como CodeLlama o StarCoder
+\end{itemize}
+
+\subsection{CodeLlama}
+Modelo perteneciente a meta derivado de Llama 2 ajustado para tareas de programación, posee ademas el modelo base que permite autocompletado, un modelo especializado en python y otro que permite recibir instrucciones
+
+\subsubsection{Ventajas}
+\begin{itemize}
+	\item Es un modelo muy moderno, su primera versión es de noviembre de 2023.
+	\item Como nos muestran en sus comparativas tanto el modelo con 7B y 33B parámetros tiene unos resultados muy buenos en todos los lenguajes superando a otros modelos como por ejemplo CodeLlama-34B en casi todos los lenguajes.
+    \item Posee un modelo instruct que esta adaptado tanto para recibir código como preguntas en lenguaje natural.
+\end{itemize}
+\subsubsection{Desventajas}
+\begin{itemize}
+    \item Dispone de una licencia mas restrictiva sin ser MIT.
+\end{itemize}
+\subsection{Llama 3}
+Modelo perteneciente a meta permite comprender y generar texto mejor que sus predecesores con un buen razonamiento en código y conversación.
+\subsubsection{Ventajas}
+\begin{itemize}
+	\item Es un modelo mas moderno, su fecha de lanzamiento fue el 18 de abril de 2024.
+	\item Posee varieantes del modelo desde 8B a 70B de parametros 
+    \item Posee un modelo instruct que esta adaptado tanto para recibir código como preguntas en lenguaje natural.
+    \item Al ser un lenguaje de meta y tener ya dos años en el mercado existen múltiples herramientas e implementaciones para el modelo que nos facilitan su implementación.
+    \item Al no ser un modelo adaptado enteramente a código es capaz de entender mejor instrucciones en leguaje natural.
+\end{itemize}
+\subsubsection{Desventajas}
+\begin{itemize}
+    \item Dispone de una licencia mas restrictiva sin ser MIT.
+    \item No es un modelo especializado en código lo cual si se piden tareas de codigo complejas podría generar respuestas menos optimas que otros lenguajes.
+\end{itemize}
+\subsection{StarCoder2}
+StarCoder es un modelo de lenguaje especializado en código fuente, desarrollado por el proyecto BigCode, en  colaboración entre Hugging Face y ServiceNow Research. Es parte de la familia de modelos StarCoder / StarCoderBase, sucesores de SantaCoder, entrenados específicamente para tareas de desarrollo de software con múltiples lenguajes de programación y soporte para prompts en lenguaje natural.
+\subsubsection{Ventajas}
+\begin{itemize}
+	\item Es un modelo muy moderno, su primera versión es de noviembre de 2023.
+	\item Como nos muestran en sus comparativas tanto el modelo con 15B y 3B parámetros tiene unos resultados buenos ademas de soportar multilenguaje.
+    \item Los datos con los que ha sido entrenado pertencecen a repositorios de github preseleccionados.
+\subsubsection{Desventajas}
+\end{itemize}
+\begin{itemize}
+    \item Dispone de una licencia mas restrictiva BigCode OpenRAIL-M v1.
+\end{itemize}
+\subsection{CodeGeeX2}
+Modelo desarrollado por THUNLP (Tsinghua University NLP Group). Está diseñado para tareas de programación asistida por IA, con orientación multilingüe, tanto en lenguajes de programación como en lenguajes naturales.
+\subsubsection{Ventajas}
+\begin{itemize}
+\item Tiene un tamaño de 6B de parametros lo que permite despliegues locales o en servidores con GPU´s estandar.
+\item  entrenado con lenjuaes naturales incluido el español.
+\item Dispone de licencia MIT.
+\item Permite tareas de completado, explicación y depuración e código
+\end{itemize}
+\subsubsection{Desventajas}
+\begin{itemize}
+    \item Modelo menos conocido que CodeLlama o StarCoder, si nos fiujamos en las descargas del modelo de HugginFace tiene 153 con respecto a los otros dos modelos que tienen  4.997 y 172.744 respectivamente
+    \item No esta capacitado para autorrelleno de codigo como otros modelos.
+\end{itemize}

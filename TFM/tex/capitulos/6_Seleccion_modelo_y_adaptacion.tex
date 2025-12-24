@@ -1,0 +1,54 @@
+\capitulo{7}{Selección de modelo y proceso de adaptación}
+
+Para seleccionar el modelo y forma de adaptación sobre el modelo se han de realizar diferentes pruebas sobre los modelos así como ver que cantidad de datos tenemos para realizar la adaptación.
+
+\subsection{Pruebas realizadas sobre los modelos}
+Se han realizado diferentes  pruebas en los modelos seleccionados; para ello, se ha empleado Ollama \cite{Ollama}.
+
+Ollama es una herramienta de código que permite ejecutar los modelos en un entorno local y además permite su uso en entornos con pocos recursos, ya que estos modelos que hemos comparado en el apartado anterior consumirían demasiada VRAM y mi ordenador no podría manejarlos.
+
+Esto se debe gracias a que Ollama implementa su propio backEnd para la gestión de los modelos que descargamos en la herramienta, como indican en su propio repositorio de github puedes llegar a correr modelos de 7B de parámetros con solo 8GB de ram en el ordenador \cite{GithubOllama} \cite{InformacionOllama}
+
+
+\subsection{Modelo elegido inicialmente}
+
+El modelo elegido al inicio del proyecto fue \textbf{CodeLlama} por varios motivos:
+
+\begin{itemize}
+    \item Gran soporte y comunidad alrededor de los modelos openSource de Meta: a pesar de ser un modelo especifico para la programación este proviene de Meta 2, que ha sido un Modelo ampliamente usado.
+    \item Permite el uso del lenguaje español tanto en los prompts como en las respuestas del propio modelo: comparándolo con otros de los modelos preseleccionados tras la realización de las pruebas en el entorno local algunos de ellos como DeepSeek si entendía el texto en español, pero las respuestas eran en inglés pudiendo dificultar para algunos alumnos que no tengan conocimientos de este idioma.
+    \item Tamaño ofrecido del modelo: aunque otros de los modelos propuestos tienen tamaños menores de parámetros he considerado que dado que el tamaño de 7B que nos ofrece CodeLlama de parámetros es un tamaño adecuado ademas de cumplir con las características del idioma y que tenemos capacidad suficiente para correrlo, ya que en mi ordenador local que tiene 16GB de memoria RAM empleando Ollama se consigue ejecutar sin problemas.
+\end{itemize}
+
+\subsection{Forma de adaptación del modelo}
+
+El modelo se adaptará siguiendo el enfoque de Lora (Low Rank Adaptation) debido a que no se dispone de suficientes ejemplos de código Java con el fin de poder reentrenar el modelo ajustando ciertas partes del mismo.
+
+Para ello deberemos darle un conjunto de datos:
+
+El conjunto de datos consiste en un total de 162 lineas formadas por los codigos  e instrucciones suministradas por los profesores de la asignatura de Fundamentos de Programación, en estos documentos aparecen las guias de como escribir código en java según los criterios de calificación de la misma asi como de programas de ejemplo.
+
+La idea de poder entrenar el modelo con este conjunto de datos es que aprenda de como queremos que los alumnos programen y darles respuestas que vayan asociadas a los conocimientos que se imparten en la asignatura.
+
+\subsection{Problemas que surgieron con Code-Llama tras el entrenamiento con Lora}
+
+Durante los meses de octubre y noviembre tras tener un implementación correcta del modelo y el dataset optimizado para la tarea requerida del problema surgieron diferentes problemas:
+
+\begin{itemize}
+    \item Problemas con el formato del conjunto de datos para adaptarlo al modelo: debido a que el formato de datos que recibe Llama 2 es algo complejo y  a pesar de que el framework empleado para el entrenamiento tiene metodos para adaptar los dataset al formato que necesita el modelo concretamente no se obtuvieron buenos resultados.\cite{formatoLlama2}
+
+    \item Problemas de tasa de aprendizaje: la tasa de aprendizaje del modelo era muy baja para el conjunto de datos lo cual ya era un indicador de que la inferencia que realizaría con los promts suministrados no seria de calidad.
+
+    \item Respuestas generadas por el modelo inconsistentes: tras el entrenamiento los resultados no eran los esperados para que el modelo tuviera un uso real.
+\end{itemize}
+
+\subsection{Reemplazo del modelo}
+
+Por ello se decidió ya que la implementación del código era muy similar, realizar el entrenamiento con el modelo superior Llama 3, ya que este en las pruebas preeliminares de seleccion de modelo había obtenido unos resultados similares en los promts y su compatibilidad multilenguaje es incluso mejor que la de codeLlama. El único problema es que este modelo no esta especializado en código, pero al tratarse de un módelo el cual esta pensado para que se use en asignaturas de programación de iniciación es mas que sufuciente para lo solicitado por los tutores del proyecto.
+
+Sorprendentemente la tasa de aprendizaje con el mismo conjunto de datos era muy superior ademas de que los resultados de los promts tanto en lenguaje natural como con código resultaron ser muy superiores a los ofrecidos por codeLlama.
+
+Por lo que el modelo seleccionado finalmente ha sido Llama 3.
+
+
+

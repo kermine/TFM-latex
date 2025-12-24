@@ -1,0 +1,29 @@
+\capitulo{8}{Estructura del proyecto}
+
+La estructura del proyecto y como se llegará al uso del modelo  sera a través de las siguientes tecnologías:
+
+\section {Frameworks y Librerías de Python utilizadas}
+A la hora de realizar el re entrenamiento de modelos tras realizar varias pruebas e investigar diferentes alternativas me he decidido por Unsloth \cite{Unsloth} que se trata de un framework open-source que permite realizar fine-tunning de LLMs de una manera muy eficiente.
+
+Python: principal lenguaje de programación en el que se ha creado el jupyter Notebook para realizar el entrenamiento del modelo de Llama3 al modelo especifico.
+
+Este framework, para poder funcionar, depende a su vez de otras librerías tales como:
+
+\begin{itemize}
+    \item Totch (Pytorch): Librería enfocada en el deep learning, puede emplear tanto la CPU como la GPU para realizar las operaciones matemáticas, en el caso de que queramos usar la GPU sera necesario emplear CUDA de NVIDIA. Aunque Unsloth se ejecuta solo empleando GPU en pytorch.\cite{pytorch}
+
+    \item Transformers: Es la librería de HuggingFace que nos permite cargar modelos ya entrenados por otras personas o modelos open-source que las empresas suben a la propia plataforma.\cite{transformers}
+
+    \item Datasets: librería que emplea Unsloth con el fin de el manejo de datasets masivos, con el fin de alimentar a los modelos en el re entrenamiento.\cite{datasets}
+
+\section {Modelo de gran lenguaje}
+
+Como hemos comentado en secciones anteriores y tras compararlo con el resto de lenguajes open-source que podíamos escoger Llama 3 de 8B de parámetros, que ademas es uno de los principales motivos por los que se ha seleccionado Unsloth ya que es uno de los modelos soportados por este framework. Y que mas soporte de la comunidad tiene
+
+\section {Uso del modelo}
+
+El modelo se empleará a través de la interfaz creada con el  proyecto de openwebui\cite{openwebui} ya que ofrece una cantidad de características muy completas ademas de la portabilidad que permite que se ejecute en un contenedor de docker.
+
+\end{itemize}
+
+

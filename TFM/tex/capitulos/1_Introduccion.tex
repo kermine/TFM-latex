@@ -1,0 +1,58 @@
+\capitulo{1}{Introducción}
+
+\section{Contexto}
+Los avances de los últimos años en Inteligencia Artificial generativa y LLM’s han llevado a la
+creación de aplicaciones de ámbito general (e.g., ChatGPT, CoPilot, DeepSeek) que actualmente son
+utilizadas por la mayoría de estudiantes para resolver dudas y ampliar los conocimientos de sus
+asignaturas.
+
+Sin embargo, sus modelos carecen del contexto del alumno o de los conocimientos que son impartidos en las asignaturas que se usan, ya que han sido entrenados a través de documentación genérica de internet. Así, los resultados que ofrece para preguntas relacionadas con algunas asignaturas no están contextualizadas, no siempre son precisas y/o no son correctas, resultando en un aprendizaje negativo para los estudiantes.
+
+Fundamentos de Programación es una asignatura del Grado de Ingeniería Informática que se encuentra en el primer cuatrimestre del primer año de carrera, donde típicamente sucede este problema, en el que personas que pueden haber o no empezado en el mundo de la programación por lo que es esencial aprender los conceptos correctamente.
+
+La asignatura hace especial hincapié en las buenas prácticas de programación utilizando el lenguaje de programación Java y el paradigma de programación estructurada. Sin embargo, cuando se pregunta a estas aplicaciones sobre determinados ejercicios de programación, sus respuestas no están contextualizadas al paradigma utilizado. Por esta razón, se quiere adaptar un modelo de IA que sea capaz de indicar a los alumnos los errores que tienen en sus programas y plantear alternativas correctas a los mismos. No se busca que el sistema, como cualquiera de los actuales, dé una solución a un problema, sino que la solución esté contextualizada. Si no es correcta, le puede indicar dónde y por qué y/o proponer soluciones correctas.
+
+\section{Objetivos}
+
+Como se ha comentado en la introducción, el principal objetivo de este proyecto es la creación de un modelo basado en una IA openSource que permita a los alumnos enviar preguntas de texto así como código en el lenguaje de programación Java principalmente para comprobar si el código introducido es correcto según el contexto de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería Informática de la Universidad de Valladolid en el primer cuatrimestre del primer año de carrera. Con ella los alumnos serán capaces de obtener los resultados esperados tanto a nivel de programación como aprendizaje de los alumnos, asentando los conceptos básicos impartidos en esta asignatura para que a lo largo de la carrera se irán desarrollando.
+
+A parte de este que es el objetivo principal para llegar a el deberemos de cumplir los siguientes objetivos:
+
+\begin{itemize}
+    \item Realizar un análisis inicial de los principales modelos de I.A open source, teniendo en cuenta diferentes aspectos como tamaño del lenguaje, que permita la generación de código, ademas de que permita entender el lenguaje natural en el idioma español.
+    \item Contrastar las diferentes formas que existen en la actualidad para adaptar el modelo a la tarea a la funcionalidad que irá destinado.
+    \item Hacer un análisis de los recursos hardware que serán necesarios para la adaptación del modelo.
+    \item Investigar e implementar las tecnologías necesarias para llevar a cabo la adaptación del modelo.
+    \item Realizar diferentes pruebas para ver si el rendimiento del proyecto es correcto y las respuestas ofrecidas satisfacen las necesidades del proyecto
+    \item Pensar en las posibles líneas futuras para posibles futuros avances en el proyecto.
+\end{itemize}
+
+\section{Nicho de mercado}
+
+Al tratarse de un proyecto totalmente personalizado para los requisitos de un cliente concreto, que en este caso es mi tutor, no ha sido necesario realizar un estudio de mercado.
+
+En cuanto a los usuarios objetivo, la intención del cliente es que el simulador sea empleado por los alumnos de la Universidad de Valladolid en la Escuela de Ingeniería Informática en la asignatura de Fundamentos de Programación, asignatura obligatoria del 1º curso. 
+
+\section{Estructura de la memoria}
+
+Este documento se estructura de la siguiente forma:
+\begin{description}
+\item[Capítulo 1 Introducción:] En este capítulo se describe el contexto y motivación a través de los cuales el proyecto empezó a realizarse,  así como los objetivos principales que debe de cumplir el proyecto y el nicho de mercado al que va destinado.
+
+\item[Capítulo 2 Metodología y planificación:] En este capítulo se describe la metodología usada durante el desarrollo del proyecto, el análisis y plan de riesgos, asi como un análisis de costes y seguimiento del proyecto
+
+\item[Capítulo 3 Conceptos teóricos]: En este capítulo se describen los principales conceptos que han sido necesarios para llevar a cabo la realización de este proyecto y su entendimiento.
+
+\item[Capítulo 4 Alternativas de diferentes IA´s]: En este capítulo se describe el estudio que se realizó de diferentes modelos de inteligencia artificial con el fin de que cumplieran con el propósito del proyecto y sus objetivos.
+
+\item[Capítulo 5 Formas de adaptación del modelo]: En este capítulo se describen las diferentes formas de adaptar el modelo base seleccionado en el capítulo anterior al contexto del proyecto, diferenciando entre las múltiples alternativas que existen así como un listado de las ventajas y desventajas de usar cada opción.
+
+\item[Capítulo 6 Selección del modelo y proceso de adaptación]: En este capítulo se habla del modelo de inteligencia artificial seleccionado y el tipo de adaptación seleccionada para reentrenar el modelo para el contexto del proyecto.
+
+\item[Capítulo 7 Dataset de reentrenamiento y frontal]: En este capítulo se habla del conjunto de datos empleado para reentrenar el modelo, que tipo de formato se ha seguido así como ejemplos del mismo, ademas se añade la tecnología empleada para la creación de la interfaz a través de la que los usuarios harán preguntas al modelo.
+
+\item[Capítulo 8 Tecnologías utilizadas]: En este capítulo se habla de las tecnologías software empleadas para la realización del proyecto.
+
+\item[Capítulo 9 Conclusiones y líneas de trabajo futuras]: En este capítulo se habla de las conclusiones tras la realización del proyecto, las posibles mejoras a realizar y trabajos a futuro. 
+
+\end{description}

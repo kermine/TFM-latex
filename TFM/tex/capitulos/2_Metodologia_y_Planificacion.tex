@@ -1,0 +1,330 @@
+\capitulo{2}{Metodología y planificación}
+
+\section{Metodología en cascada}
+
+Los orígenes de esta metodología \cite{historiaCascada} vienen del teórico de la informática Winston W. Royce, quien en 1970 elaboró su ensayo \textit{Managing the Development of Large Software Systems}, donde proponía que el modelo en cascada se efectuara de manera iterativa.
+Mas tarde, a partir de 1985, este modelo se hizo famoso en el desarrollo del software  cuando el Departamento de Defensa de los Estados Unidos publicó el Estándar 2167  para el desarrollo de software militar, el cual era una variante de su modelo, denominado cascada rígida.
+
+A la hora de emplear la metodología en cascada\cite{cascada} tenemos que tener en cuenta sus ventajas y desventajas.
+Sus principales ventajas son que tiene una estructura clara y permite transmitir bien la información al cliente de en qué paso del desarrollo nos encontramos exactamente. Además,  la estructura en cascada también permite la realización de las fases en paralelo o el uso de prototipos, según el tipo de proyecto. En cuanto a sus desventajas, las principales son que dificulta la modificación de requisitos durante el desarrollo, así como que la realización de pruebas se debe realizar al final del desarrollo. Sin embargo, este último punto en nuestro caso tiene poca importancia, ya que este proyecto requiere que su implementación sea al menos parcialmente funcional para poder ser probado.
+
+Esta metodología se empleo en la primera fase del proyecto en la cual se realizó una investigación de que modelos de IA serían los adecuados para la tarea, que tipo de entrenamiento se realizaría asi como se realizaría ese entrenamiento, todas estas fases se han realizado de manera secuencial de tal manera que cuando tenía una de ellas se pasaba a la siguiente, siguiendo el modelo en cascada.
+
+El principal motivo de elección de este modelo de gestión del proyecto es debido a la índole de investigación que ha requerido para desarrollar las primeras fases del proyecto y poder tener el flujo completo funcionando. Lo cual ha requerido no solo investigación por mi parte sino contacto con la Universidad de Valladolid para el uso de recursos que permitan el entrenamiento de un modelo de IA de una manera optima.
+
+\subsection{Fases del Proyecto}
+Una vez que hemos decido emplear la metodología en cascada distinguiremos las siguientes fases a lo largo del desarrollo del proyecto:
+
+\begin{itemize}
+\item Documentación: en esta fase se ha dedicado a comprender como poder realizar un reentrenamiento de un modelo de IA, diferentes formas de entrenamiento asi como los componentes de los propios LLM, asentando los conceptos necesarios para realizarlo.
+
+\item Investigación: tras entender la parte teórica, se ha procedido a realizar una investigación de aquellos modelos de IA open source que pueden servir para la realización del proyecto, asi como las herramientas que nos permitirán realizar la tarea de rentrenamiento y los recursos harware como software necesarios para la tarea.
+
+\item Análisis: tras obtener varios posibles candidatos entre los modelos de IA se ha realizado un estudio en profundidad de los mismos con el fin de obtener el modelo que mejor se ajusta a la tarea de este proyecto
+
+\item Diseño, implementación: tras obtener el modelo adecuado y las herramientas para poder realizar el entrenamiento se ha realizado su implementación. Este punto ha sido en concreto donde se ha aplicado una metodología de ensayo error. En el cual se han realizado un ciclo de prueba, evaluación y ajuste hasta obtener el resultado que queremos del modelo.
+
+\item Pruebas de rendimiento del modelo: tras realizar su reentrenamiento se ha pasado el modelo a través de diferentes métricas y evaluaciones con el fin de ver si el modelo reentrenado cumple con las necesidades del proyecto, en el caso de no ser así se han realizado tareas de ajuste sobre los parámetros para obtener la configuración mas optima del mismo
+
+\item Finalización de la documentación del proyecto: se han realizado las últimas modificaciones al documento con el fin de la mejora de esta memoria de cara a su presentación.
+
+\end{itemize}
+
+\section{Planificación inicial del proyecto}
+Empleando el modelo en cascada visto en el apartado anterior,  se elaboró al inicio del proyecto una planificación en la cual abarcamos sus distintas fases.
+
+\section{Diagrama de Gantt  inicial del proyecto}
+
+    En la Figura  \ref{fig:gantt-inicial} podemos apreciar la duración prevista de cada una de las etapas del proyecto. En este diagrama aparecen las tareas principales especificadas anteriormente en la Tabla \ref{tabla:planificacion}. 
+
+    \imagen{gantt-inicial}{Foto del diagrama de gant previsto al iniciar el proyecto\cite{ganttProyect}}
+%\newpage
+\section{Planificación inicial del proyecto}
+Empleando el modelo en cascada visto en el apartado anterior,  se elaboró al inicio del proyecto una planificación en la cual abarcamos sus distintas fases. Abarcando las 225 horas que aproximadamente se corresponden con los 9 créditos designados al proyecto.
+
+La Tabla \ref{tabla:planificacion} muestra las fechas establecidas para cada fase del TFG.
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm}|}
+    \hline
+    \vspace{0.5em} Tarea \vspace{0.5em} &  Duración & Comienzo & Fin\\ \hline \hline  
+    \multicolumn{4}{ |c| }{INVESTIGACIÓN} \\ \hline 
+    Investigación & 100 horas & 25/06/25 & 10/07/25\\ \hline \hline  
+     \multicolumn{4}{ |c| }{ANALISIS} \\ \hline
+    {Análisis de los requisitos del proyecto} & 10 horas  & 11/07/25 & 14/07/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{DISEÑO, IMPLEMENTACIÓN Y PRUEBAS} \\ \hline
+    Implementación del modelo base & 20 horas & 15/07/2025 & 31/07/25 \\ \hline
+    Implementación del framework para entrenar el modelo & 20 horas & 01/08/2025 & 15/08/2 \\ \hline
+    Realización de pruebas sobre el modelo reentrenado & 30 horas & 16/08/2025 & 20/08/25 \\ \hline
+    Realización del frontal & 20 horas & 21/08/2025 & 25/08/25 \\ \hline \hline 
+    \multicolumn{4}{ |c| }{ FINALIZACIÓN DEL PROYECTO} \\ \hline
+        Finalización de la documentación y entrega del TFM & 25 horas & 26/08/25 & 30/08/25 \\
+    \hline
+    \end{tabular}\caption{Planificación inicial del proyecto}
+    \label{tabla:planificacion}
+\end{table}
+
+\section{Plan de Riesgos}
+
+Para poder realizar un proyecto de cualquier índole es necesario elaborar un plan de riesgos. Estos riesgos deben de referirse a problemas futuros, los cuales podrían suceder durante el desarrollo del proyecto, y debe documentarse tanto la causa como el efecto que producirá el riesgo.
+
+
+Para elaborar de manera correcta el plan de riesgos se han tenido en cuenta los siguientes puntos:
+
+\begin{itemize}
+    \item La probabilidad de que se produzca el riesgo. Será medida a través de los valores: bajo, medio y alto.
+    \item El impacto que tendrá el riesgo. Si llega a aparecer será medido a través de los valores: bajo, medio y alto.
+    \item Plan de mitigación: conjunto de acciones que se deben realizar para reducir la probabilidad de que un riesgo ocurra.
+    \item Plan de contingencia: conjunto de acciones que se deben realizar una vez el riesgo se ha ocurrido para reducir su impacto sobre el proyecto.
+\end{itemize}
+
+La Tabla \ref{tabla:riesgo1} muestra el Riesgo 1, el cual es la estimación incorrecta del tiempo en el desarrollo del proyecto.
+
+\begin{table}[htb]
+    \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ R1 } \vspace{0.5em} & \vspace{0.5em} \textbf{Estimación incorrecta del tiempo} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Descripción \vspace{0.5em} & \vspace{0.5em} El desarrollo del proyecto no se está llevando según las estimaciones iniciales de tiempo. \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Probabilidad \vspace{0.5em} & \vspace{0.5em} Baja \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Impacto \vspace{0.5em} & \vspace{0.5em} Medio \vspace{0.5em} \\
+        \hline
+        Plan de mitigación & 
+        \begin{itemize}
+            \item Realizar una nueva estimación, para determinar el alcance real del proyecto.
+            \item Priorizar las tareas críticas.
+        \end{itemize} \\
+        \hline
+        Plan de contingencia & 
+        \begin{itemize}
+            \item Definir el alcance del proyecto, acorde al tiempo disponible.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+    \caption{Riesgo 1}
+    \label{tabla:riesgo1}
+\end{table}
+\clearpage
+
+La Tabla \ref{tabla:riesgo2} muestra el Riesgo 2, el cual es la perdida de tiempo de trabajo por ausencia del alumno, mientras que la Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual representa el riesgo de ausencia del tutor. 
+%La Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual es el riesgo de que el tutor del proyecto contraiga una enfermedad.
+
+\begin{table}[!htb]
+    \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ R2 } \vspace{0.5em} & \vspace{0.5em} \textbf{Ausencia del alumno por motivos de trabajo u enfermedad} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Descripción \vspace{0.5em} & \vspace{0.5em} El estudiante no puede realizar el proyecto debido a otras responsabilidades laborales, familiares u enfermedad del mismo \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Probabilidad \vspace{0.5em} & \vspace{0.5em} Alta \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Impacto \vspace{0.5em} & \vspace{0.5em} Medio \vspace{0.5em} \\
+        \hline
+        Plan de mitigación & 
+        \begin{itemize}
+            \item Comunicar a los tutores el posible retraso
+        \end{itemize} \\
+        \hline
+        Plan de contingencia & 
+        \begin{itemize}
+            \item En función del tiempo perdido, redistribuir las horas o añadir un margen de tiempo a la planificación.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+    \caption{Riesgo 2}
+    \label{tabla:riesgo2}
+\end{table}
+
+%\newpage
+\begin{table}[!htb]
+    \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ R3 } \vspace{0.5em} & \vspace{0.5em} \textbf{Ausencia de los tutores por motivos de trabajo u enfermedad} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Descripción \vspace{0.5em} & \vspace{0.5em} El estudiante no puede realizar avances el proyecto por dependencia de contacto con los tutores del proyecto. \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Probabilidad \vspace{0.5em} & \vspace{0.5em} Media \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Impacto \vspace{0.5em} & \vspace{0.5em} Medio \vspace{0.5em} \\
+        \hline
+        Plan de mitigación & 
+        \begin{itemize}
+            \item Realizar una comunicación vía email sobre la situación personal del tutor para que el alumno tenga constancia de ello
+        \end{itemize} \\
+        \hline
+        Plan de contingencia & 
+        \begin{itemize}
+            \item Cancelar o aplazar las reuniones que se iban a tener con el alumno sobre el avance del proyecto.
+            \item Buscar un medio de comunicación alternativo, tales como reuniones por videoconferencia, para realizar las tutorías en el caso de que el tutor lo considere necesario.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+    \caption{Riesgo 3}
+    \label{tabla:riesgo3}
+\end{table}
+
+\clearpage 
+
+La Tabla \ref{tabla:riesgo4} muestra el Riesgo 4, el cual es la modificación de requisitos.
+
+\begin{table}[!htb]
+    \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ R4 } \vspace{0.5em} & \vspace{0.5em} \textbf{Cambio en los requisitos del proyecto} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Descripción \vspace{0.5em} & \vspace{0.5em} Se produce una modificación de los requisitos acordados al inicio del proyecto. \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Probabilidad \vspace{0.5em} & \vspace{0.5em} Baja \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Impacto \vspace{0.5em} & \vspace{0.5em} Alto \vspace{0.5em} \\
+        \hline
+        Plan de mitigación & 
+        \begin{itemize}
+            \item Mantener informado al tutor del proyecto de problemas que surjan y el avance del proyecto de manera recurrente.
+        \end{itemize} \\
+        \hline
+        Plan de contingencia & 
+        \begin{itemize}
+            \item Añadir un margen a la planificación del proyecto.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+    \caption{Riesgo 4}
+    \label{tabla:riesgo4}
+\end{table}
+%\newpage
+La Tabla \ref{tabla:riesgo5} muestra el Riesgo 5, el cual es la avería del ordenador de trabajo o caída de los servicios utilizados.
+
+\begin{table}[!htb]
+    \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ R5 } \vspace{0.5em} & \vspace{0.5em} \textbf{Fallos en las aplicaciones o hardware para desarrollar el proyecto} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Descripción \vspace{0.5em} & \vspace{0.5em} Se produce algún problema con el hardware o con los servicios software empleados. \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Probabilidad \vspace{0.5em} & \vspace{0.5em} Media \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Impacto \vspace{0.5em} & \vspace{0.5em} Alto \vspace{0.5em} \\
+        \hline
+        Plan de mitigación & 
+        \begin{itemize}
+            \item Mantener los repositorios donde se almacena el proyecto lo más actualizados posible.
+            \item Tener un copia local del proyecto en nuestro ordenador.
+        \end{itemize} \\
+        \hline
+        Plan de contingencia & 
+        \begin{itemize}
+            \item En el caso del ordenador se nos estropeara tendríamos que intentar emplear otro, si es posible.
+            \item Si alguno de los servicios software empleados dejara de funcionar, lo ideal sería hacer los cambios en local y esperar a que el servicio vuelva a estar disponible.
+        \end{itemize} \\
+        \hline
+    \end{tabular}
+    \caption{Riesgo 5}
+    \label{tabla:riesgo5}
+\end{table}
+
+\section{Planificación final del proyecto}
+Tras haber pasado por todas las fases descritas en la planificación inicial como se puede apreciar en la Tabla \ref{tabla:planificacion}, algunos de los riesgos anteriormente mencionados se han producido, concretamente:
+
+\begin{itemize}
+    \item El estudiante Víctor Hernando Aragón, a la vez que realiza este proyecto realiza un trabajo a tiempo completo por lo que a lo largo de la duración del mismo esta activo el riesgo 2 (Tabla  \ref{tabla:riesgo2}).
+    
+    \item El 11 de julio se produjo un conflicto en las librerías empleadas en el proyecto en la máquina virtual empleada para el desarrollo del mismo lo que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
+
+    \item El 19 de septiembre se produjo una caida de la máquina virtual empleada para el desarrollo del proyecto que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
+    
+
+    \item El 20 de noviembre se produjo una falta de almacenamiento en la máquina virtual, que impedía realizar diferentes pruebas lo que activo el riesgo número 5 (Tabla
+    \ref{tabla:riesgo5}).
+
+    \item A finales de noviembre, los tutores Alma María Pisabarro Marron y Carlos Enrique Vivaracho Pascual no pudieron reunirse en una de las reuniones semanales sobre el avance del proyecto, esto activaría el riesgo número 3 (Tabla \ref{tabla:riesgo3}).
+
+    \item El 30 de Noviembre se produjo una caída de la máquina virtual empleada para el desarrollo del proyecto que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
+\end{itemize}
+
+A continuación en la Tabla \ref{tabla:planificacion2} muestra las fechas establecidas para cada fase del tfm después de la aparición de los riesgos y como afectaron la aplicación de los planes de contingencia al desarrollo del proyecto.
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm}|}
+    \hline
+    \vspace{0.5em} Tarea \vspace{0.5em} &  Duración & Comienzo & Fin\\ \hline \hline  
+    \multicolumn{4}{ |c| }{INVESTIGACIÓN} \\ \hline 
+    Investigación & 120 horas & 25/06/25 & 14/08/25\\ \hline \hline  
+     \multicolumn{4}{ |c| }{ANALISIS} \\ \hline
+    {Análisis de los requisitos del proyecto} & 20 horas  & 15/08/25 & 20/08/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{DISEÑO, IMPLEMENTACIÓN Y PRUEBAS} \\ \hline
+    Implementación del modelo base & 20 horas & 21/08/2025 & 01/09/25 \\ \hline
+    Implementación del framework para entrenar el modelo & 37 horas & 02/09/2025 & 11/10/25 \\ \hline
+    Realización de pruebas sobre el modelo reentrenado  & 62 horas & 12/10/25 & 08/12/25 \\ \hline
+    Realización del frontal & 20 horas & 09/12/25 & 15/12/25 \\ \hline \hline 
+    \multicolumn{4}{ |c| }{ FINALIZACIÓN DEL PROYECTO} \\ \hline
+        Finalización de la documentación y entrega del TFM & 35 horas & 16/12/25 & ESCRIBIR FECHA \\
+    \hline
+    \end{tabular}\caption{Planificación inicial del proyecto}
+    \label{tabla:planificacion2}
+\end{table}
+
+
+ Como podemos apreciar de las 225 horas planeadas al inicio del proyecto se han elevado a un total de 314 horas las fases con mayor incremento han sido la de investigación y de pruebas del modelo esto se debe principalmente a los siguientes motivos:
+
+ \begin{itemize}
+     \item La fase de investigación se alargó mas de lo esperado debido a que fue difícil encontrar un framework que permitiera realizar las tareas de re entrenamiento de modelos de manera sencilla realizando múltiples investigaciones de diferentes proyectos y alternativas tanto de implementación solo con librerías básicas o frameworks hasta dar con el correcto. El cual se emplearía en la implementación final.
+
+     \item La fase de realización de pruebas sobre el modelo reentrenado se ha alargado debido a que ha resultado difícil conseguir un buen resultado del modelo reentrenado, debido al problema de la falta de datos para el entrenamiento así como que el modelo inicial no fue el adecuado a la hora de hacer la inferencia.
+
+     \item A todo esto se suma la realización del proyecto junto con el trabajo del alumno a jornada completa lo que no ha permitido ser del todo consistente con los tiempos estipulados al inicio del proyecto.
+ \end{itemize}
+
+ La Figura  \ref{fig:ganttfinal} muestra el diagrama de Gantt final del proyecto, donde se pueden apreciar la duración de cada una de las etapas una vez finalizado el proyecto. En el diagrama se pueden observar las tareas principales del proyecto. 
+
+ AÑADIR GANTT FINAL
+ 
+\section{Plan de Presupuesto}
+
+En todos los proyectos existe un presupuesto, en el cual se muestran los gastos del proyecto, teniendo en cuenta las herramientas hardware y software utilizadas, así como el personal que ha trabajado en este proyecto.
+\subsection{Presupuesto Software}
+El proyecto se ha realizado en su mayoría con herramientas software gratuitas.
+
+En el caso de que el proyecto se estuviera desarrollando en una empresa esta debía de asumir el coste empresarial de unsloth herramienta empleada para almacenar el modelo, su coste supone un total de 50\EUR{} al mes que durando el proyecto alrededor de 7 meses supondría un coste total de 350\EUR{} a fecha de 10/12/2025
+
+\subsection{Presupuesto Hardware}
+
+El hardware son los dispositivos que han sido empleados para la realización del proyecto, los cuales son:
+
+\begin{itemize}
+    \item Maquina virtual linux: 70\EUR{} mes 490\EUR{} en total 
+    \item Monitor Acer: tiene un precio de 150\EUR{}
+    \item Tarjeta grafica NVIDIA A40: 7104,52\EUR{}
+\end{itemize}
+
+
+\subsection{Presupuesto recursos humanos e infraestructura}
+En cuanto al coste de personal, considerando al alumno un desarrollador Mid-Serior de tres años, el sueldo oscila alrededor de los 33.000\EUR{} anuales en contratos a jornada completa, es decir, 40 horas a la semana, o unas 160 horas al mes, aplicando un IRPF del 17,11\% sobre el salario bruto. El sueldo mensual equivalente serían 1.800,94\EUR{} en 14 pagas netos al mes. Como tal el gasto a la empresa por horas  partiendo del total bruto en 7 meses son 19.250\EUR{}
+
+Sobre el presupuesto de infraestructura, teniendo en cuenta que el trabajo se ha realizado en la vivienda personal del alumno, podemos considerar el coste de internet como gasto. Teniendo en cuenta que la tarifa son 44\EUR{} al mes y se ha llevado a cabo el proyecto durante 7 meses el coste total es de 308\EUR{}
+
+\clearpage
+\subsection{Presupuesto total}
+En la Tabla \ref{tabla:presupuesto} procedemos a sumar las cantidades de cada uno de los apartados anteriores para obtener el total.
+
+\begin{table}[!htb]
+    \begin{tabular}{|>{\arraybackslash}m{8.15cm} | >{\arraybackslash}m{5cm} |}
+        \hline
+        \vspace{0.5em} \textbf{ Concepto } \vspace{0.5em} & \vspace{0.5em} \textbf{Coste} \vspace{0.5em} \\
+        \hline 
+        \vspace{0.5em} Presupuesto software \vspace{0.5em} & \vspace{0.5em} 350\EUR{} \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Presupuesto hardware \vspace{0.5em} & \vspace{0.5em} 7.744,22\EUR{} \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} Presupuesto recursos humanos e infraestructura \vspace{0.5em} & \vspace{0.5em} 19.558\EUR{} \vspace{0.5em} \\
+        \hline
+        \vspace{0.5em} \textbf{Coste total} \vspace{0.5em} & \vspace{0.5em} \textbf{27.652,22\EUR{}} \vspace{0.5em}
+         \\
+        \hline
+    \end{tabular}
+    \caption{Coste total del proyecto}
+    \label{tabla:presupuesto}
+\end{table}

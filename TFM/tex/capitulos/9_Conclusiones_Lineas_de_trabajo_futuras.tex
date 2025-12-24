@@ -1,0 +1,38 @@
+\capitulo{9}{Conclusiones y Líneas de trabajo futuras}
+
+Este capítulo se centra en un resumen general de la realización del proyecto así como los problemas y limitaciones encontrados durante su realización y posibles lineas de trabajo futuras para mejorar el chatbot y ampliar su funcionamiento.
+
+\section{Conclusiones generales}
+
+Tras la realización del proyecto se ha llegado a las siguientes conclusiones;
+
+\begin{itemize}
+    \item La búsqueda de un modelo concreto que cumpla con las necesidades del proyecto es clave para su buen funcionamiento, no solo a nivel de que se trate de un modelo adaptado a la tarea, sino que ademas sea capaz de realizar un razonamiento correcto de los datos que se le pasan.
+
+    \item El empleo del finetunning sobre un modelo es una forma muy solvente de adaptar un modelo ya correcto al contexto que necesitamos, pero encontrar las tecnologías que nos permiten adaptarlo ha sido una labor de mucho esfuerzo e investigación.
+
+    \item El conseguir un conjunto de datos correcto y lo suficientemente grande para la realización del modelo ha sido un reto, ya que el modelo al contrario de lo que suele ser normalmente común en los modelos cuando se reentrenan que es buscar que ademas de lo que hace el modelo añadir un contexto especifico para el. También se ha buscado restringir las respuestas del modelo para que no genere código que el estudiante pueda escribir y que es mas avanzado de los contenidos ofrecidos de la asignatura.
+
+    \item Se han realizado una serie de pruebas sobre el modelo así como pruebas con usuarios con el fin de ver que el modelo satisfaga las necesidades planteadas.
+\end{itemize}
+
+\section{Limitaciones encontradas}
+
+A lo largo del desarrollo de este proyecto nos hemos encontrado con algunas limitaciones principalmente podemos destacar dos:
+
+\begin{itemize}
+    \item Un aspecto en el que el proyecto se ha visto bastante limitado es a la hora de encontrar ejemplos de código para suministrar como conjunto de datos al modelo para reentrenarlo. Ya que inicialmente se ha partido de una batería de problemas suministrados por la profesora y cotutora del proyecto Alma Pisabarro Marrón, estos problemas nos han servido para obtener los primeros datos para el dataset, el resto se han generado en base a ellos empleando inteligencia artificial. Aun así sería adecuado seguir obteniendo mas problemas de la asignatura para poder aumentar el conjunto de datos suministrado.
+
+    \item El otro aspecto limitante ha sido la disposición de tiempo. Debido a que desde que empece este máster he trabajado a tiempo completo en mi trabajo como desarrollador de software, lo que ha sido un limitante en cuanto al tiempo que le he podido dedicar a este proyecto. Centrando mis esfuerzos principalmente en los fines de semana. Lo que ha causado que el proyecto se haya retrasado de la fecha prevista  en las fechas establecidas originalmente.
+\end{itemize}
+
+\section{Lineas de trabajo futuras}
+
+Al tratarse de un proyecto principalmente de investigación y que se ha podido implementar una solución funcional, surgen a partir de este proyecto múltiples lineas de mejora:
+
+Una de ellas y para mi la mas importante es la de aumentar el conjunto de datos que se le suministran en el modelo en el dataset, con el fin de que este obtenga aun mejor el contexto y permita realizar mejores inferencias.
+
+ Otra linea de mejora ir actualizando el modelo que se emplea, en la actualidad se ha seleccionado llama 3, por la compatibilidad con la herramienta empleada para el entrenamiento Unsloth, esta herramienta se emplea mucho y tiene una gran comunidad. Por lo que seguirán actualizandose para admitir nuevos modelos open-source que vayan saliendo con el tiempo, por lo que sería muy interesante actualizar el modelo empleado dentro de la familia de Llama, actualmente ya hay versiones para Llama 4, pero desgraciadamente para modelos de 16B de parámetros, lo que los hace demasiado grandes para la tarea designada en este proyecto, pero seguro que en el futuro se sacan versiones de menor tamaño y el razonamiento del modelo seguro mejora.
+
+ Otra linea de mejora paralela es emplear el modelo original y la estructura de este proyecto para otras asignaturas de la carrera, ya que lo que uno de los principales logros de este proyecto ha sido encontrar una forma relativamente rápida y fácil de poder generar nuevos modelos adaptados al contexto, a través de las herramientas empleadas. De esta manera cada asignatura podría tener su modelo especializado y obtener respuestas adaptadas siempre al contexto de la asignatura. Lo cual ayudaría que los alumnos no usasen modelos generales como chat-gpt o gemini.
+ 

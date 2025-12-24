@@ -1,0 +1,56 @@
+\capitulo{6}{Dataset para reentrenar el modelo y frontal}
+
+\section{Obtencion de los datos de entrenamiento}
+
+El conjunto de datos suministrado serán programas .java que habrá que adaptar para alimentar al modelo y re entrenarlo.
+
+Estos programas han sido obtenidos principalmente de dos fuentes:
+
+\begin{itemize}
+    \item Documentos de problemas de programación facilitados por la UVA: la profesora y cotutora del proyecto Alma Pisabarro Marrón facilitó una serie de documentos entre los que se encontraban diferentes problemas de programación vistos en la asignatura de Fundamentos de Programación(FPROG). Estos problemas consisitian en problemas de programacioón en el lenguaje java que cubrén conceptos como bucles, condicionales, recusividad, operaciones sobre matrices entre otros.
+    
+    \item Documento de mala praxis: Este documento facilitado por Alma Pisabarro Marrón consiste en una serie de directrices que se siguen en la asignatura de (FPROG) con el fin de que los alumnos aprendan las bases de manera correcta, la salida o uso de practicas consideradas erroneas en el documento implica que el codigo realizado por el alumno no se adecua a los criterios de la asignatura.
+
+    \item Problemas generados con Inteligencia artifical: gracias a los dos anteriores podido generar mas ejemplos a traves de promts a la inteligencia artificial en concreto al modelo ChatGPT-4o que me ha permitido generar mas ejemplos para tener un dataset con 177 promts que tratan los diferentes conceptos de la asignatura
+\end{itemize}
+
+\section{Estructura del conjunto de entrenamiento}
+
+Tenemos principalmente dos tipos de ejemplos de promts en el conjunto de datos:
+
+\subsection{Generación de código en base a lenguaje natural}
+
+En este caso tenemos un prompt por parte del usuario que es una instrucción en lenguaje natural para que genere un código concreto mal generado apropósito.
+
+\begin{lstlisting}[style=json]
+{
+    "instruction": "Crea una clase Java que sume dos enteros usando nombres no descriptivos.",
+    "input": "",
+    "output": "public class SumaPobre {\n  public static void main(String[] args) {\n    int a = 3;\n    int b = 4;\n    int c = a + b;\n    System.out.println(c);\n  }\n}"
+}
+\end{lstlisting}
+
+\subsection{Generación de código en base a lenguaje natural y un input}
+
+En este caso se le pasa como instrucción del usuario que corrija el codigo que se le pasa como input, que es normalmente el codigo del registro anterior del dataset.
+
+Pero el output es el código corregido según el documento de malas praxis y añadiendo comentarios de lo que esta mal y que se ha corregido
+
+\newpage
+\begin{lstlisting}[style=json]
+{
+    "instruction": "Corrige los nombres en la siguiente clase para que sean claros y descriptivos.",
+    "input": "public class SumaPobre {\n  public static void main(String[] args) {\n    int a = 3;\n    int b = 4;\n    int c = a + b;\n    System.out.println(c);\n  }\n}",
+    "output": "**Problemas Encontrados:**\n. *Nombrado Inadecuado*: variables `a`, `b` y `c` carecen de significado.\n. *Nombrado Inadecuado*: el nombre de clase `SumaPobre` no es representativo.\n\n**Analisis de Impacto:**\nEl codigo es dificil de leer y no comunica la intencion. Esto complica la comprension y mantenimiento.\n\n**Codigo Refactorizado:**\n```java\npublic class SumaClara {\n  public static void main(String[] args) {\n    int primerSumando = 3;\n    int segundoSumando = 4;\n    int suma = primerSumando + segundoSumando;\n    System.out.println(\"La suma es: \" + suma);\n  }\n}\n```\n\n**Explicacion:**\nSe renombraron la clase y las variables con nombres que reflejan su funcion real, mejorando legibilidad y claridad."
+}
+\end{lstlisting}
+
+De esta manera conseguimos que el modelo comprenda que le estamos dando ejemplos mal resueltos y ademas a estos ejemplos mal resueltos como deben de ser solucionados, no solo generando un código correcto, sino que ademas añadiendo que es lo que estaba mal y que se ha corregido para que siga correctamente el documento de malas praxis.
+
+\subsection{Elección del frontal}
+
+En este caso para interactuar con el frontal se ha optado por una solución open source denominada openwebui\cite{openwebui} que se trata  de una plataforma hosteada en el propio ordenador que generamos a traves de un contenedor docker que detecta automaticamente todos los modelos installados que tenemos en ollama, la interfaz es muy similar a la que usa chat-gpt ademas que implementa funciones muy interesantes de manera predeterminada como un motor de inferencia propio para usar con RAG
+
+\imagen{img-2}{Imagen de la interfaz que emplea openwebui \cite{openwebui}}
+
+Como se aprecia en la imagen, tenemos que acceder a través del puerto 3000 de nuestra maquina al frontal en el nos aparecerán todos los modelos que tenemos instalados en Ollama y podremos seleccionar uno para interactuar con el.

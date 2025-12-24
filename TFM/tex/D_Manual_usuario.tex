@@ -1,0 +1,62 @@
+\apendice{Documentación de usuario}
+
+\section{Introducción}
+
+En este apéndice se hablará de la documentación requerida para que los usuarios puedan ejecutar el modelo generado en este proyecto en su ordenador local.
+
+\section{Requisitos de usuarios}
+El usuario debe tener conocimientos básicos sobre instalación de programas desde internet, asi como conocimientos básicos de uso del terminal de windows, linux o mac. Ya que todas herramientas son compatibles con estos sistemas operativos.
+
+\section{Instalación}
+El usuario debe de tener instalado los siguientes programas en su ordenador:
+
+\begin{itemize}
+    \item Ollama: herramienta que nos permitirá descargar el modelo, para descargalo puede hacerse desde la siguiente url \url{https://ollama.com/}
+    \item docker: herramienta de gestión de contenedores que nos permitirá desplegar el frontal con el que podremos ejecutar el modelo desde una interfaz web muy similar a chat-gpt. Para descargarlo lo podemos hacer desde el siguiente enlace \url{https://www.docker.com/products/docker-desktop/}
+\end{itemize}
+
+\section{Manual del usuario}
+
+Una vez tenemos todos los programas descargados en el ordenador y tanto docker como ollama en ejecución debemos de usar el terminal, en este caso las imagenes se corresponden con el terminal de windows pero los pasos serían los mismos en el resto de sistemas operativos.
+
+Lo primero es bajarnos del repositorio de huggingFace en el que se encuentra el modelo para ollama para ello lanzamos el siguiente comando en el terminal:
+
+\begin{itemize}
+    \item ollama run hf.co/victor3456/tfm\_beta\_model:Q8\_0
+\end{itemize}
+
+Esto nos permitirá instalar el modelo dentro de ollama de nuestro ordenador si ejecutamos el comando
+\begin{itemize}
+    \item ollama list
+\end{itemize}
+
+Nos aparecerá algo así:
+
+\imagen{img-3}{Foto del terminal indicando los modelos existentes en ollama \cite{openwebui}}
+
+Ahora debemos instalar en nuestro ordenador la imagen docker asociada ahora es importante saber si nuestro ordenador dispone de una gráfica NVIDIA o no ya que en función de ello tendremos que descargar una imagen diferente
+
+En el caso de que nuestro ordenador disponga de una gráfica NVIDIA descargaremos la siguiente imagen que como se aprecia en el comando tiene en cuenta que podrá emplear cuda:
+
+\begin{itemize}
+    \item docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
+\end{itemize}
+
+En el caso de no disponer de ella deberemos de emplear la siguiente imagen docker
+
+\begin{itemize}
+    \item docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+\end{itemize}
+
+El frontal se levantará en el puerto 3000 y nos pedira agregar una cuenta, si es necesario puede crearse con datos dummie si no se quiere proporcionar una dirección de correo real.
+
+Una vez hayamos entrado nos aparecerá algo así:
+
+\imagen{img-4}{Foto del frontal la primera vez que iniciamos sesión \cite{openwebui}}
+
+Aquí ya tendremos un frontal en el que tendremos un historial con las conversaciones que hemos tenido, siempre y cuando mantengamos el contenedor levantado.
+
+
+
+
+
