@@ -13,17 +13,16 @@
 \contentsline {section}{\numberline {2.1}Metodología en cascada}{7}{section.2.1}%
 \contentsline {subsection}{Fases del Proyecto}{8}{section*.8}%
 \contentsline {section}{\numberline {2.2}Planificación inicial del proyecto}{9}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Diagrama de Gantt inicial del proyecto}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Planificación inicial del proyecto}{9}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Plan de Riesgos}{10}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Planificación final del proyecto}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Plan de Presupuesto}{17}{section.2.7}%
+\contentsline {section}{\numberline {2.3}Diagrama de Gantt inicial del proyecto}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Plan de Riesgos}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Planificación final del proyecto}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Plan de Presupuesto}{17}{section.2.6}%
 \contentsline {subsection}{Presupuesto Software}{17}{section*.9}%
 \contentsline {subsection}{Presupuesto Hardware}{17}{section*.10}%
 \contentsline {subsection}{Presupuesto recursos humanos e infraestructura}{18}{section*.11}%
 \contentsline {subsection}{Presupuesto total}{19}{section*.12}%
 \contentsline {chapter}{3. Conceptos teóricos}{21}{chapter*.13}%
-\contentsline {section}{\numberline {3.1}Terminología empleada}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Conceptos básicos}{21}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Formas de adaptación de un modelo al contexto}{22}{section.3.2}%
 \contentsline {subsection}{RAG (Retrieval-Augmented Generation)}{22}{section*.14}%
 \contentsline {subsubsection}{Funcionamiento}{23}{section*.15}%
@@ -64,7 +63,7 @@
 \contentsline {subsection}{CodeGeeX2}{36}{section*.48}%
 \contentsline {subsubsection}{Ventajas}{36}{section*.49}%
 \contentsline {subsubsection}{Desventajas}{36}{section*.50}%
-\contentsline {chapter}{7. Selección de modelo y proceso de adaptación}{37}{chapter*.51}%
+\contentsline {chapter}{5. Selección de modelo y proceso de adaptación}{37}{chapter*.51}%
 \contentsline {subsection}{Pruebas realizadas sobre los modelos}{37}{section*.52}%
 \contentsline {subsection}{Modelo elegido inicialmente}{37}{section*.53}%
 \contentsline {subsection}{Forma de adaptación del modelo}{38}{section*.54}%
@@ -76,19 +75,19 @@
 \contentsline {subsection}{Generación de código en base a lenguaje natural}{42}{section*.58}%
 \contentsline {subsection}{Generación de código en base a lenguaje natural y un input}{42}{section*.59}%
 \contentsline {subsection}{Elección del frontal}{43}{section*.60}%
-\contentsline {chapter}{8. Tecnologías utilizadas}{45}{chapter*.61}%
-\contentsline {section}{\numberline {8.1}Python}{45}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Unsloth}{45}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Discord}{46}{section.8.3}%
-\contentsline {section}{\numberline {8.4}GanttProject}{46}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Overleaf}{46}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Modelo de gran lenguaje}{46}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Uso del modelo}{47}{section.8.7}%
-\contentsline {chapter}{9. Conclusiones y Líneas de trabajo futuras}{49}{chapter*.62}%
-\contentsline {section}{\numberline {9.1}Conclusiones generales}{49}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitaciones encontradas}{50}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Lineas de trabajo futuras}{50}{section.9.3}%
-\contentsline {part}{Apéndices}{52}{section.9.3}%
+\contentsline {chapter}{7. Tecnologías utilizadas}{45}{chapter*.61}%
+\contentsline {section}{\numberline {7.1}Python}{45}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Unsloth}{45}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Discord}{46}{section.7.3}%
+\contentsline {section}{\numberline {7.4}GanttProject}{46}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Overleaf}{46}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Modelo de gran lenguaje}{46}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Uso del modelo}{47}{section.7.7}%
+\contentsline {chapter}{8. Conclusiones y Líneas de trabajo futuras}{49}{chapter*.62}%
+\contentsline {section}{\numberline {8.1}Conclusiones generales}{49}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Limitaciones encontradas}{50}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Lineas de trabajo futuras}{50}{section.8.3}%
+\contentsline {part}{Apéndices}{52}{section.8.3}%
 \contentsline {appendix}{\chapternumberline {A}Especificación de Requisitos}{55}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Introducción}{55}{section.Alph1.1}%
 \contentsline {section}{\numberline {A.2}Objetivos generales}{55}{section.Alph1.2}%
