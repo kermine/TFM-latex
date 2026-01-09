@@ -1,8 +1,8 @@
-\capitulo{5}{Selección de modelo y proceso de adaptación}
+\capitulo{6}{Selección de modelo y proceso de implementación}
 
 Para seleccionar el modelo y forma de adaptación sobre el modelo se han de realizar diferentes pruebas sobre los modelos así como ver que cantidad de datos tenemos para realizar la adaptación.
 
-\subsection{Pruebas realizadas sobre los modelos}
+\section{Pruebas realizadas sobre los modelos}
 Se han realizado diferentes  pruebas en los modelos seleccionados; para ello, se ha empleado Ollama \cite{Ollama}.
 
 Ollama es una herramienta de código que permite ejecutar los modelos en un entorno local y además permite su uso en entornos con pocos recursos, ya que estos modelos que hemos comparado en el apartado anterior consumirían demasiada VRAM y mi ordenador no podría manejarlos.
@@ -10,7 +10,7 @@ Ollama es una herramienta de código que permite ejecutar los modelos en un ento
 Esto se debe gracias a que Ollama implementa su propio backEnd para la gestión de los modelos que descargamos en la herramienta, como indican en su propio repositorio de github puedes llegar a correr modelos de 7B de parámetros con solo 8GB de ram en el ordenador \cite{GithubOllama} \cite{InformacionOllama}
 
 
-\subsection{Modelo elegido inicialmente}
+\section{Implementación inicial}
 
 El modelo elegido al inicio del proyecto fue \textbf{CodeLlama} por varios motivos:
 
@@ -42,7 +42,7 @@ Durante los meses de octubre y noviembre tras tener un implementación correcta 
     \item Respuestas generadas por el modelo inconsistentes: tras el entrenamiento los resultados no eran los esperados para que el modelo tuviera un uso real.
 \end{itemize}
 
-\subsection{Reemplazo del modelo}
+\section{Reemplazo del modelo}
 
 Por ello se decidió ya que la implementación del código era muy similar, realizar el entrenamiento con el modelo superior Llama 3, ya que este en las pruebas preeliminares de seleccion de modelo había obtenido unos resultados similares en los promts y su compatibilidad multilenguaje es incluso mejor que la de codeLlama. El único problema es que este modelo no esta especializado en código, pero al tratarse de un módelo el cual esta pensado para que se use en asignaturas de programación de iniciación es mas que sufuciente para lo solicitado por los tutores del proyecto.
 

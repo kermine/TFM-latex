@@ -85,8 +85,17 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -96,6 +105,18 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -154,15 +175,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
@@ -186,30 +198,30 @@ INPUT ./tex/capitulos/1_Introduccion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/C_Diseno.aux
-INPUT ./tex/C_Diseno.aux
-INPUT ./tex/C_Diseno.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
 INPUT ./tex/D_Manual_usuario.aux
 INPUT ./tex/D_Manual_usuario.aux
 INPUT ./tex/D_Manual_usuario.aux
@@ -225,6 +237,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT ./memoria.out
 INPUT ./memoria.out
 INPUT memoria.out
@@ -341,22 +359,28 @@ INPUT ./img/gantt-inicial.png
 INPUT ./img/gantt-inicial.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/eurosym/feymr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/eurosym/feybr10.tfm
-INPUT ./tex/capitulos/3_Conceptos_teoricos.tex
-INPUT ./tex/capitulos/3_Conceptos_teoricos.tex
-OUTPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.tex
-INPUT ./tex/capitulos/3_Conceptos_teoricos.tex
-INPUT ./tex/capitulos/3_Conceptos_teoricos.tex
+INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
+INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
+OUTPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
+INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
+INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
+OUTPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.tex
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.tex
-OUTPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.tex
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.tex
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.tex
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
+OUTPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
@@ -366,18 +390,18 @@ INPUT ./img/img-1.png
 INPUT ./img/img-1.png
 INPUT ./img/img-1.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmro12.tfm
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.tex
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.tex
-OUTPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.tex
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.tex
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.tex
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.tex
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.tex
-OUTPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.tex
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.tex
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.tex
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex
+OUTPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.tex
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.tex
+OUTPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.tex
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.tex
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.tex
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -387,32 +411,63 @@ INPUT ./img/img-2.png
 INPUT ./img/img-2.png
 INPUT ./img/img-2.png
 INPUT ./img/img-2.png
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.tex
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.tex
-OUTPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.tex
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.tex
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.tex
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.tex
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.tex
-OUTPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.tex
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.tex
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.tex
-INPUT ./tex/B_Requisitos.tex
-INPUT ./tex/B_Requisitos.tex
-OUTPUT ./tex/B_Requisitos.aux
-INPUT ./tex/B_Requisitos.tex
-INPUT ./tex/B_Requisitos.tex
-INPUT ./tex/B_Requisitos.tex
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.tex
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.tex
+OUTPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.tex
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.tex
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.tex
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex
+OUTPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex
+INPUT ./tex/B_Documento_Malas_Praxis.tex
+INPUT ./tex/B_Documento_Malas_Praxis.tex
+OUTPUT ./tex/B_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Documento_Malas_Praxis.tex
+INPUT ./tex/B_Documento_Malas_Praxis.tex
+INPUT ./tex/B_Documento_Malas_Praxis.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso17.tfm
-INPUT ./tex/C_Diseno.tex
-INPUT ./tex/C_Diseno.tex
-OUTPUT ./tex/C_Diseno.aux
-INPUT ./tex/C_Diseno.tex
-INPUT ./tex/C_Diseno.tex
-INPUT ./tex/C_Diseno.tex
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
+INPUT ./Malas praxis.pdf
 INPUT ./tex/D_Manual_usuario.tex
 INPUT ./tex/D_Manual_usuario.tex
 OUTPUT ./tex/D_Manual_usuario.aux
@@ -440,35 +495,38 @@ INPUT ./tex/capitulos/1_Introduccion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
 INPUT ./tex/capitulos/2_Metodologia_y_Planificacion.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/3_Conceptos_teoricos.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/4_Alternativas_diferentes_IA.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/5_Seleccion_modelo_y_adaptacion.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/6_Dataset_reentrenamiento.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/7_Tecnologias_utilizadas.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/capitulos/8_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/B_Requisitos.aux
-INPUT ./tex/C_Diseno.aux
-INPUT ./tex/C_Diseno.aux
-INPUT ./tex/C_Diseno.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/3_Analisis_Requisitos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/7_Dataset_reentrenamiento.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/8_Tecnologias_utilizadas.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Documento_Malas_Praxis.aux
 INPUT ./tex/D_Manual_usuario.aux
 INPUT ./tex/D_Manual_usuario.aux
 INPUT ./tex/D_Manual_usuario.aux
 INPUT ./memoria.out
 INPUT ./memoria.out
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
@@ -486,3 +544,10 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbi1440.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb

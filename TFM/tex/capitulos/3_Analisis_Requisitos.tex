@@ -1,0 +1,61 @@
+\capitulo{3}{Análisis de requisitos}
+
+En este apartado se hablará de los diferentes requisítos que debe cumplir el modelo de I.A  generado para la asignatura de FPROG con el fin de que sea util tanto para los alumnos como para los profesores.
+
+Este apartado de requisitos se ha elaborado a partir del documento de malas praxis incluido en el apendice  \ref{ap:malas_praxis} Malas prácticas de programacion
+
+\section{Requisitos de estilo y legibilidad}
+El modelo deberá generar código que maximice la claridad y facilite la documentación.
+\subsection{RF-01 Convenciones de nombrado}
+El código generado por el modelo debe utilizar identificadores que sugieran su propósito.
+
+\begin{itemize}
+    \item Debe mantener consistencia (ej. camelCase) y respetar las convenciones de Java (clases con mayúscula, variables/métodos con minúscula, constantes en mayúsculas).
+    \item Se deben evitar nombres excesivamente largos, excepto en fórmulas conocidas o convenciones como son el nombre de los indices en los bucles (i,j)
+\end{itemize}
+
+\subsection{RF-02: Gestión de Constantes}
+El modelo no debe permitir el uso de valores literales directos en el código también conocidos como constantes magicas.
+
+\begin{itemize}
+    \item este deberá refactorizar estos valores asignándoles un nombre significativo (definición global o de clase).
+    
+    \item Deberá de permitir ciertas excepciones como: 0 y 1 en bucles, 2 para paridad, 100 para porcentajes, potencias de 10 en sistema métrico y valores universales de tiempo/ángulos (60, 24), números o letras de elección de opción, mensajes de salida, “Si”, “No” entre otros,
+\end{itemize}
+
+\subsection{RF-03: Documentación y Organización}
+El modelo debe evitar comentarios redundantes o inadecuados, utilizándos solo cuando aporten valor a la documentación interna. Asi como el código debe estar bien indentado y organizado, recomendándose métodos que no superen una página y líneas de menos de 80 caracteres.
+
+\section{Requisitos de Estructura y Flujo de Control}
+El modelo debe garantizar el uso correcto de las estructuras lógicas, evitando flujos que no sean adecuados según lo visto en la asignatura.
+\subsection{RF-04: Integridad de Estructuras de Control}
+El modelo no debe generar sentencias \textit{break} para salir de bucles ni sentencias \textit{return} que no sean la última instrucción de la secuencia o método. El uso de banderas booleanas es preferible si es necesario.
+
+También debe de saber cuando distinguir entre el uso de los iteradores \textit{for}, \textit{while}, \textit{do-while}
+
+\subsection{RF-05: Integridad de los bucles}
+El modelo debe de saber identificar cuando ha sido modificada la variable de control o los límites de un bucle for dentro de su cuerpo, ya que hace el comportamiento impredecible. Adi como  evitar la secuencia \textit{loop-switch} (un if dentro de un bucle para tratar un índice especial). En su lugar, debe dividir el bucle en partes secuenciales.
+
+\subsection{RF-06: Selección de Alternativas}{
+El modelo debe elegir lógicamente entre secuencias y estructuras alternativas \textit{(if/else)}. No se debe usar una secuencia de if independientes cuando la lógica requiere exclusión mutua \textit{(else if)}.
+}
+
+\section{Requisitos de Arquitectura y Diseño Modular}
+El código generado debe mostrar un diseño modular robusto, evitando dependencias ocultas o acoplamiento excesivo.
+
+\subsection{RF-07: Prohibición de Variables Globales}{
+El modelo no debe declarar variables en la generación de código fuera de los métodos para compartir datos entre ellos, ya que dificulta la reutilización y el mantenimiento. Asi como identificarlo como una mala praxis.
+}
+
+\subsection{RF-08: Gestión de Parámetros}{
+El modelo debe de identificar que os métodos deben comunicarse mediante paso de parámetros.
+}
+
+\subsection{RF-09: Cohesión y Desacoplamiento}{
+El modelo debe detectar y eliminar fragmentos de código que nunca se ejecutan ("dead code") y refactorizar líneas repetidas para evitar duplicación. Asi como detectar el uso de un "falso main" que delegue todo el trabajo a una sola llamada de método; debe orquestar el flujo.
+}
+
+\section{Restricciones Algoritmicas}
+
+\subsection{RF-10: Uso de Recursividad}
+El modelo debe priorizar soluciones iterativas. La recursividad solo se permitirá en problemas donde sea la solución natural. Se prohíbe explícitamente la "recursión final" (tail recursion) si encubre una iteración simple.
