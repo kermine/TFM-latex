@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  9 JAN 2026 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  10 JAN 2026 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,7 +745,11 @@ LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./tex/capitulos/1_Introduccion.aux) (./tex/capitulos/2_Metodologia_y_Planificacion.aux) (./tex/capitulos/3_Analisis_Requisitos.aux) (./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux) (./tex/capitulos/5_Alternativas_diferentes_IA.aux) (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux) (./tex/capitulos/7_Dataset_reentrenamiento.aux) (./tex/capitulos/8_Tecnologias_utilizadas.aux) (./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux) (./tex/B_Documento_Malas_Praxis.aux) (./tex/D_Manual_usuario.aux))
+ (./tex/capitulos/1_Introduccion.aux) (./tex/capitulos/2_Metodologia_y_Planificacion.aux) (./tex/capitulos/3_Analisis_Requisitos.aux) (./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux) (./tex/capitulos/5_Alternativas_diferentes_IA.aux) (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux) (./tex/capitulos/7_Dataset_reentrenamiento.aux) (./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux
+
+LaTeX Warning: Label `tabla:evaluacion-ej1' multiply defined.
+
+) (./tex/capitulos/9_Tecnologias_utilizadas.aux) (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux) (./tex/B_Documento_Malas_Praxis.aux) (./tex/D_Manual_usuario.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 394.
@@ -819,17 +823,17 @@ Package hyperref Info: Link coloring ON on input line 394.
 \openout4 = `memoria.out'.
 
 \c@lstlisting=\count371
-<img/escudoUBU.pdf, id=219, 98.2805pt x 163.92221pt>
+<img/escudoUBU.pdf, id=227, 98.2805pt x 163.92221pt>
 File: img/escudoUBU.pdf Graphic file (type pdf)
 <use img/escudoUBU.pdf>
 Package pdftex.def Info: img/escudoUBU.pdf  used on input line 396.
 (pdftex.def)             Requested size: 51.17813pt x 85.35826pt.
-<img/escudoUVA.png, id=220, 401.5pt x 401.5pt>
+<img/escudoUVA.png, id=228, 401.5pt x 401.5pt>
 File: img/escudoUVA.png Graphic file (type png)
 <use img/escudoUVA.png>
 Package pdftex.def Info: img/escudoUVA.png  used on input line 396.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
-<img/escudoULE.pdf, id=222, 212.795pt x 389.455pt>
+<img/escudoULE.pdf, id=230, 212.795pt x 389.455pt>
 File: img/escudoULE.pdf Graphic file (type pdf)
 <use img/escudoULE.pdf>
 Package pdftex.def Info: img/escudoULE.pdf  used on input line 396.
@@ -915,14 +919,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
 
 
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 112.
+(in both cases you will find help in the memoir manual). on input line 114.
 
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
@@ -1016,7 +1020,7 @@ Overfull \hbox (8.43301pt too wide) in paragraph at lines 41--56
  [][] 
  []
 
-<./img/gantt-inicial.png, id=427, 808.52063pt x 359.09157pt>
+<./img/gantt-inicial.png, id=444, 808.52063pt x 359.09157pt>
 File: ./img/gantt-inicial.png Graphic file (type png)
 <use ./img/gantt-inicial.png>
 Package pdftex.def Info: ./img/gantt-inicial.png  used on input line 64.
@@ -1163,8 +1167,8 @@ LaTeX Info: Redefining \% on input line 518.
 
 
 ] [21]
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
  [22])
 LaTeX Info: Redefining \. on input line 519.
 LaTeX Info: Redefining \% on input line 519.
@@ -1221,7 +1225,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-<./img/img-1.png, id=622, 882.29625pt x 978.65625pt>
+<./img/img-1.png, id=639, 882.29625pt x 978.65625pt>
 File: ./img/img-1.png Graphic file (type png)
 <use ./img/img-1.png>
 Package pdftex.def Info: ./img/img-1.png  used on input line 30.
@@ -1278,7 +1282,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
  [46]
-<./img/img-2.png, id=710, 1315.16344pt x 771.63281pt>
+<./img/img-2.png, id=727, 1315.16344pt x 771.63281pt>
 File: ./img/img-2.png Graphic file (type png)
 <use ./img/img-2.png>
 Package pdftex.def Info: ./img/img-2.png  used on input line 54.
@@ -1293,9 +1297,36 @@ LaTeX Info: Redefining \% on input line 54.
 LaTeX Info: Redefining \. on input line 523.
 LaTeX Info: Redefining \% on input line 523.
  [48 <./img/img-2.png>]
-\openout2 = `./tex/capitulos/8_Tecnologias_utilizadas.aux'.
+\openout2 = `./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux'.
 
- (./tex/capitulos/8_Tecnologias_utilizadas.tex [49
+ (./tex/capitulos/8_Evalacion_del_modelo_y_discusion.tex
+Overfull \hbox (38.71217pt too wide) in paragraph at lines 15--18
+ [][] 
+ []
+
+[49
+
+
+
+
+]
+<./img/conversacionModelo1.png, id=753, 1105.12875pt x 197.98969pt>
+File: ./img/conversacionModelo1.png Graphic file (type png)
+<use ./img/conversacionModelo1.png>
+Package pdftex.def Info: ./img/conversacionModelo1.png  used on input line 30.
+(pdftex.def)             Requested size: 344.69766pt x 61.7538pt.
+
+Overfull \hbox (38.71217pt too wide) in paragraph at lines 42--45
+ [][] 
+ []
+
+)
+LaTeX Info: Redefining \. on input line 524.
+LaTeX Info: Redefining \% on input line 524.
+ [50 <./img/conversacionModelo1.png>]
+\openout2 = `./tex/capitulos/9_Tecnologias_utilizadas.aux'.
+
+ (./tex/capitulos/9_Tecnologias_utilizadas.tex [51
 
 
 
@@ -1303,34 +1334,34 @@ LaTeX Info: Redefining \% on input line 523.
 ]
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [50])
-LaTeX Info: Redefining \. on input line 524.
-LaTeX Info: Redefining \% on input line 524.
- [51]
-\openout2 = `./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux'.
-
- (./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.tex [52
-
-
-
-
-] [53]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [54])
+ [52])
 LaTeX Info: Redefining \. on input line 525.
 LaTeX Info: Redefining \% on input line 525.
- [55] [56
+ [53]
+\openout2 = `./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux'.
+
+ (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex [54
 
 
 
-] [57] [58]
+
+] [55]
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [56])
+LaTeX Info: Redefining \. on input line 526.
+LaTeX Info: Redefining \% on input line 526.
+ [57] [58
+
+
+
+] [59] [60]
 \openout2 = `./tex/B_Documento_Malas_Praxis.aux'.
 
  (./tex/B_Documento_Malas_Praxis.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
-<Malas praxis.pdf, id=788, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=825, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
 <use Malas praxis.pdf>
 Package pdftex.def Info: Malas praxis.pdf  used on input line 3.
@@ -1339,7 +1370,7 @@ File: Malas praxis.pdf Graphic file (type pdf)
 <use Malas praxis.pdf>
 Package pdftex.def Info: Malas praxis.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Malas praxis.pdf, id=791, page=1, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=828, page=1, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
 <use Malas praxis.pdf, page 1>
 Package pdftex.def Info: Malas praxis.pdf , page1 used on input line 3.
@@ -1348,7 +1379,7 @@ File: Malas praxis.pdf Graphic file (type pdf)
 <use Malas praxis.pdf, page 1>
 Package pdftex.def Info: Malas praxis.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [59
+ [61
 
 
 ]
@@ -1363,115 +1394,115 @@ Package pdftex.def Info: Malas praxis.pdf , page1 used on input line 3.
 File: Malas praxis.pdf Graphic file (type pdf)
 <use Malas praxis.pdf, page 1>
 Package pdftex.def Info: Malas praxis.pdf , page1 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [60
-
- <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=834, page=2, 614.295pt x 794.97pt>
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 2>
-Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 2>
-Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 2>
-Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [61
-
- <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=849, page=3, 614.295pt x 794.97pt>
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 3>
-Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 3>
-Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 3>
-Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [62
 
  <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=854, page=4, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=869, page=2, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 4>
-Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
+<use Malas praxis.pdf, page 2>
+Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 4>
-Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
+<use Malas praxis.pdf, page 2>
+Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 4>
-Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
+<use Malas praxis.pdf, page 2>
+Package pdftex.def Info: Malas praxis.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [63
 
  <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=859, page=5, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=884, page=3, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 5>
-Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
+<use Malas praxis.pdf, page 3>
+Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 5>
-Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
+<use Malas praxis.pdf, page 3>
+Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 5>
-Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
+<use Malas praxis.pdf, page 3>
+Package pdftex.def Info: Malas praxis.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [64
 
  <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=869, page=6, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=889, page=4, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 6>
-Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+<use Malas praxis.pdf, page 4>
+Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 6>
-Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+<use Malas praxis.pdf, page 4>
+Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 6>
-Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+<use Malas praxis.pdf, page 4>
+Package pdftex.def Info: Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [65
 
  <./Malas praxis.pdf>]
-<Malas praxis.pdf, id=875, page=7, 614.295pt x 794.97pt>
+<Malas praxis.pdf, id=895, page=5, 614.295pt x 794.97pt>
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 7>
-Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+<use Malas praxis.pdf, page 5>
+Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 7>
-Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+<use Malas praxis.pdf, page 5>
+Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Malas praxis.pdf Graphic file (type pdf)
-<use Malas praxis.pdf, page 7>
-Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+<use Malas praxis.pdf, page 5>
+Package pdftex.def Info: Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [66
+
+ <./Malas praxis.pdf>]
+<Malas praxis.pdf, id=905, page=6, 614.295pt x 794.97pt>
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 6>
+Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 6>
+Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 6>
+Package pdftex.def Info: Malas praxis.pdf , page6 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [67
+
+ <./Malas praxis.pdf>]
+<Malas praxis.pdf, id=910, page=7, 614.295pt x 794.97pt>
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 7>
+Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 7>
+Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Malas praxis.pdf Graphic file (type pdf)
+<use Malas praxis.pdf, page 7>
+Package pdftex.def Info: Malas praxis.pdf , page7 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [68
 
  <./Malas praxis.pdf>])
 \openout2 = `./tex/D_Manual_usuario.aux'.
 
- (./tex/D_Manual_usuario.tex [67
+ (./tex/D_Manual_usuario.tex [69
 
 
 
 
 ]
-<./img/img-3.png, id=893, 554.07pt x 42.1575pt>
+<./img/img-3.png, id=928, 554.07pt x 42.1575pt>
 File: ./img/img-3.png Graphic file (type png)
 <use ./img/img-3.png>
 Package pdftex.def Info: ./img/img-3.png  used on input line 35.
@@ -1488,16 +1519,16 @@ Overfull \hbox (4.60548pt too wide) in paragraph at lines 48--49
 
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
-[68 <./img/img-3.png>]
-<./img/img-4.png, id=901, 1045.65656pt x 662.475pt>
+[70 <./img/img-3.png>]
+<./img/img-4.png, id=936, 1045.65656pt x 662.475pt>
 File: ./img/img-4.png Graphic file (type png)
 <use ./img/img-4.png>
 Package pdftex.def Info: ./img/img-4.png  used on input line 55.
 (pdftex.def)             Requested size: 344.69766pt x 218.38493pt.
 )
-LaTeX Info: Redefining \. on input line 538.
-LaTeX Info: Redefining \% on input line 538.
- [69 <./img/img-4.png>] (./memoria.bbl [70
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
+ [71 <./img/img-4.png>] (./memoria.bbl [72
 
 
 
@@ -1523,7 +1554,7 @@ Underfull \hbox (badness 4492) in paragraph at lines 64--68
 \T1/lmtt/m/n/12 pros-[]y-[]contras-[]de-[]la-[]metodologia-[]de-[]cascada$[][]\T1/lmr/m/n/12 (+20) .  Úl-ti-mo ac-
  []
 
-[71]
+[73]
 Underfull \hbox (badness 1881) in paragraph at lines 75--79
 []\T1/lmr/m/n/12 (+20) Martín Alai-mo.  Mo-de-lo de cas-ca-da: Ven-ta-jas y des-ven-ta-jas.
  []
@@ -1548,11 +1579,11 @@ Underfull \hbox (badness 2261) in paragraph at lines 81--85
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 544.
+(in both cases you will find help in the memoir manual). on input line 545.
 
-LaTeX Info: Redefining \. on input line 544.
-LaTeX Info: Redefining \% on input line 544.
-[72]
+LaTeX Info: Redefining \. on input line 545.
+LaTeX Info: Redefining \% on input line 545.
+[74]
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
@@ -1567,7 +1598,7 @@ LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (./tex/capitulos/1_Introduccion.aux) (./tex/capitulos/2_Metodologia_y_Planificacion.aux) (./tex/capitulos/3_Analisis_Requisitos.aux) (./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux) (./tex/capitulos/5_Alternativas_diferentes_IA.aux) (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux) (./tex/capitulos/7_Dataset_reentrenamiento.aux) (./tex/capitulos/8_Tecnologias_utilizadas.aux) (./tex/capitulos/9_Conclusiones_Lineas_de_trabajo_futuras.aux) (./tex/B_Documento_Malas_Praxis.aux) (./tex/D_Manual_usuario.aux))
+ (./tex/capitulos/1_Introduccion.aux) (./tex/capitulos/2_Metodologia_y_Planificacion.aux) (./tex/capitulos/3_Analisis_Requisitos.aux) (./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux) (./tex/capitulos/5_Alternativas_diferentes_IA.aux) (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux) (./tex/capitulos/7_Dataset_reentrenamiento.aux) (./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux) (./tex/capitulos/9_Tecnologias_utilizadas.aux) (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux) (./tex/B_Documento_Malas_Praxis.aux) (./tex/D_Manual_usuario.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1579,22 +1610,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: A48AD110FB0F3C448994B7A7082F52A9;9852.
+(rerunfilecheck)             Checksum: F802423E785C753C89BD178E207CA6A6;10302.
  ) 
 Here is how much of TeX's memory you used:
- 20921 strings out of 474222
- 335661 string characters out of 5748732
+ 20975 strings out of 474222
+ 337898 string characters out of 5748732
  2167975 words of memory out of 5000000
- 42327 multiletter control sequences out of 15000+600000
+ 42363 multiletter control sequences out of 15000+600000
  662249 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,93p,1405b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on memoria.pdf (86 pages, 1640007 bytes).
+Output written on memoria.pdf (88 pages, 1665155 bytes).
 PDF statistics:
- 1093 PDF objects out of 1200 (max. 8388607)
- 916 compressed objects within 10 object streams
- 241 named destinations out of 1000 (max. 500000)
- 67083 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 948 compressed objects within 10 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 67104 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,0 +1,49 @@
+\capitulo{8}{Evalación del modelo y discusión}
+
+En este apartado se hablará de como ha sido evaluado el modelo por los tutores del proyecto con el fin de verificar si cumple o no con los requisitos establecidos en el apartado \ref{ap:analisis_requisitos}
+
+\section{Evaluación del modelo}
+
+\subsection{Resolución de ejercicios}
+
+En esta prueba se ha evaluado la capacidad del modelo para resolver ejercicios, es decir que se le pase un enunciado y genere un código que se asemege lo máximo posible a lo que el usuario introduce en lenguaje natural.
+
+Tras diferentes pruebas realizadas por los profesores sobre el modelo estos le han dado la siguiente calificacion.
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Muy incorrecto (incluye errores de mala praxis) \vspace{0.5em} &  Incluye alguna deficiencia menor de eficiencia (sin mala praxis) & Totalmente correcto (óptimo con respecto a eficiencia y uso de estructuras de control) \\ \hline
+     & \multicolumn{1}{|c|}{X} & \\ \hline 
+    \end{tabular}\caption{Prueba resolución de ejercicios modelo}
+    \label{tabla:evaluacion-ej1}
+\end{table}
+
+En esta prueba el modelo se ha comportado correctamente, es cierto que a la hora de generar código mete librerías java que en un programa normal serían una buena práctica, pero dado el contexto de la asignatura que como se ha visto en el análisis de requisitos presenta restricciones, el modelo no consigue ceñirse estrictamente al codigo permitido en la asignatura de FPROG.
+
+\subsection{Generación de un enunciado en lenguaje natural}
+
+En esta prueba se pretende que el modelo genere un enunciado en lenguaje natural, con el fin de que los alumnos puedan obtener diferentes problemas con los que prácticar.
+
+En esta tarea se consiguieron generar diferentes enuncuiados, uno de ellos siendo el siguiente
+
+\imagen{conversacionModelo1}{Promt realizado por el usuario y respuesta del modelo \cite{openwebui}}
+
+Se consiguieron generar mas enunciados, aun así es cierto que las pruebas han indicado que cuesta obtener este tipo de promt sin que incluya nada de código, lo que puede dificultar o frustrar a los alumnos en el uso del modelo.
+
+\subsection{Evaluación de codigo correcto por parte del modelo}
+
+En esta prueba se evalua si al pasarle un código java al modelo este es capaz de evaluarlo según los requisitos de la asignatura de FPROG, indicando  que es correcto.
+
+En las pruebas realizadas por los expertos han sido satisfactorias estos han indicado la siguiente calificación
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de codigo correcto por parte del modelo}
+    \label{tabla:evaluacion-ej1}
+\end{table}
+
+
