@@ -222,12 +222,15 @@ INPUT ./tex/capitulos/9_Tecnologias_utilizadas.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/D_Manual_usuario.aux
-INPUT ./tex/D_Manual_usuario.aux
-INPUT ./tex/D_Manual_usuario.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/C_Manual_usuario.aux
+INPUT ./tex/C_Manual_usuario.aux
+INPUT ./tex/C_Manual_usuario.aux
 OUTPUT memoria.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -360,6 +363,10 @@ INPUT ./img/gantt-inicial.png
 INPUT ./img/gantt-inicial.png
 INPUT ./img/gantt-inicial.png
 INPUT ./img/gantt-inicial.png
+INPUT ./img/gantt-final.png
+INPUT ./img/gantt-final.png
+INPUT ./img/gantt-final.png
+INPUT ./img/gantt-final.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/eurosym/feymr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/eurosym/feybr10.tfm
 INPUT ./tex/capitulos/3_Analisis_Requisitos.tex
@@ -424,6 +431,10 @@ INPUT ./img/conversacionModelo1.png
 INPUT ./img/conversacionModelo1.png
 INPUT ./img/conversacionModelo1.png
 INPUT ./img/conversacionModelo1.png
+INPUT ./img/conversacionModelo2.png
+INPUT ./img/conversacionModelo2.png
+INPUT ./img/conversacionModelo2.png
+INPUT ./img/conversacionModelo2.png
 INPUT ./tex/capitulos/9_Tecnologias_utilizadas.tex
 INPUT ./tex/capitulos/9_Tecnologias_utilizadas.tex
 OUTPUT ./tex/capitulos/9_Tecnologias_utilizadas.aux
@@ -436,57 +447,80 @@ OUTPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex
-INPUT ./tex/B_Documento_Malas_Praxis.tex
-INPUT ./tex/B_Documento_Malas_Praxis.tex
-OUTPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/B_Documento_Malas_Praxis.tex
-INPUT ./tex/B_Documento_Malas_Praxis.tex
-INPUT ./tex/B_Documento_Malas_Praxis.tex
+INPUT ./tex/A_Documento_Malas_Praxis.tex
+INPUT ./tex/A_Documento_Malas_Praxis.tex
+OUTPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/A_Documento_Malas_Praxis.tex
+INPUT ./tex/A_Documento_Malas_Praxis.tex
+INPUT ./tex/A_Documento_Malas_Praxis.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso17.tfm
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./Malas praxis.pdf
-INPUT ./tex/D_Manual_usuario.tex
-INPUT ./tex/D_Manual_usuario.tex
-OUTPUT ./tex/D_Manual_usuario.aux
-INPUT ./tex/D_Manual_usuario.tex
-INPUT ./tex/D_Manual_usuario.tex
-INPUT ./tex/D_Manual_usuario.tex
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./img/Malas praxis.pdf
+INPUT ./tex/B_Encuesta_Expertos.tex
+INPUT ./tex/B_Encuesta_Expertos.tex
+OUTPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/B_Encuesta_Expertos.tex
+INPUT ./tex/B_Encuesta_Expertos.tex
+INPUT ./tex/B_Encuesta_Expertos.tex
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./img/EncuestaExpertos.pdf
+INPUT ./tex/C_Manual_usuario.tex
+INPUT ./tex/C_Manual_usuario.tex
+OUTPUT ./tex/C_Manual_usuario.aux
+INPUT ./tex/C_Manual_usuario.tex
+INPUT ./tex/C_Manual_usuario.tex
+INPUT ./tex/C_Manual_usuario.tex
 INPUT ./img/img-3.png
 INPUT ./img/img-3.png
 INPUT ./img/img-3.png
@@ -532,12 +566,15 @@ INPUT ./tex/capitulos/9_Tecnologias_utilizadas.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
 INPUT ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/B_Documento_Malas_Praxis.aux
-INPUT ./tex/D_Manual_usuario.aux
-INPUT ./tex/D_Manual_usuario.aux
-INPUT ./tex/D_Manual_usuario.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/A_Documento_Malas_Praxis.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/B_Encuesta_Expertos.aux
+INPUT ./tex/C_Manual_usuario.aux
+INPUT ./tex/C_Manual_usuario.aux
+INPUT ./tex/C_Manual_usuario.aux
 INPUT ./memoria.out
 INPUT ./memoria.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

@@ -11,13 +11,14 @@ A level-1 auxiliary file: ./tex/capitulos/7_Dataset_reentrenamiento.aux
 A level-1 auxiliary file: ./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux
 A level-1 auxiliary file: ./tex/capitulos/9_Tecnologias_utilizadas.aux
 A level-1 auxiliary file: ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
-A level-1 auxiliary file: ./tex/B_Documento_Malas_Praxis.aux
-A level-1 auxiliary file: ./tex/D_Manual_usuario.aux
+A level-1 auxiliary file: ./tex/A_Documento_Malas_Praxis.aux
+A level-1 auxiliary file: ./tex/B_Encuesta_Expertos.aux
+A level-1 auxiliary file: ./tex/C_Manual_usuario.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
 You've used 21 entries,
             2118 wiz_defined-function locations,
-            595 strings with 6660 characters,
+            596 strings with 6689 characters,
 and the built_in function-call counts, 4425 in all, are:
 = -- 421
 > -- 147

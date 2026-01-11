@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {2.5}Planificación final del proyecto}{14}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Plan de Presupuesto}{17}{section.2.6}%
 \contentsline {subsection}{Presupuesto Software}{17}{section*.9}%
-\contentsline {subsection}{Presupuesto Hardware}{17}{section*.10}%
+\contentsline {subsection}{Presupuesto Hardware}{18}{section*.10}%
 \contentsline {subsection}{Presupuesto recursos humanos e infraestructura}{18}{section*.11}%
 \contentsline {subsection}{Presupuesto total}{19}{section*.12}%
 \contentsline {chapter}{3. Análisis de requisitos}{21}{chapter*.13}%
@@ -90,28 +90,35 @@
 \contentsline {subsection}{Generación de código en base a lenguaje natural}{46}{section*.66}%
 \contentsline {subsection}{Generación de código en base a lenguaje natural y un input}{46}{section*.67}%
 \contentsline {subsection}{Elección del frontal}{47}{section*.68}%
-\contentsline {chapter}{8. Evalación del modelo y discusión}{49}{chapter*.69}%
+\contentsline {chapter}{8. Evaluación del modelo y discusión}{49}{chapter*.69}%
 \contentsline {section}{\numberline {8.1}Evaluación del modelo}{49}{section.8.1}%
 \contentsline {subsection}{Resolución de ejercicios}{49}{section*.70}%
 \contentsline {subsection}{Generación de un enunciado en lenguaje natural}{50}{section*.71}%
 \contentsline {subsection}{Evaluación de codigo correcto por parte del modelo}{50}{section*.72}%
-\contentsline {chapter}{9. Tecnologías utilizadas}{51}{chapter*.73}%
-\contentsline {section}{\numberline {9.1}Python}{51}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Unsloth}{51}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Discord}{52}{section.9.3}%
-\contentsline {section}{\numberline {9.4}GanttProject}{52}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Overleaf}{52}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Modelo de gran lenguaje de Meta}{52}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Openwebui}{53}{section.9.7}%
-\contentsline {chapter}{10. Conclusiones y Líneas de trabajo futuras}{55}{chapter*.74}%
-\contentsline {section}{\numberline {10.1}Conclusiones generales}{55}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Limitaciones encontradas}{56}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Lineas de trabajo futuras}{56}{section.10.3}%
-\contentsline {part}{Apéndices}{58}{section.10.3}%
-\contentsline {appendix}{\chapternumberline {A}Malas prácticas en programación}{61}{appendix.Alph1}%
-\contentsline {appendix}{\chapternumberline {B}Documentación de usuario}{69}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Introducción}{69}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Requisitos de usuarios}{69}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Instalación}{69}{section.Alph2.3}%
-\contentsline {section}{\numberline {B.4}Manual del usuario}{70}{section.Alph2.4}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{73}{appendix*.77}%
+\contentsline {subsection}{Evaluación de código con error de mala praxis}{51}{section*.73}%
+\contentsline {subsection}{Evaluación generación de código con iteraciones}{51}{section*.74}%
+\contentsline {subsection}{Evaluación respuesta ejercicio corregido}{52}{section*.75}%
+\contentsline {subsection}{Evalación de detección de punto de rotura de la estructuras de control}{52}{section*.76}%
+\contentsline {subsection}{Evaluación de detección de bucles infinitos}{52}{section*.77}%
+\contentsline {section}{\numberline {8.2}Discusión rendimiento del modelo}{53}{section.8.2}%
+\contentsline {chapter}{9. Tecnologías utilizadas}{55}{chapter*.78}%
+\contentsline {section}{\numberline {9.1}Python}{55}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Unsloth}{55}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Discord}{56}{section.9.3}%
+\contentsline {section}{\numberline {9.4}GanttProject}{56}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Overleaf}{56}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Modelo de gran lenguaje de Meta}{56}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Openwebui}{57}{section.9.7}%
+\contentsline {chapter}{10. Conclusiones y Líneas de trabajo futuras}{59}{chapter*.79}%
+\contentsline {section}{\numberline {10.1}Conclusiones generales}{59}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Limitaciones encontradas}{60}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Lineas de trabajo futuras}{60}{section.10.3}%
+\contentsline {part}{Apéndices}{62}{section.10.3}%
+\contentsline {appendix}{\chapternumberline {A}Malas prácticas en programación}{65}{appendix.Alph1}%
+\contentsline {appendix}{\chapternumberline {B}Encuesta Expertos}{73}{appendix.Alph2}%
+\contentsline {appendix}{\chapternumberline {C}Documentación de usuario}{77}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Introducción}{77}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Requisitos de usuarios}{77}{section.Alph3.2}%
+\contentsline {section}{\numberline {C.3}Instalación}{77}{section.Alph3.3}%
+\contentsline {section}{\numberline {C.4}Manual del usuario}{78}{section.Alph3.4}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{81}{appendix*.82}%

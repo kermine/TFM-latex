@@ -10,5 +10,10 @@
 \contentsline {table}{\numberline {2.8}{\ignorespaces Coste total del proyecto}}{19}{table.2.8}%
 \contentsline {table}{\numberline {8.9}{\ignorespaces Prueba resolución de ejercicios modelo}}{49}{table.8.9}%
 \contentsline {table}{\numberline {8.10}{\ignorespaces Prueba evaluación de codigo correcto por parte del modelo}}{50}{table.8.10}%
+\contentsline {table}{\numberline {8.11}{\ignorespaces Prueba evaluación de código con error de mala praxis}}{51}{table.8.11}%
+\contentsline {table}{\numberline {8.12}{\ignorespaces Prueba evaluación de respuesta ejercicio corregido}}{52}{table.8.12}%
+\contentsline {table}{\numberline {8.13}{\ignorespaces Prueba evaluación de detección de punto de rotura de la estructuras de control}}{52}{table.8.13}%
+\contentsline {table}{\numberline {8.14}{\ignorespaces Prueba evaluación de detección de bucles infinitos}}{53}{table.8.14}%
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
