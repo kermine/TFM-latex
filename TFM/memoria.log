@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  11 JAN 2026 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  11 JAN 2026 21:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -835,17 +835,17 @@ Package hyperref Info: Link coloring ON on input line 394.
 \openout4 = `memoria.out'.
 
 \c@lstlisting=\count371
-<img/escudoUBU.pdf, id=235, 98.2805pt x 163.92221pt>
+<img/escudoUBU.pdf, id=239, 98.2805pt x 163.92221pt>
 File: img/escudoUBU.pdf Graphic file (type pdf)
 <use img/escudoUBU.pdf>
 Package pdftex.def Info: img/escudoUBU.pdf  used on input line 396.
 (pdftex.def)             Requested size: 51.17813pt x 85.35826pt.
-<img/escudoUVA.png, id=236, 401.5pt x 401.5pt>
+<img/escudoUVA.png, id=240, 401.5pt x 401.5pt>
 File: img/escudoUVA.png Graphic file (type png)
 <use img/escudoUVA.png>
 Package pdftex.def Info: img/escudoUVA.png  used on input line 396.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
-<img/escudoULE.pdf, id=238, 212.795pt x 389.455pt>
+<img/escudoULE.pdf, id=242, 212.795pt x 389.455pt>
 File: img/escudoULE.pdf Graphic file (type pdf)
 <use img/escudoULE.pdf>
 Package pdftex.def Info: img/escudoULE.pdf  used on input line 396.
@@ -931,14 +931,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
 
 
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 119.
+(in both cases you will find help in the memoir manual). on input line 120.
 
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
@@ -1036,7 +1036,7 @@ Overfull \hbox (8.43301pt too wide) in paragraph at lines 41--56
  [][] 
  []
 
-<./img/gantt-inicial.png, id=469, 808.52063pt x 359.09157pt>
+<./img/gantt-inicial.png, id=474, 808.52063pt x 359.09157pt>
 File: ./img/gantt-inicial.png Graphic file (type png)
 <use ./img/gantt-inicial.png>
 Package pdftex.def Info: ./img/gantt-inicial.png  used on input line 64.
@@ -1151,7 +1151,7 @@ LaTeX Info: Redefining \% on input line 267.
 LaTeX Info: Redefining \. on input line 276.
 LaTeX Info: Redefining \% on input line 276.
  [16]
-<./img/gantt-final.png, id=521, 1202.24156pt x 291.33844pt>
+<./img/gantt-final.png, id=526, 1202.24156pt x 291.33844pt>
 File: ./img/gantt-final.png Graphic file (type png)
 <use ./img/gantt-final.png>
 Package pdftex.def Info: ./img/gantt-final.png  used on input line 282.
@@ -1206,18 +1206,24 @@ LaTeX Info: Redefining \% on input line 64.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
  [29]
+
+LaTeX Warning: Citation `Gpu-Finetuning' on page 30 undefined on input line 83.
+
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
- [30{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[30{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
  [31]
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
  [32]
+
+LaTeX Warning: Citation `Gpu-Finetuning' on page 33 undefined on input line 129.
+
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
- [33])
+[33])
 LaTeX Info: Redefining \. on input line 520.
 LaTeX Info: Redefining \% on input line 520.
  [34]
@@ -1238,7 +1244,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-<./img/img-1.png, id=669, 882.29625pt x 978.65625pt>
+<./img/img-1.png, id=671, 882.29625pt x 978.65625pt>
 File: ./img/img-1.png Graphic file (type png)
 <use ./img/img-1.png>
 Package pdftex.def Info: ./img/img-1.png  used on input line 30.
@@ -1295,7 +1301,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
  [46]
-<./img/img-2.png, id=757, 1315.16344pt x 771.63281pt>
+<./img/img-2.png, id=759, 1315.16344pt x 771.63281pt>
 File: ./img/img-2.png Graphic file (type png)
 <use ./img/img-2.png>
 Package pdftex.def Info: ./img/img-2.png  used on input line 54.
@@ -1323,7 +1329,7 @@ Overfull \hbox (38.71217pt too wide) in paragraph at lines 17--20
 
 
 ]
-<./img/conversacionModelo1.png, id=784, 1105.12875pt x 197.98969pt>
+<./img/conversacionModelo1.png, id=786, 1105.12875pt x 197.98969pt>
 File: ./img/conversacionModelo1.png Graphic file (type png)
 <use ./img/conversacionModelo1.png>
 Package pdftex.def Info: ./img/conversacionModelo1.png  used on input line 32.
@@ -1340,7 +1346,7 @@ Overfull \hbox (38.71217pt too wide) in paragraph at lines 59--62
  [][] 
  []
 
-<./img/conversacionModelo2.png, id=796, 1008.01593pt x 481.8pt>
+<./img/conversacionModelo2.png, id=798, 1008.01593pt x 481.8pt>
 File: ./img/conversacionModelo2.png Graphic file (type png)
 <use ./img/conversacionModelo2.png>
 Package pdftex.def Info: ./img/conversacionModelo2.png  used on input line 72.
@@ -1405,7 +1411,7 @@ LaTeX Info: Redefining \% on input line 526.
  (./tex/A_Documento_Malas_Praxis.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
-<img/Malas praxis.pdf, id=884, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=889, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf>
 Package pdftex.def Info: img/Malas praxis.pdf  used on input line 3.
@@ -1414,7 +1420,7 @@ File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf>
 Package pdftex.def Info: img/Malas praxis.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<img/Malas praxis.pdf, id=887, page=1, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=892, page=1, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 1>
 Package pdftex.def Info: img/Malas praxis.pdf , page1 used on input line 3.
@@ -1442,7 +1448,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page1 used on input line 3.
  [66
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=929, page=2, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=934, page=2, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 2>
 Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
@@ -1458,7 +1464,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
  [67
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=944, page=3, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=949, page=3, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 3>
 Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
@@ -1474,7 +1480,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
  [68
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=949, page=4, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=954, page=4, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 4>
 Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
@@ -1490,7 +1496,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
  [69
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=954, page=5, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=959, page=5, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 5>
 Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
@@ -1506,7 +1512,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
  [70
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=964, page=6, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=970, page=6, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 6>
 Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
@@ -1522,7 +1528,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
  [71
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=971, page=7, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=976, page=7, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 7>
 Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
@@ -1543,7 +1549,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
  (./tex/B_Encuesta_Expertos.tex
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=981, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=986, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf>
 Package pdftex.def Info: img/EncuestaExpertos.pdf  used on input line 3.
@@ -1561,7 +1567,7 @@ pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found
 
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=984, page=1, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=989, page=1, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 1>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page1 used on input line 3.
@@ -1593,7 +1599,7 @@ Package pdftex.def Info: img/EncuestaExpertos.pdf , page1 used on input line 3.
  <./img/EncuestaExpertos.pdf>]
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=1009, page=2, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=1014, page=2, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 2>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page2 used on input line 3.
@@ -1617,7 +1623,7 @@ Package pdftex.def Info: img/EncuestaExpertos.pdf , page2 used on input line 3.
 
 
 ] [77]
-<./img/img-3.png, id=1032, 525.46312pt x 44.41594pt>
+<./img/img-3.png, id=1037, 525.46312pt x 44.41594pt>
 File: ./img/img-3.png Graphic file (type png)
 <use ./img/img-3.png>
 Package pdftex.def Info: ./img/img-3.png  used on input line 35.
@@ -1635,7 +1641,7 @@ Overfull \hbox (4.60548pt too wide) in paragraph at lines 48--49
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
 [78 <./img/img-3.png>]
-<./img/img-4.png, id=1040, 1132.23pt x 593.21625pt>
+<./img/img-4.png, id=1045, 1132.23pt x 593.21625pt>
 File: ./img/img-4.png Graphic file (type png)
 <use ./img/img-4.png>
 Package pdftex.def Info: ./img/img-4.png  used on input line 55.
@@ -1650,43 +1656,78 @@ LaTeX Info: Redefining \% on input line 540.
 ]
 bibitemlist
 
-Underfull \hbox (badness 4001) in paragraph at lines 52--56
+Underfull \hbox (badness 3701) in paragraph at lines 10--14
+[]\T1/lmr/m/n/12 (+20) Amazon.  Qué es la RAG (ge-ne-ra-ción au-men-ta-da por re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\T1/lmr/m/n/12 (+20) cu-pe-ra-ción)?", year = "2025.  [][]$\T1/lmtt/m/n/12 https : / / aws . amazon . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\T1/lmtt/m/n/12 what-[]is / retrieval-[]augmented-[]generation / # : ~ : text = Retrieval ,[]
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 40--44
+[]\T1/lmr/m/n/12 (+20) Gobierno de Es-pa-ña.  De-fi-ni-cion IA se-gún la co-mi-sión eu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\T1/lmr/m/n/12 (+20) ro-pea.  [][]$\T1/lmtt/m/n/12 https : / / planderecuperacion . gob . es / noticias /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\T1/lmtt/m/n/12 que-[]es-[]inteligencia-[]artificial-[]ia-[]prtr$[][]\T1/lmr/m/n/12 (+20) .  úl-ti-mo ac-ce-so:
+ []
+
+[81]
+Underfull \hbox (badness 4001) in paragraph at lines 58--62
 []\T1/lmr/m/n/12 (+20) huggingFace.  trans-for-mers.  [][]$\T1/lmtt/m/n/12 https : / / huggingface . co / docs /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 []\T1/lmr/m/n/12 (+20) Lucidchart.  Wa-ter-fall. La his-to-ria de-trás del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 \T1/lmr/m/n/12 (+20) error.  [][]$\T1/lmtt/m/n/12 https : / / www . lucidchart . com / blog / es /
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 64--68
+Underfull \hbox (badness 4492) in paragraph at lines 70--74
 \T1/lmtt/m/n/12 pros-[]y-[]contras-[]de-[]la-[]metodologia-[]de-[]cascada$[][]\T1/lmr/m/n/12 (+20) .  Úl-ti-mo ac-
  []
 
-[81]
-Underfull \hbox (badness 1881) in paragraph at lines 75--79
+
+Underfull \hbox (badness 1881) in paragraph at lines 76--80
 []\T1/lmr/m/n/12 (+20) Martín Alai-mo.  Mo-de-lo de cas-ca-da: Ven-ta-jas y des-ven-ta-jas.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
+Underfull \hbox (badness 10000) in paragraph at lines 76--80
 [][]$\T1/lmtt/m/n/12 https : / / medium . com / @kleer . la / waterfall-[]la-[]historia-[]detr %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
 []\T1/lmr/m/n/12 (+20) Meta.  for-ma-to-Lla-ma2.  [][]$\T1/lmtt/m/n/12 https : / / www . llama . com / docs /
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 81--85
+Underfull \hbox (badness 2261) in paragraph at lines 82--86
 \T1/lmtt/m/n/12 model-[]cards-[]and-[]prompt-[]formats / meta-[]llama-[]2/$[][]\T1/lmr/m/n/12 (+20) .  Úl-ti-mo ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+\T1/lmtt/m/n/12 4bit-[]transformers-[]bitsandbytes# : ~ : text = QLoRA % 20tuning %
  []
 
 )
@@ -1723,24 +1764,27 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 24080E7A717D568BF75572B6AF5FD748;10685.
+(rerunfilecheck)             Checksum: EF61D22146ABD5D390D97127D7D43DDD;10797.
  ) 
 Here is how much of TeX's memory you used:
- 21070 strings out of 474222
- 340626 string characters out of 5748732
+ 21072 strings out of 474222
+ 340644 string characters out of 5748732
  2167975 words of memory out of 5000000
- 42426 multiletter control sequences out of 15000+600000
+ 42427 multiletter control sequences out of 15000+600000
  662479 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,93p,1405b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on memoria.pdf (96 pages, 1994097 bytes).
+Output written on memoria.pdf (96 pages, 1999217 bytes).
 PDF statistics:
- 1238 PDF objects out of 1440 (max. 8388607)
- 1032 compressed objects within 11 object streams
- 273 named destinations out of 1000 (max. 500000)
- 67155 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1261 PDF objects out of 1440 (max. 8388607)
+ 1055 compressed objects within 11 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 67163 words of extra memory for PDF output out of 74296 (max. 10000000)
 

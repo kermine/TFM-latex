@@ -16,18 +16,19 @@ A level-1 auxiliary file: ./tex/B_Encuesta_Expertos.aux
 A level-1 auxiliary file: ./tex/C_Manual_usuario.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "Gpu-Finetuning"
 You've used 21 entries,
             2118 wiz_defined-function locations,
-            596 strings with 6689 characters,
-and the built_in function-call counts, 4425 in all, are:
-= -- 421
+            607 strings with 7256 characters,
+and the built_in function-call counts, 4495 in all, are:
+= -- 441
 > -- 147
 < -- 0
 + -- 63
 - -- 42
-* -- 117
-:= -- 747
-add.period$ -- 74
+* -- 107
+:= -- 767
+add.period$ -- 84
 call.type$ -- 21
 change.case$ -- 84
 chr.to.int$ -- 0
@@ -35,17 +36,17 @@ cite$ -- 21
 duplicate$ -- 147
 empty$ -- 463
 format.name$ -- 42
-if$ -- 968
+if$ -- 988
 int.to.chr$ -- 0
 int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 119
+newline$ -- 129
 num.names$ -- 42
-pop$ -- 200
+pop$ -- 210
 preamble$ -- 1
 purify$ -- 63
 quote$ -- 0
-skip$ -- 124
+skip$ -- 104
 stack$ -- 0
 substring$ -- 105
 swap$ -- 21
@@ -56,4 +57,5 @@ type$ -- 84
 warning$ -- 0
 while$ -- 42
 width$ -- 23
-write$ -- 223
+write$ -- 233
+(There was 1 warning)

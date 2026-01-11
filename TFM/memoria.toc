@@ -109,6 +109,7 @@
 \contentsline {section}{\numberline {9.5}Overleaf}{56}{section.9.5}%
 \contentsline {section}{\numberline {9.6}Modelo de gran lenguaje de Meta}{56}{section.9.6}%
 \contentsline {section}{\numberline {9.7}Openwebui}{57}{section.9.7}%
+\contentsline {section}{\numberline {9.8}HuggingFace}{57}{section.9.8}%
 \contentsline {chapter}{10. Conclusiones y Líneas de trabajo futuras}{59}{chapter*.79}%
 \contentsline {section}{\numberline {10.1}Conclusiones generales}{59}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Limitaciones encontradas}{60}{section.10.2}%
