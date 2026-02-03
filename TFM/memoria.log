@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  11 JAN 2026 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  3 FEB 2026 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,7 +737,7 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 394.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 396.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./memoria.aux
@@ -764,39 +764,39 @@ LaTeX Warning: Label `tabla:evaluacion-ej1' multiply defined.
 ) (./tex/capitulos/9_Tecnologias_utilizadas.aux) (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux) (./tex/A_Documento_Malas_Praxis.aux) (./tex/B_Encuesta_Expertos.aux) (./tex/C_Manual_usuario.aux))
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 394.
-LaTeX Font Info:    ... okay on input line 394.
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
-LaTeX Info: Redefining \microtypecontext on input line 394.
-Package microtype Info: Applying patch `item' on input line 394.
-Package microtype Info: Applying patch `toc' on input line 394.
-Package microtype Info: Applying patch `eqnum' on input line 394.
-Package microtype Info: Applying patch `footnote' on input line 394.
-Package microtype Info: Applying patch `verbatim' on input line 394.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 396.
+LaTeX Font Info:    ... okay on input line 396.
+LaTeX Info: Redefining \. on input line 396.
+LaTeX Info: Redefining \% on input line 396.
+LaTeX Info: Redefining \microtypecontext on input line 396.
+Package microtype Info: Applying patch `item' on input line 396.
+Package microtype Info: Applying patch `toc' on input line 396.
+Package microtype Info: Applying patch `eqnum' on input line 396.
+Package microtype Info: Applying patch `footnote' on input line 396.
+Package microtype Info: Applying patch `verbatim' on input line 396.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 394.
+LaTeX Info: Redefining \showhyphens on input line 396.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -829,7 +829,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 394.
+Package hyperref Info: Link coloring ON on input line 396.
  (./memoria.out) (./memoria.out)
 \@outlinefile=\write4
 \openout4 = `memoria.out'.
@@ -838,40 +838,40 @@ Package hyperref Info: Link coloring ON on input line 394.
 <img/escudoUBU.pdf, id=239, 98.2805pt x 163.92221pt>
 File: img/escudoUBU.pdf Graphic file (type pdf)
 <use img/escudoUBU.pdf>
-Package pdftex.def Info: img/escudoUBU.pdf  used on input line 396.
+Package pdftex.def Info: img/escudoUBU.pdf  used on input line 398.
 (pdftex.def)             Requested size: 51.17813pt x 85.35826pt.
 <img/escudoUVA.png, id=240, 401.5pt x 401.5pt>
 File: img/escudoUVA.png Graphic file (type png)
 <use img/escudoUVA.png>
-Package pdftex.def Info: img/escudoUVA.png  used on input line 396.
+Package pdftex.def Info: img/escudoUVA.png  used on input line 398.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
 <img/escudoULE.pdf, id=242, 212.795pt x 389.455pt>
 File: img/escudoULE.pdf Graphic file (type pdf)
 <use img/escudoULE.pdf>
-Package pdftex.def Info: img/escudoULE.pdf  used on input line 396.
+Package pdftex.def Info: img/escudoULE.pdf  used on input line 398.
 (pdftex.def)             Requested size: 46.63644pt x 85.35826pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 396.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 398.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 396.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 398.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 396.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 398.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 396.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 398.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 396.
+(Font)              <12> on input line 398.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 396.
+(Font)              <8> on input line 398.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 396.
+(Font)              <6> on input line 398.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./img/escudoUBU.pdf> <./img/escudoUVA.png> <./img/escudoULE.pdf
@@ -882,17 +882,17 @@ pdfTeX warning: pdflatex (file ./img/escudoULE.pdf): PDF inclusion: multiple pdf
 ]
 File: img/escudoUBU.pdf Graphic file (type pdf)
 <use img/escudoUBU.pdf>
-Package pdftex.def Info: img/escudoUBU.pdf  used on input line 411.
+Package pdftex.def Info: img/escudoUBU.pdf  used on input line 413.
 (pdftex.def)             Requested size: 51.17813pt x 85.35826pt.
 File: img/escudoUVA.png Graphic file (type png)
 <use img/escudoUVA.png>
-Package pdftex.def Info: img/escudoUVA.png  used on input line 412.
+Package pdftex.def Info: img/escudoUVA.png  used on input line 414.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
 File: img/escudoULE.pdf Graphic file (type pdf)
 <use img/escudoULE.pdf>
-Package pdftex.def Info: img/escudoULE.pdf  used on input line 413.
+Package pdftex.def Info: img/escudoULE.pdf  used on input line 415.
 (pdftex.def)             Requested size: 46.63644pt x 85.35826pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 438.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 440.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [4{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}] [5] [6
@@ -904,7 +904,7 @@ Package microtype Info: Character `029' is missing
  [1] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 502.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 504.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -944,8 +944,8 @@ either increase the head height or redesign the header
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
  [4])
-LaTeX Info: Redefining \. on input line 503.
-LaTeX Info: Redefining \% on input line 503.
+LaTeX Info: Redefining \. on input line 505.
+LaTeX Info: Redefining \% on input line 505.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
@@ -970,14 +970,14 @@ LaTeX Info: Redefining \% on input line 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.515 \part*{Memoria}
+l.517 \part*{Memoria}
                       [1
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.515 \part*{Memoria}
+l.517 \part*{Memoria}
                       [2]
 \openout2 = `./tex/capitulos/1_Introduccion.aux'.
 
@@ -996,237 +996,184 @@ LaTeX Info: Redefining \% on input line 34.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 E
-      n cuanto a los usuarios objetivo, la intención del cliente es que el ... [4]
-Overfull \hbox (4.16455pt too wide) in paragraph at lines 50--51
+l.34 
+      [4]
+Overfull \hbox (4.16455pt too wide) in paragraph at lines 49--50
 []\T1/lmr/m/n/12 (-20) : En
  []
 
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 ...ulo 8 Evaluación del modelo y discusión]
-                                                  : En este capítulo se des... [5])
-LaTeX Info: Redefining \. on input line 517.
-LaTeX Info: Redefining \% on input line 517.
+l.55 \item[Capítulo 9 Tecnologías utilizadas]
+                                               : En este capítulo se habla ... [5])
+LaTeX Info: Redefining \. on input line 519.
+LaTeX Info: Redefining \% on input line 519.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.517 \include{./tex/capitulos/1_Introduccion}
+l.519 \include{./tex/capitulos/1_Introduccion}
                                                [6]
 \openout2 = `./tex/capitulos/2_Metodologia_y_Planificacion.aux'.
 
  (./tex/capitulos/2_Metodologia_y_Planificacion.tex
-Underfull \vbox (badness 7238) has occurred while \output is active []
-
+<./img/img-5.png, id=459, 324.46219pt x 313.17pt>
+File: ./img/img-5.png Graphic file (type png)
+<use ./img/img-5.png>
+Package pdftex.def Info: ./img/img-5.png  used on input line 5.
+(pdftex.def)             Requested size: 248.94766pt x 240.28627pt.
  [7
 
 
 
 
-]
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+ <./img/img-5.png>]
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
  [8]
-Overfull \hbox (8.43301pt too wide) in paragraph at lines 41--56
+Overfull \hbox (8.43301pt too wide) in paragraph at lines 53--68
  [][] 
  []
 
-<./img/gantt-inicial.png, id=474, 808.52063pt x 359.09157pt>
+<./img/gantt-inicial.png, id=478, 808.52063pt x 359.09157pt>
 File: ./img/gantt-inicial.png Graphic file (type png)
 <use ./img/gantt-inicial.png>
-Package pdftex.def Info: ./img/gantt-inicial.png  used on input line 64.
+Package pdftex.def Info: ./img/gantt-inicial.png  used on input line 76.
 (pdftex.def)             Requested size: 344.69766pt x 153.09132pt.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+[9]
 
-Underfull \vbox (badness 5147) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
- [9]
-Underfull \hbox (badness 1838) in paragraph at lines 93--93
-[]|\T1/lmr/m/n/12 (+20) Plan de mi-ti-ga-
- []
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+[10]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 96.
 
-
-Underfull \hbox (badness 2418) in paragraph at lines 99--99
-[]|\T1/lmr/m/n/12 (+20) Plan de con-tin-
- []
-
-
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 83--105
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
-[10 <./img/gantt-inicial.png>]
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
- [11]
-Underfull \hbox (badness 1838) in paragraph at lines 124--124
-[]|\T1/lmr/m/n/12 (+20) Plan de mi-ti-ga-
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 129--129
-[]|\T1/lmr/m/n/12 (+20) Plan de con-tin-
- []
-
-
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 114--135
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 96--118
 [][] 
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 151--151
-[]|\T1/lmr/m/n/12 (+20) Plan de mi-ti-ga-
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 156--156
-[]|\T1/lmr/m/n/12 (+20) Plan de con-tin-
- []
-
-
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 141--163
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 127--148
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
-[12
 
-]
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 154--176
+[][] 
+ []
+
+
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 184--205
+[][] 
+ []
+
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+[11 <./img/gantt-inicial.png>]
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+ [12]
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
  [13]
-Underfull \hbox (badness 1838) in paragraph at lines 182--182
-[]|\T1/lmr/m/n/12 (+20) Plan de mi-ti-ga-
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 187--187
-[]|\T1/lmr/m/n/12 (+20) Plan de con-tin-
- []
-
-
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 172--193
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 213--236
 [][] 
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 210--210
-[]|\T1/lmr/m/n/12 (+20) Plan de mi-ti-ga-
+Overfull \hbox (8.43301pt too wide) in paragraph at lines 249--264
+ [][] 
  []
 
-
-Underfull \hbox (badness 2418) in paragraph at lines 216--216
-[]|\T1/lmr/m/n/12 (+20) Plan de con-tin-
- []
-
-
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 200--223
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 241.
-LaTeX Info: Redefining \% on input line 241.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
 [14
 
 ]
-Overfull \hbox (8.43301pt too wide) in paragraph at lines 250--265
- [][] 
- []
-
-
-Underfull \vbox (badness 2173) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 267.
-LaTeX Info: Redefining \% on input line 267.
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
  [15]
-LaTeX Info: Redefining \. on input line 276.
-LaTeX Info: Redefining \% on input line 276.
- [16]
-<./img/gantt-final.png, id=526, 1202.24156pt x 291.33844pt>
+<./img/gantt-final.png, id=523, 1202.24156pt x 291.33844pt>
 File: ./img/gantt-final.png Graphic file (type png)
 <use ./img/gantt-final.png>
-Package pdftex.def Info: ./img/gantt-final.png  used on input line 282.
+Package pdftex.def Info: ./img/gantt-final.png  used on input line 281.
 (pdftex.def)             Requested size: 344.69766pt x 83.5302pt.
-LaTeX Info: Redefining \. on input line 297.
-LaTeX Info: Redefining \% on input line 297.
- [17 <./img/gantt-final.png>]
-LaTeX Info: Redefining \. on input line 308.
-LaTeX Info: Redefining \% on input line 308.
- [18]
-Overfull \hbox (16.35355pt too wide) in paragraph at lines 313--327
+LaTeX Info: Redefining \. on input line 304.
+LaTeX Info: Redefining \% on input line 304.
+ [16 <./img/gantt-final.png>]
+Overfull \hbox (16.35355pt too wide) in paragraph at lines 311--325
 [][] 
  []
 
 )
-LaTeX Info: Redefining \. on input line 518.
-LaTeX Info: Redefining \% on input line 518.
- [19
-
-]
+LaTeX Info: Redefining \. on input line 520.
+LaTeX Info: Redefining \% on input line 520.
+ [17]
 \openout2 = `./tex/capitulos/3_Analisis_Requisitos.aux'.
 
- (./tex/capitulos/3_Analisis_Requisitos.tex [20
+ (./tex/capitulos/3_Analisis_Requisitos.tex [18
 
 
 
 
-] [21]
+] [19]
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [22])
-LaTeX Info: Redefining \. on input line 519.
-LaTeX Info: Redefining \% on input line 519.
- [23]
+ [20])
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
+ [21]
 \openout2 = `./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux'.
 
- (./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex [24
+ (./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex [22
 
 
 
 
-] [25]
+] [23]
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [26]
+ [24]
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
- [27]
+ [25]
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
- [28]
+ [26]
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
- [29]
+ [27]
 
-LaTeX Warning: Citation `Gpu-Finetuning' on page 30 undefined on input line 83.
+LaTeX Warning: Citation `Gpu-Finetuning' on page 28 undefined on input line 83.
 
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
-[30{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[28{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
- [31]
+ [29]
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
- [32]
+ [30]
 
-LaTeX Warning: Citation `Gpu-Finetuning' on page 33 undefined on input line 129.
+LaTeX Warning: Citation `Gpu-Finetuning' on page 31 undefined on input line 129.
 
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
-[33])
-LaTeX Info: Redefining \. on input line 520.
-LaTeX Info: Redefining \% on input line 520.
- [34]
+[31])
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
+ [32]
 \openout2 = `./tex/capitulos/5_Alternativas_diferentes_IA.aux'.
 
  (./tex/capitulos/5_Alternativas_diferentes_IA.tex
@@ -1238,13 +1185,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [35
+ [33
 
 
 
 
 ]
-<./img/img-1.png, id=671, 882.29625pt x 978.65625pt>
+<./img/img-1.png, id=665, 882.29625pt x 978.65625pt>
 File: ./img/img-1.png Graphic file (type png)
 <use ./img/img-1.png>
 Package pdftex.def Info: ./img/img-1.png  used on input line 30.
@@ -1255,22 +1202,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
-[36]
+[34]
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [37 <./img/img-1.png>]
+ [35 <./img/img-1.png>]
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
- [38]
+ [36]
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
- [39])
-LaTeX Info: Redefining \. on input line 521.
-LaTeX Info: Redefining \% on input line 521.
- [40]
+ [37])
+LaTeX Info: Redefining \. on input line 523.
+LaTeX Info: Redefining \% on input line 523.
+ [38]
 \openout2 = `./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux'.
 
- (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex [41
+ (./tex/capitulos/6_Seleccion_modelo_y_adaptacion.tex [39
 
 
 
@@ -1278,18 +1225,18 @@ LaTeX Info: Redefining \% on input line 521.
 ]
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [42])
-LaTeX Info: Redefining \. on input line 522.
-LaTeX Info: Redefining \% on input line 522.
- [43]
+ [40])
+LaTeX Info: Redefining \. on input line 524.
+LaTeX Info: Redefining \% on input line 524.
+ [41]
 \openout2 = `./tex/capitulos/7_Dataset_reentrenamiento.aux'.
 
- (./tex/capitulos/7_Dataset_reentrenamiento.tex [44
+ (./tex/capitulos/7_Dataset_reentrenamiento.tex [42
 
 
 
 
-] [45]
+] [43]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 25.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1300,8 +1247,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [46]
-<./img/img-2.png, id=759, 1315.16344pt x 771.63281pt>
+ [44]
+<./img/img-2.png, id=754, 1315.16344pt x 771.63281pt>
 File: ./img/img-2.png Graphic file (type png)
 <use ./img/img-2.png>
 Package pdftex.def Info: ./img/img-2.png  used on input line 54.
@@ -1312,10 +1259,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 54.
 LaTeX Info: Redefining \% on input line 54.
-[47])
-LaTeX Info: Redefining \. on input line 523.
-LaTeX Info: Redefining \% on input line 523.
- [48 <./img/img-2.png>]
+[45])
+LaTeX Info: Redefining \. on input line 525.
+LaTeX Info: Redefining \% on input line 525.
+ [46 <./img/img-2.png>]
 \openout2 = `./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux'.
 
  (./tex/capitulos/8_Evalacion_del_modelo_y_discusion.tex
@@ -1323,13 +1270,13 @@ Overfull \hbox (38.71217pt too wide) in paragraph at lines 17--20
  [][] 
  []
 
-[49
+[47
 
 
 
 
 ]
-<./img/conversacionModelo1.png, id=786, 1105.12875pt x 197.98969pt>
+<./img/conversacionModelo1.png, id=781, 1105.12875pt x 197.98969pt>
 File: ./img/conversacionModelo1.png Graphic file (type png)
 <use ./img/conversacionModelo1.png>
 Package pdftex.def Info: ./img/conversacionModelo1.png  used on input line 32.
@@ -1341,19 +1288,19 @@ Overfull \hbox (38.71217pt too wide) in paragraph at lines 44--47
 
 LaTeX Info: Redefining \. on input line 54.
 LaTeX Info: Redefining \% on input line 54.
-[50 <./img/conversacionModelo1.png>]
+[48 <./img/conversacionModelo1.png>]
 Overfull \hbox (38.71217pt too wide) in paragraph at lines 59--62
  [][] 
  []
 
-<./img/conversacionModelo2.png, id=798, 1008.01593pt x 481.8pt>
+<./img/conversacionModelo2.png, id=793, 1008.01593pt x 481.8pt>
 File: ./img/conversacionModelo2.png Graphic file (type png)
 <use ./img/conversacionModelo2.png>
 Package pdftex.def Info: ./img/conversacionModelo2.png  used on input line 72.
 (pdftex.def)             Requested size: 344.69766pt x 164.75084pt.
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
-[51 <./img/conversacionModelo2.png>]
+[49 <./img/conversacionModelo2.png>]
 Overfull \hbox (38.71217pt too wide) in paragraph at lines 82--85
  [][] 
  []
@@ -1370,48 +1317,48 @@ Overfull \hbox (38.71217pt too wide) in paragraph at lines 112--115
 
 LaTeX Info: Redefining \. on input line 122.
 LaTeX Info: Redefining \% on input line 122.
-[52])
-LaTeX Info: Redefining \. on input line 524.
-LaTeX Info: Redefining \% on input line 524.
- [53]
-\openout2 = `./tex/capitulos/9_Tecnologias_utilizadas.aux'.
-
- (./tex/capitulos/9_Tecnologias_utilizadas.tex [54
-
-
-
-
-] [55]
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
- [56])
-LaTeX Info: Redefining \. on input line 525.
-LaTeX Info: Redefining \% on input line 525.
- [57]
-\openout2 = `./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux'.
-
- (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex [58
-
-
-
-
-] [59]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [60])
+[50])
 LaTeX Info: Redefining \. on input line 526.
 LaTeX Info: Redefining \% on input line 526.
- [61] [62
+ [51]
+\openout2 = `./tex/capitulos/9_Tecnologias_utilizadas.aux'.
+
+ (./tex/capitulos/9_Tecnologias_utilizadas.tex [52
 
 
 
-] [63] [64]
+
+] [53]
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [54])
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
+ [55]
+\openout2 = `./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux'.
+
+ (./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.tex [56
+
+
+
+
+] [57]
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [58])
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
+ [59] [60
+
+
+
+] [61] [62]
 \openout2 = `./tex/A_Documento_Malas_Praxis.aux'.
 
  (./tex/A_Documento_Malas_Praxis.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
-<img/Malas praxis.pdf, id=889, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=883, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf>
 Package pdftex.def Info: img/Malas praxis.pdf  used on input line 3.
@@ -1420,7 +1367,7 @@ File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf>
 Package pdftex.def Info: img/Malas praxis.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<img/Malas praxis.pdf, id=892, page=1, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=886, page=1, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 1>
 Package pdftex.def Info: img/Malas praxis.pdf , page1 used on input line 3.
@@ -1429,7 +1376,7 @@ File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 1>
 Package pdftex.def Info: img/Malas praxis.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [65
+ [63
 
 
 ]
@@ -1445,103 +1392,103 @@ File: img/Malas praxis.pdf Graphic file (type pdf)
 <use img/Malas praxis.pdf, page 1>
 Package pdftex.def Info: img/Malas praxis.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [64
+
+ <./img/Malas praxis.pdf>]
+<img/Malas praxis.pdf, id=927, page=2, 614.295pt x 794.97pt>
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 2>
+Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 2>
+Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 2>
+Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [65
+
+ <./img/Malas praxis.pdf>]
+<img/Malas praxis.pdf, id=943, page=3, 614.295pt x 794.97pt>
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 3>
+Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 3>
+Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/Malas praxis.pdf Graphic file (type pdf)
+<use img/Malas praxis.pdf, page 3>
+Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [66
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=934, page=2, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=948, page=4, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 2>
-Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+<use img/Malas praxis.pdf, page 4>
+Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 2>
-Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+<use img/Malas praxis.pdf, page 4>
+Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 2>
-Package pdftex.def Info: img/Malas praxis.pdf , page2 used on input line 3.
+<use img/Malas praxis.pdf, page 4>
+Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [67
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=949, page=3, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=953, page=5, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 3>
-Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+<use img/Malas praxis.pdf, page 5>
+Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 3>
-Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+<use img/Malas praxis.pdf, page 5>
+Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 3>
-Package pdftex.def Info: img/Malas praxis.pdf , page3 used on input line 3.
+<use img/Malas praxis.pdf, page 5>
+Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [68
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=954, page=4, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=963, page=6, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 4>
-Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
+<use img/Malas praxis.pdf, page 6>
+Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 4>
-Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
+<use img/Malas praxis.pdf, page 6>
+Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 4>
-Package pdftex.def Info: img/Malas praxis.pdf , page4 used on input line 3.
+<use img/Malas praxis.pdf, page 6>
+Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [69
 
  <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=959, page=5, 614.295pt x 794.97pt>
+<img/Malas praxis.pdf, id=969, page=7, 614.295pt x 794.97pt>
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 5>
-Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
+<use img/Malas praxis.pdf, page 7>
+Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 5>
-Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
+<use img/Malas praxis.pdf, page 7>
+Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 5>
-Package pdftex.def Info: img/Malas praxis.pdf , page5 used on input line 3.
+<use img/Malas praxis.pdf, page 7>
+Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [70
-
- <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=970, page=6, 614.295pt x 794.97pt>
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 6>
-Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 6>
-Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 6>
-Package pdftex.def Info: img/Malas praxis.pdf , page6 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [71
-
- <./img/Malas praxis.pdf>]
-<img/Malas praxis.pdf, id=976, page=7, 614.295pt x 794.97pt>
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 7>
-Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 7>
-Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: img/Malas praxis.pdf Graphic file (type pdf)
-<use img/Malas praxis.pdf, page 7>
-Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [72
 
  <./img/Malas praxis.pdf>])
 \openout2 = `./tex/B_Encuesta_Expertos.aux'.
@@ -1549,7 +1496,7 @@ Package pdftex.def Info: img/Malas praxis.pdf , page7 used on input line 3.
  (./tex/B_Encuesta_Expertos.tex
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=986, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=979, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf>
 Package pdftex.def Info: img/EncuestaExpertos.pdf  used on input line 3.
@@ -1567,7 +1514,7 @@ pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found
 
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=989, page=1, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=982, page=1, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 1>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page1 used on input line 3.
@@ -1576,7 +1523,7 @@ File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 1>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
-[73
+[71
 
 
 
@@ -1594,12 +1541,12 @@ File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 1>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
- [74
+ [72
 
  <./img/EncuestaExpertos.pdf>]
 
 pdfTeX warning: pdflatex (file ./img/EncuestaExpertos.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/EncuestaExpertos.pdf, id=1014, page=2, 597.4822pt x 845.1575pt>
+<img/EncuestaExpertos.pdf, id=1008, page=2, 597.4822pt x 845.1575pt>
 File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 2>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page2 used on input line 3.
@@ -1612,18 +1559,18 @@ File: img/EncuestaExpertos.pdf Graphic file (type pdf)
 <use img/EncuestaExpertos.pdf, page 2>
 Package pdftex.def Info: img/EncuestaExpertos.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
-[75
+[73
 
  <./img/EncuestaExpertos.pdf>])
 \openout2 = `./tex/C_Manual_usuario.aux'.
 
- (./tex/C_Manual_usuario.tex [76
+ (./tex/C_Manual_usuario.tex [74
 
 
 
 
-] [77]
-<./img/img-3.png, id=1037, 525.46312pt x 44.41594pt>
+] [75]
+<./img/img-3.png, id=1030, 525.46312pt x 44.41594pt>
 File: ./img/img-3.png Graphic file (type png)
 <use ./img/img-3.png>
 Package pdftex.def Info: ./img/img-3.png  used on input line 35.
@@ -1640,16 +1587,16 @@ Overfull \hbox (4.60548pt too wide) in paragraph at lines 48--49
 
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
-[78 <./img/img-3.png>]
-<./img/img-4.png, id=1045, 1132.23pt x 593.21625pt>
+[76 <./img/img-3.png>]
+<./img/img-4.png, id=1038, 1132.23pt x 593.21625pt>
 File: ./img/img-4.png Graphic file (type png)
 <use ./img/img-4.png>
 Package pdftex.def Info: ./img/img-4.png  used on input line 55.
 (pdftex.def)             Requested size: 344.69766pt x 180.6003pt.
 )
-LaTeX Info: Redefining \. on input line 540.
-LaTeX Info: Redefining \% on input line 540.
- [79 <./img/img-4.png>] (./memoria.bbl [80
+LaTeX Info: Redefining \. on input line 542.
+LaTeX Info: Redefining \% on input line 542.
+ [77 <./img/img-4.png>] (./memoria.bbl [78
 
 
 
@@ -1685,7 +1632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--44
 \T1/lmtt/m/n/12 que-[]es-[]inteligencia-[]artificial-[]ia-[]prtr$[][]\T1/lmr/m/n/12 (+20) .  �l-ti-mo ac-ce-so:
  []
 
-[81]
+[79]
 Underfull \hbox (badness 4001) in paragraph at lines 58--62
 []\T1/lmr/m/n/12 (+20) huggingFace.  trans-for-mers.  [][]$\T1/lmtt/m/n/12 https : / / huggingface . co / docs /
  []
@@ -1735,11 +1682,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--128
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 547.
+(in both cases you will find help in the memoir manual). on input line 549.
 
-LaTeX Info: Redefining \. on input line 547.
-LaTeX Info: Redefining \% on input line 547.
-[82]
+LaTeX Info: Redefining \. on input line 549.
+LaTeX Info: Redefining \% on input line 549.
+[80]
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
@@ -1770,21 +1717,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: EF61D22146ABD5D390D97127D7D43DDD;10797.
+(rerunfilecheck)             Checksum: C9887847C3269A7B833CA10D9D7FE725;10738.
  ) 
 Here is how much of TeX's memory you used:
- 21072 strings out of 474222
- 340644 string characters out of 5748732
+ 21128 strings out of 474222
+ 341421 string characters out of 5748732
  2167975 words of memory out of 5000000
- 42427 multiletter control sequences out of 15000+600000
- 662479 words of font info for 206 fonts, out of 8000000 for 9000
+ 42453 multiletter control sequences out of 15000+600000
+ 673204 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,17n,93p,1405b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on memoria.pdf (96 pages, 1999217 bytes).
+Output written on memoria.pdf (94 pages, 2036831 bytes).
 PDF statistics:
- 1261 PDF objects out of 1440 (max. 8388607)
- 1055 compressed objects within 11 object streams
- 274 named destinations out of 1000 (max. 500000)
- 67163 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1255 PDF objects out of 1440 (max. 8388607)
+ 1049 compressed objects within 11 object streams
+ 273 named destinations out of 1000 (max. 500000)
+ 73312 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,13 +1,14 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Foto del diagrama de gant previsto al iniciar el proyecto\cite {ganttProyect}}}{10}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Foto del diagrama de gant previsto al iniciar el proyecto\cite {ganttProyect}}}{17}{figure.2.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Grafico de comparación del rendimiento con respecto otros modelos open source basados en código \cite {DeepSeek-coder}}}{37}{figure.5.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Imagen de la interfaz que emplea openwebui \cite {openwebui}}}{48}{figure.7.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{50}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{51}{figure.8.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Foto de la metodología CRISP-DM}}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Foto del diagrama de gant previsto al iniciar el proyecto\cite {ganttProyect}}}{11}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Foto del diagrama de gant previsto al iniciar el proyecto\cite {ganttProyect}}}{16}{figure.2.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Grafico de comparación del rendimiento con respecto otros modelos open source basados en código \cite {DeepSeek-coder}}}{35}{figure.5.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Imagen de la interfaz que emplea openwebui \cite {openwebui}}}{46}{figure.7.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{48}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{49}{figure.8.7}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Foto del terminal indicando los modelos existentes en ollama \cite {openwebui}}}{78}{figure.Alph3.1}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Foto del frontal la primera vez que iniciamos sesión \cite {openwebui}}}{79}{figure.Alph3.2}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Foto del terminal indicando los modelos existentes en ollama \cite {openwebui}}}{76}{figure.Alph3.1}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Foto del frontal la primera vez que iniciamos sesión \cite {openwebui}}}{77}{figure.Alph3.2}%

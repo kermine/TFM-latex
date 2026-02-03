@@ -39,11 +39,13 @@
 
 % Imagenes
 \usepackage{graphicx}
-\newcommand{\imagen}[2]{
+\usepackage{placeins}
+
+\newcommand{\imagen}[3][0.9\textwidth]{%
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.9\textwidth]{#1}
-		\caption{#2}\label{fig:#1}
+		\includegraphics[width=#1]{#2}
+		\caption{#3}\label{fig:#2}
 	\end{figure}
 	\FloatBarrier
 }
@@ -466,9 +468,9 @@ D. Alma María Pisabarro Marron
 % Abstract en castellano
 \renewcommand*\abstractname{Resumen}
 \begin{abstract}
-Este proyecto abarca la necesidad de la creación de un modelo de inteligencia artificial open source el cual este adaptado a las necesidades de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería informática de la universidad de Valladolid a través de un re entrenamiento con el código en Java y normas impartidas en la asignatura. 
+Este proyecto abarca la necesidad de la creación de un modelo de inteligencia artificial open source el cual esté adaptado a las necesidades de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería informática de la universidad de Valladolid a través de un reentrenamiento con el código en Java y normas impartidas en la asignatura. 
 
-Este proyecto permitirá a los alumnos emplear un modelo de IA que este adaptado al contexto de la asignatura que están cursando, no como los modelos que normalmente suelen ser consultados, de esta manera obtendrán respuestas y resolverán las dudas adaptadas a los contenidos de la asignatura.
+El objetivo es un modelo de IA que este adaptado al contexto de la asignatura que están cursando, no como los modelos que normalmente suelen ser consultados, de esta manera obtendrán respuestas y resolverán las dudas adaptadas a los contenidos de la asignatura.
 
 El proyecto será desarrollado en el lenguaje de programación de Python y con el hardware de la escuela de ingeniería informática de Valladolid.
 \end{abstract}

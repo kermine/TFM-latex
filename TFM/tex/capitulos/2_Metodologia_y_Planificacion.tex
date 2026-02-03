@@ -1,12 +1,24 @@
 \capitulo{2}{Metodología y planificación}
 
-\section{Metodología en cascada}
+Para el desarrollo de este proyecto se ha empleado la metodología Cross-Industry Standard Process for Data Mining (CRISP-DM), ya que se adapta perfectamente al desarrollo realizado en este proyecto de investigación en el cual tras comprender los requisitos y como debería ser el conjunto de datos para el reentrenamiento se ha generado y creado el modelo reentrenado sobre el que se han realizado varias iteraciones hasta conseguir un modelo con unos buenos resultados para poder ser usado.
+
+\imagen[0.65\textwidth]{img-5}{Foto de la metodología CRISP-DM}
+
+\section{Metodología CRISP-DM}
+
+%Meter historia de la metodologia
+
+%Meter funcionamiento de la metodologia
+
+%Meter ventajas y desventajas de la metodologia
+
+%Motivo de eleccion de la metodologia
 
 Los orígenes de esta metodología \cite{historiaCascada} vienen del teórico de la informática Winston W. Royce, quien en 1970 elaboró su ensayo \textit{Managing the Development of Large Software Systems}, donde proponía que el modelo en cascada se efectuara de manera iterativa.
 Mas tarde, a partir de 1985, este modelo se hizo famoso en el desarrollo del software  cuando el Departamento de Defensa de los Estados Unidos publicó el Estándar 2167  para el desarrollo de software militar, el cual era una variante de su modelo, denominado cascada rígida.
 
 A la hora de emplear la metodología en cascada\cite{cascada} tenemos que tener en cuenta sus ventajas y desventajas.
-Sus principales ventajas son que tiene una estructura clara y permite transmitir bien la información al cliente de en qué paso del desarrollo nos encontramos exactamente. Además,  la estructura en cascada también permite la realización de las fases en paralelo o el uso de prototipos, según el tipo de proyecto. En cuanto a sus desventajas, las principales son que dificulta la modificación de requisitos durante el desarrollo, así como que la realización de pruebas se debe realizar al final del desarrollo. Sin embargo, este último punto en nuestro caso tiene poca importancia, ya que este proyecto requiere que su implementación sea al menos parcialmente funcional para poder ser probado.
+Sus principales ventajas son que tiene una estructura clara y permite transmitir al cliente la información de en qué paso del desarrollo nos encontramos exactamente. Además,  la estructura en cascada también permite la realización de las fases en paralelo o el uso de prototipos, según el tipo de proyecto. En cuanto a sus desventajas, las principales son que dificulta la modificación de requisitos durante el desarrollo, así como que la realización de pruebas se debe realizar al final del desarrollo. Sin embargo, este último punto en nuestro caso tiene poca importancia, ya que este proyecto requiere que su implementación sea al menos parcialmente funcional para poder ser probado.
 
 Esta metodología se empleo en la primera fase del proyecto en la cual se realizó una investigación de que modelos de IA serían los adecuados para la tarea, que tipo de entrenamiento se realizaría asi como se realizaría ese entrenamiento, todas estas fases se han realizado de manera secuencial de tal manera que cuando tenía una de ellas se pasaba a la siguiente, siguiendo el modelo en cascada.
 
@@ -18,7 +30,7 @@ Una vez que hemos decido emplear la metodología en cascada distinguiremos las s
 \begin{itemize}
 \item Documentación: en esta fase se ha dedicado a comprender como poder realizar un reentrenamiento de un modelo de IA, diferentes formas de entrenamiento asi como los componentes de los propios LLM, asentando los conceptos necesarios para realizarlo.
 
-\item Investigación: tras entender la parte teórica, se ha procedido a realizar una investigación de aquellos modelos de IA open source que pueden servir para la realización del proyecto, asi como las herramientas que nos permitirán realizar la tarea de rentrenamiento y los recursos harware como software necesarios para la tarea.
+\item Investigación: tras entender la parte teórica, se ha procedido a realizar una investigación de aquellos modelos de IA open source que pueden servir para la realización del proyecto, asi como las herramientas que nos permitirán realizar la tarea de reentrenamiento y los recursos hardware como software necesarios para la tarea.
 
 \item Análisis: tras obtener varios posibles candidatos entre los modelos de IA se ha realizado un estudio en profundidad de los mismos con el fin de obtener el modelo que mejor se ajusta a la tarea de este proyecto
 
@@ -80,6 +92,7 @@ Para elaborar de manera correcta el plan de riesgos se han tenido en cuenta los 
 La Tabla \ref{tabla:riesgo1} muestra el Riesgo 1, el cual es la estimación incorrecta del tiempo en el desarrollo del proyecto.
 
 \begin{table}[htb]
+    \footnotesize
     \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
         \hline
         \vspace{0.5em} \textbf{ R1 } \vspace{0.5em} & \vspace{0.5em} \textbf{Estimación incorrecta del tiempo} \vspace{0.5em} \\
@@ -105,12 +118,12 @@ La Tabla \ref{tabla:riesgo1} muestra el Riesgo 1, el cual es la estimación inco
     \caption{Riesgo 1}
     \label{tabla:riesgo1}
 \end{table}
-\clearpage
 
 La Tabla \ref{tabla:riesgo2} muestra el Riesgo 2, el cual es la perdida de tiempo de trabajo por ausencia del alumno, mientras que la Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual representa el riesgo de ausencia del tutor. 
 %La Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual es el riesgo de que el tutor del proyecto contraiga una enfermedad.
 
 \begin{table}[!htb]
+    \footnotesize
     \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
         \hline
         \vspace{0.5em} \textbf{ R2 } \vspace{0.5em} & \vspace{0.5em} \textbf{Ausencia del alumno por motivos de trabajo u enfermedad} \vspace{0.5em} \\
@@ -136,8 +149,8 @@ La Tabla \ref{tabla:riesgo2} muestra el Riesgo 2, el cual es la perdida de tiemp
     \label{tabla:riesgo2}
 \end{table}
 
-%\newpage
 \begin{table}[!htb]
+    \footnotesize
     \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
         \hline
         \vspace{0.5em} \textbf{ R3 } \vspace{0.5em} & \vspace{0.5em} \textbf{Ausencia de los tutores por motivos de trabajo u enfermedad} \vspace{0.5em} \\
@@ -164,11 +177,10 @@ La Tabla \ref{tabla:riesgo2} muestra el Riesgo 2, el cual es la perdida de tiemp
     \label{tabla:riesgo3}
 \end{table}
 
-\clearpage 
-
 La Tabla \ref{tabla:riesgo4} muestra el Riesgo 4, el cual es la modificación de requisitos.
 
 \begin{table}[!htb]
+    \footnotesize
     \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
         \hline
         \vspace{0.5em} \textbf{ R4 } \vspace{0.5em} & \vspace{0.5em} \textbf{Cambio en los requisitos del proyecto} \vspace{0.5em} \\
@@ -193,10 +205,11 @@ La Tabla \ref{tabla:riesgo4} muestra el Riesgo 4, el cual es la modificación de
     \caption{Riesgo 4}
     \label{tabla:riesgo4}
 \end{table}
-%\newpage
+\clearpage
 La Tabla \ref{tabla:riesgo5} muestra el Riesgo 5, el cual es la avería del ordenador de trabajo o caída de los servicios utilizados.
 
 \begin{table}[!htb]
+    \footnotesize
     \begin{tabular}{|>{\arraybackslash}m{3.15cm} | >{\arraybackslash}m{10cm} |}
         \hline
         \vspace{0.5em} \textbf{ R5 } \vspace{0.5em} & \vspace{0.5em} \textbf{Fallos en las aplicaciones o hardware para desarrollar el proyecto} \vspace{0.5em} \\
@@ -227,21 +240,7 @@ La Tabla \ref{tabla:riesgo5} muestra el Riesgo 5, el cual es la avería del orde
 \section{Planificación final del proyecto}
 Tras haber pasado por todas las fases descritas en la planificación inicial como se puede apreciar en la Tabla \ref{tabla:planificacion}, algunos de los riesgos anteriormente mencionados se han producido, concretamente:
 
-\begin{itemize}
-    \item El estudiante Víctor Hernando Aragón, a la vez que realiza este proyecto realiza un trabajo a tiempo completo por lo que a lo largo de la duración del mismo esta activo el riesgo 2 (Tabla  \ref{tabla:riesgo2}).
-    
-    \item El 11 de julio se produjo un conflicto en las librerías empleadas en el proyecto en la máquina virtual empleada para el desarrollo del mismo lo que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
-
-    \item El 19 de septiembre se produjo una caida de la máquina virtual empleada para el desarrollo del proyecto que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
-    
-
-    \item El 20 de noviembre se produjo una falta de almacenamiento en la máquina virtual, que impedía realizar diferentes pruebas lo que activo el riesgo número 5 (Tabla
-    \ref{tabla:riesgo5}).
-
-    \item A finales de noviembre, los tutores Alma María Pisabarro Marron y Carlos Enrique Vivaracho Pascual no pudieron reunirse en una de las reuniones semanales sobre el avance del proyecto, esto activaría el riesgo número 3 (Tabla \ref{tabla:riesgo3}).
-
-    \item El 30 de Noviembre se produjo una caída de la máquina virtual empleada para el desarrollo del proyecto que activo el el riesgo número 5 (Tabla \ref{tabla:riesgo5}).
-\end{itemize}
+Durante el proyecto se llegaron a activar los riesgos que aparecen en las tablas \ref{tabla:riesgo2}, \ref{tabla:riesgo3} y \ref{tabla:riesgo5} lo que produjo que se aplicaran las medidas de contingencia correspondientes a esos riesgos.
 
 A continuación en la Tabla \ref{tabla:planificacion2} muestra las fechas establecidas para cada fase del tfm después de la aparición de los riesgos y como afectaron la aplicación de los planes de contingencia al desarrollo del proyecto.
 
@@ -281,22 +280,22 @@ A continuación en la Tabla \ref{tabla:planificacion2} muestra las fechas establ
 
 \imagen{gantt-final}{Foto del diagrama de gant previsto al iniciar el proyecto\cite{ganttProyect}}
 
-\section{Plan de Presupuesto}
+\section{Presupuesto}
 
 En todos los proyectos existe un presupuesto, en el cual se muestran los gastos del proyecto, teniendo en cuenta las herramientas hardware y software utilizadas, así como el personal que ha trabajado en este proyecto.
 \subsection{Presupuesto Software}
 El proyecto se ha realizado en su mayoría con herramientas software gratuitas.
 
-En el caso de que el proyecto se estuviera desarrollando en una empresa esta debía de asumir el coste empresarial de unsloth herramienta empleada para almacenar el modelo, su coste supone un total de 50\EUR{} al mes que durando el proyecto alrededor de 7 meses supondría un coste total de 350\EUR{} a fecha de 10/12/2025
+En el caso de que el proyecto se estuviera desarrollando en una empresa esta debía de asumir el coste empresarial de Unsloth \cite{Unsloth} herramienta empleada para realizar el reentrenamiento del modelo, su coste supone un total de 50\EUR{} al mes que durando el proyecto alrededor de 7 meses supondría un coste total de 350\EUR{} a fecha de 10/12/2025
 
 \subsection{Presupuesto Hardware}
 
 El hardware son los dispositivos que han sido empleados para la realización del proyecto, los cuales son:
 
 \begin{itemize}
-    \item Maquina virtual linux: 70\EUR{} mes 490\EUR{} en total 
+    \item Maquina virtual Linux: 70\EUR{} mes 490\EUR{} en total 
     \item Monitor Acer: tiene un precio de 150\EUR{}
-    \item Tarjeta grafica NVIDIA A40: 7104,52\EUR{}
+    \item Tarjeta gráfica NVIDIA A40: 7104,52\EUR{}
 \end{itemize}
 
 
@@ -305,7 +304,6 @@ En cuanto al coste de personal, considerando al alumno un desarrollador Mid-Seri
 
 Sobre el presupuesto de infraestructura, teniendo en cuenta que el trabajo se ha realizado en la vivienda personal del alumno, podemos considerar el coste de internet como gasto. Teniendo en cuenta que la tarifa son 44\EUR{} al mes y se ha llevado a cabo el proyecto durante 7 meses el coste total es de 308\EUR{}
 
-\clearpage
 \subsection{Presupuesto total}
 En la Tabla \ref{tabla:presupuesto} procedemos a sumar las cantidades de cada uno de los apartados anteriores para obtener el total.
 

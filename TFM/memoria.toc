@@ -7,119 +7,119 @@
 \contentsline {chapter}{1. Introducción}{3}{chapter*.6}%
 \contentsline {section}{\numberline {1.1}Contexto}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objetivos}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Nicho de mercado}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Nicho de mercado}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Estructura de la memoria}{5}{section.1.4}%
 \contentsline {chapter}{2. Metodología y planificación}{7}{chapter*.7}%
-\contentsline {section}{\numberline {2.1}Metodología en cascada}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Metodología CRISP-DM}{8}{section.2.1}%
 \contentsline {subsection}{Fases del Proyecto}{8}{section*.8}%
 \contentsline {section}{\numberline {2.2}Planificación inicial del proyecto}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Diagrama de Gantt inicial del proyecto}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Plan de Riesgos}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Plan de Riesgos}{11}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Planificación final del proyecto}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Plan de Presupuesto}{17}{section.2.6}%
-\contentsline {subsection}{Presupuesto Software}{17}{section*.9}%
-\contentsline {subsection}{Presupuesto Hardware}{18}{section*.10}%
-\contentsline {subsection}{Presupuesto recursos humanos e infraestructura}{18}{section*.11}%
-\contentsline {subsection}{Presupuesto total}{19}{section*.12}%
-\contentsline {chapter}{3. Análisis de requisitos}{21}{chapter*.13}%
-\contentsline {section}{\numberline {3.1}Requisitos de estilo y legibilidad}{21}{section.3.1}%
-\contentsline {subsection}{RF-01 Convenciones de nombrado}{21}{section*.14}%
-\contentsline {subsection}{RF-02: Gestión de Constantes}{22}{section*.15}%
-\contentsline {subsection}{RF-03: Documentación y Organización}{22}{section*.16}%
-\contentsline {section}{\numberline {3.2}Requisitos de Estructura y Flujo de Control}{22}{section.3.2}%
-\contentsline {subsection}{RF-04: Integridad de Estructuras de Control}{22}{section*.17}%
-\contentsline {subsection}{RF-05: Integridad de los bucles}{22}{section*.18}%
-\contentsline {subsection}{RF-06: Selección de Alternativas}{23}{section*.19}%
-\contentsline {section}{\numberline {3.3}Requisitos de Arquitectura y Diseño Modular}{23}{section.3.3}%
-\contentsline {subsection}{RF-07: Prohibición de Variables Globales}{23}{section*.20}%
-\contentsline {subsection}{RF-08: Gestión de Parámetros}{23}{section*.21}%
-\contentsline {subsection}{RF-09: Cohesión y Desacoplamiento}{23}{section*.22}%
-\contentsline {section}{\numberline {3.4}Restricciones Algoritmicas}{23}{section.3.4}%
-\contentsline {subsection}{RF-10: Uso de Recursividad}{23}{section*.23}%
-\contentsline {chapter}{4. Investigación y conceptos teóricos}{25}{chapter*.24}%
-\contentsline {section}{\numberline {4.1}Conceptos básicos}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Formas de adaptación de un modelo al contexto}{26}{section.4.2}%
-\contentsline {subsection}{RAG (Retrieval-Augmented Generation)}{26}{section*.25}%
-\contentsline {subsubsection}{Funcionamiento}{26}{section*.26}%
-\contentsline {subsubsection}{Requisitos Hardware}{27}{section*.27}%
-\contentsline {subsubsection}{Ventajas}{28}{section*.28}%
-\contentsline {subsubsection}{Desventajas}{28}{section*.29}%
-\contentsline {subsubsection}{Casos de uso}{28}{section*.30}%
-\contentsline {subsection}{LoRA / QLoRA (Low-Rank Adaptation)}{29}{section*.31}%
-\contentsline {subsubsection}{Funcionamiento}{29}{section*.32}%
-\contentsline {subsubsection}{Requisitos Hardware}{30}{section*.33}%
-\contentsline {subsubsection}{Ventajas}{31}{section*.34}%
-\contentsline {subsubsection}{Desventajas}{31}{section*.35}%
-\contentsline {subsubsection}{Casos de uso}{31}{section*.36}%
-\contentsline {subsection}{Fine-tuning completo del modelo}{32}{section*.37}%
-\contentsline {subsubsection}{Funcionamiento}{32}{section*.38}%
-\contentsline {subsubsection}{Requisitos Hardware}{33}{section*.39}%
-\contentsline {subsubsection}{Ventajas}{33}{section*.40}%
-\contentsline {subsubsection}{Desventajas}{33}{section*.41}%
-\contentsline {chapter}{5. Alternativas de diferentes IA´s}{35}{chapter*.42}%
-\contentsline {section}{\numberline {5.1}Descripción del problema}{35}{section.5.1}%
-\contentsline {subsection}{Usuarios}{35}{section*.43}%
-\contentsline {subsection}{Asignatura}{35}{section*.44}%
-\contentsline {subsection}{Tamaño del modelo}{36}{section*.45}%
-\contentsline {subsection}{Coste del modelo}{36}{section*.46}%
-\contentsline {section}{\numberline {5.2}Búsqueda de modelos}{36}{section.5.2}%
-\contentsline {subsection}{DeepSeek-Coder}{36}{section*.47}%
-\contentsline {subsubsection}{Ventajas}{37}{section*.48}%
-\contentsline {subsubsection}{Desventajas}{38}{section*.49}%
-\contentsline {subsection}{CodeLlama}{38}{section*.50}%
-\contentsline {subsubsection}{Ventajas}{38}{section*.51}%
-\contentsline {subsubsection}{Desventajas}{38}{section*.52}%
-\contentsline {subsection}{Llama 3}{38}{section*.53}%
-\contentsline {subsubsection}{Ventajas}{39}{section*.54}%
-\contentsline {subsubsection}{Desventajas}{39}{section*.55}%
-\contentsline {subsection}{StarCoder2}{39}{section*.56}%
-\contentsline {subsubsection}{Ventajas}{39}{section*.57}%
-\contentsline {subsubsection}{Desventajas}{40}{section*.58}%
-\contentsline {subsection}{CodeGeeX2}{40}{section*.59}%
-\contentsline {subsubsection}{Ventajas}{40}{section*.60}%
-\contentsline {subsubsection}{Desventajas}{40}{section*.61}%
-\contentsline {chapter}{6. Selección de modelo y proceso de implementación}{41}{chapter*.62}%
-\contentsline {section}{\numberline {6.1}Pruebas realizadas sobre los modelos}{41}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Implementación inicial}{41}{section.6.2}%
-\contentsline {subsection}{Forma de adaptación del modelo}{42}{section*.63}%
-\contentsline {subsection}{Problemas que surgieron con Code-Llama tras el entrenamiento con Lora}{42}{section*.64}%
-\contentsline {section}{\numberline {6.3}Reemplazo del modelo}{43}{section.6.3}%
-\contentsline {chapter}{7. Dataset para reentrenar el modelo y frontal}{45}{chapter*.65}%
-\contentsline {section}{\numberline {7.1}Obtencion de los datos de entrenamiento}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Estructura del conjunto de entrenamiento}{46}{section.7.2}%
-\contentsline {subsection}{Generación de código en base a lenguaje natural}{46}{section*.66}%
-\contentsline {subsection}{Generación de código en base a lenguaje natural y un input}{46}{section*.67}%
-\contentsline {subsection}{Elección del frontal}{47}{section*.68}%
-\contentsline {chapter}{8. Evaluación del modelo y discusión}{49}{chapter*.69}%
-\contentsline {section}{\numberline {8.1}Evaluación del modelo}{49}{section.8.1}%
-\contentsline {subsection}{Resolución de ejercicios}{49}{section*.70}%
-\contentsline {subsection}{Generación de un enunciado en lenguaje natural}{50}{section*.71}%
-\contentsline {subsection}{Evaluación de codigo correcto por parte del modelo}{50}{section*.72}%
-\contentsline {subsection}{Evaluación de código con error de mala praxis}{51}{section*.73}%
-\contentsline {subsection}{Evaluación generación de código con iteraciones}{51}{section*.74}%
-\contentsline {subsection}{Evaluación respuesta ejercicio corregido}{52}{section*.75}%
-\contentsline {subsection}{Evalación de detección de punto de rotura de la estructuras de control}{52}{section*.76}%
-\contentsline {subsection}{Evaluación de detección de bucles infinitos}{52}{section*.77}%
-\contentsline {section}{\numberline {8.2}Discusión rendimiento del modelo}{53}{section.8.2}%
-\contentsline {chapter}{9. Tecnologías utilizadas}{55}{chapter*.78}%
-\contentsline {section}{\numberline {9.1}Python}{55}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Unsloth}{55}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Discord}{56}{section.9.3}%
-\contentsline {section}{\numberline {9.4}GanttProject}{56}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Overleaf}{56}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Modelo de gran lenguaje de Meta}{56}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Openwebui}{57}{section.9.7}%
-\contentsline {section}{\numberline {9.8}HuggingFace}{57}{section.9.8}%
-\contentsline {chapter}{10. Conclusiones y Líneas de trabajo futuras}{59}{chapter*.79}%
-\contentsline {section}{\numberline {10.1}Conclusiones generales}{59}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Limitaciones encontradas}{60}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Lineas de trabajo futuras}{60}{section.10.3}%
-\contentsline {part}{Apéndices}{62}{section.10.3}%
-\contentsline {appendix}{\chapternumberline {A}Malas prácticas en programación}{65}{appendix.Alph1}%
-\contentsline {appendix}{\chapternumberline {B}Encuesta Expertos}{73}{appendix.Alph2}%
-\contentsline {appendix}{\chapternumberline {C}Documentación de usuario}{77}{appendix.Alph3}%
-\contentsline {section}{\numberline {C.1}Introducción}{77}{section.Alph3.1}%
-\contentsline {section}{\numberline {C.2}Requisitos de usuarios}{77}{section.Alph3.2}%
-\contentsline {section}{\numberline {C.3}Instalación}{77}{section.Alph3.3}%
-\contentsline {section}{\numberline {C.4}Manual del usuario}{78}{section.Alph3.4}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{81}{appendix*.82}%
+\contentsline {section}{\numberline {2.6}Presupuesto}{16}{section.2.6}%
+\contentsline {subsection}{Presupuesto Software}{16}{section*.9}%
+\contentsline {subsection}{Presupuesto Hardware}{16}{section*.10}%
+\contentsline {subsection}{Presupuesto recursos humanos e infraestructura}{17}{section*.11}%
+\contentsline {subsection}{Presupuesto total}{17}{section*.12}%
+\contentsline {chapter}{3. Análisis de requisitos}{19}{chapter*.13}%
+\contentsline {section}{\numberline {3.1}Requisitos de estilo y legibilidad}{19}{section.3.1}%
+\contentsline {subsection}{RF-01 Convenciones de nombrado}{19}{section*.14}%
+\contentsline {subsection}{RF-02: Gestión de Constantes}{20}{section*.15}%
+\contentsline {subsection}{RF-03: Documentación y Organización}{20}{section*.16}%
+\contentsline {section}{\numberline {3.2}Requisitos de Estructura y Flujo de Control}{20}{section.3.2}%
+\contentsline {subsection}{RF-04: Integridad de Estructuras de Control}{20}{section*.17}%
+\contentsline {subsection}{RF-05: Integridad de los bucles}{20}{section*.18}%
+\contentsline {subsection}{RF-06: Selección de Alternativas}{21}{section*.19}%
+\contentsline {section}{\numberline {3.3}Requisitos de Arquitectura y Diseño Modular}{21}{section.3.3}%
+\contentsline {subsection}{RF-07: Prohibición de Variables Globales}{21}{section*.20}%
+\contentsline {subsection}{RF-08: Gestión de Parámetros}{21}{section*.21}%
+\contentsline {subsection}{RF-09: Cohesión y Desacoplamiento}{21}{section*.22}%
+\contentsline {section}{\numberline {3.4}Restricciones Algoritmicas}{21}{section.3.4}%
+\contentsline {subsection}{RF-10: Uso de Recursividad}{21}{section*.23}%
+\contentsline {chapter}{4. Investigación y conceptos teóricos}{23}{chapter*.24}%
+\contentsline {section}{\numberline {4.1}Conceptos básicos}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Formas de adaptación de un modelo al contexto}{24}{section.4.2}%
+\contentsline {subsection}{RAG (Retrieval-Augmented Generation)}{24}{section*.25}%
+\contentsline {subsubsection}{Funcionamiento}{24}{section*.26}%
+\contentsline {subsubsection}{Requisitos Hardware}{25}{section*.27}%
+\contentsline {subsubsection}{Ventajas}{26}{section*.28}%
+\contentsline {subsubsection}{Desventajas}{26}{section*.29}%
+\contentsline {subsubsection}{Casos de uso}{26}{section*.30}%
+\contentsline {subsection}{LoRA / QLoRA (Low-Rank Adaptation)}{27}{section*.31}%
+\contentsline {subsubsection}{Funcionamiento}{27}{section*.32}%
+\contentsline {subsubsection}{Requisitos Hardware}{28}{section*.33}%
+\contentsline {subsubsection}{Ventajas}{29}{section*.34}%
+\contentsline {subsubsection}{Desventajas}{29}{section*.35}%
+\contentsline {subsubsection}{Casos de uso}{29}{section*.36}%
+\contentsline {subsection}{Fine-tuning completo del modelo}{30}{section*.37}%
+\contentsline {subsubsection}{Funcionamiento}{30}{section*.38}%
+\contentsline {subsubsection}{Requisitos Hardware}{31}{section*.39}%
+\contentsline {subsubsection}{Ventajas}{31}{section*.40}%
+\contentsline {subsubsection}{Desventajas}{31}{section*.41}%
+\contentsline {chapter}{5. Alternativas de diferentes IA´s}{33}{chapter*.42}%
+\contentsline {section}{\numberline {5.1}Descripción del problema}{33}{section.5.1}%
+\contentsline {subsection}{Usuarios}{33}{section*.43}%
+\contentsline {subsection}{Asignatura}{33}{section*.44}%
+\contentsline {subsection}{Tamaño del modelo}{34}{section*.45}%
+\contentsline {subsection}{Coste del modelo}{34}{section*.46}%
+\contentsline {section}{\numberline {5.2}Búsqueda de modelos}{34}{section.5.2}%
+\contentsline {subsection}{DeepSeek-Coder}{34}{section*.47}%
+\contentsline {subsubsection}{Ventajas}{35}{section*.48}%
+\contentsline {subsubsection}{Desventajas}{36}{section*.49}%
+\contentsline {subsection}{CodeLlama}{36}{section*.50}%
+\contentsline {subsubsection}{Ventajas}{36}{section*.51}%
+\contentsline {subsubsection}{Desventajas}{36}{section*.52}%
+\contentsline {subsection}{Llama 3}{36}{section*.53}%
+\contentsline {subsubsection}{Ventajas}{37}{section*.54}%
+\contentsline {subsubsection}{Desventajas}{37}{section*.55}%
+\contentsline {subsection}{StarCoder2}{37}{section*.56}%
+\contentsline {subsubsection}{Ventajas}{37}{section*.57}%
+\contentsline {subsubsection}{Desventajas}{38}{section*.58}%
+\contentsline {subsection}{CodeGeeX2}{38}{section*.59}%
+\contentsline {subsubsection}{Ventajas}{38}{section*.60}%
+\contentsline {subsubsection}{Desventajas}{38}{section*.61}%
+\contentsline {chapter}{6. Selección de modelo y proceso de implementación}{39}{chapter*.62}%
+\contentsline {section}{\numberline {6.1}Pruebas realizadas sobre los modelos}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Implementación inicial}{39}{section.6.2}%
+\contentsline {subsection}{Forma de adaptación del modelo}{40}{section*.63}%
+\contentsline {subsection}{Problemas que surgieron con Code-Llama tras el entrenamiento con Lora}{40}{section*.64}%
+\contentsline {section}{\numberline {6.3}Reemplazo del modelo}{41}{section.6.3}%
+\contentsline {chapter}{7. Dataset para reentrenar el modelo y frontal}{43}{chapter*.65}%
+\contentsline {section}{\numberline {7.1}Obtencion de los datos de entrenamiento}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Estructura del conjunto de entrenamiento}{44}{section.7.2}%
+\contentsline {subsection}{Generación de código en base a lenguaje natural}{44}{section*.66}%
+\contentsline {subsection}{Generación de código en base a lenguaje natural y un input}{44}{section*.67}%
+\contentsline {subsection}{Elección del frontal}{45}{section*.68}%
+\contentsline {chapter}{8. Evaluación del modelo y discusión}{47}{chapter*.69}%
+\contentsline {section}{\numberline {8.1}Evaluación del modelo}{47}{section.8.1}%
+\contentsline {subsection}{Resolución de ejercicios}{47}{section*.70}%
+\contentsline {subsection}{Generación de un enunciado en lenguaje natural}{48}{section*.71}%
+\contentsline {subsection}{Evaluación de codigo correcto por parte del modelo}{48}{section*.72}%
+\contentsline {subsection}{Evaluación de código con error de mala praxis}{49}{section*.73}%
+\contentsline {subsection}{Evaluación generación de código con iteraciones}{49}{section*.74}%
+\contentsline {subsection}{Evaluación respuesta ejercicio corregido}{50}{section*.75}%
+\contentsline {subsection}{Evalación de detección de punto de rotura de la estructuras de control}{50}{section*.76}%
+\contentsline {subsection}{Evaluación de detección de bucles infinitos}{50}{section*.77}%
+\contentsline {section}{\numberline {8.2}Discusión rendimiento del modelo}{51}{section.8.2}%
+\contentsline {chapter}{9. Tecnologías utilizadas}{53}{chapter*.78}%
+\contentsline {section}{\numberline {9.1}Python}{53}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Unsloth}{53}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Discord}{54}{section.9.3}%
+\contentsline {section}{\numberline {9.4}GanttProject}{54}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Overleaf}{54}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Modelo de gran lenguaje de Meta}{54}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Openwebui}{55}{section.9.7}%
+\contentsline {section}{\numberline {9.8}HuggingFace}{55}{section.9.8}%
+\contentsline {chapter}{10. Conclusiones y Líneas de trabajo futuras}{57}{chapter*.79}%
+\contentsline {section}{\numberline {10.1}Conclusiones generales}{57}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Limitaciones encontradas}{58}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Lineas de trabajo futuras}{58}{section.10.3}%
+\contentsline {part}{Apéndices}{60}{section.10.3}%
+\contentsline {appendix}{\chapternumberline {A}Malas prácticas en programación}{63}{appendix.Alph1}%
+\contentsline {appendix}{\chapternumberline {B}Encuesta Expertos}{71}{appendix.Alph2}%
+\contentsline {appendix}{\chapternumberline {C}Documentación de usuario}{75}{appendix.Alph3}%
+\contentsline {section}{\numberline {C.1}Introducción}{75}{section.Alph3.1}%
+\contentsline {section}{\numberline {C.2}Requisitos de usuarios}{75}{section.Alph3.2}%
+\contentsline {section}{\numberline {C.3}Instalación}{75}{section.Alph3.3}%
+\contentsline {section}{\numberline {C.4}Manual del usuario}{76}{section.Alph3.4}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{79}{appendix*.82}%
