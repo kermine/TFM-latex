@@ -114,6 +114,12 @@
 \newblock \url{https://pytorch.org/ }.
 \newblock Último acceso: Diciembre 2025.
 
+\bibitem{Gpu-Finetunin}
+{Sebastian Buzdugan}.
+\newblock {What’s the Best GPU for Fine-Tuning LLMs? A No-Nonsense Guide}.
+\newblock \url{https://medium.com/@sebuzdugan/whats-the-best-gpu-for-fine-tuning-llms-a-no-nonsense-guide-239fefc5cd38}.
+\newblock último acceso: Junio de 2025.
+
 \bibitem{Unsloth}
 {Unsloth}.
 \newblock {Unsloth}.

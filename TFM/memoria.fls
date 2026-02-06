@@ -363,10 +363,14 @@ INPUT ./img/img-5.png
 INPUT ./img/img-5.png
 INPUT ./img/img-5.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT ./img/gantt-inicial.png
-INPUT ./img/gantt-inicial.png
-INPUT ./img/gantt-inicial.png
-INPUT ./img/gantt-inicial.png
+INPUT ./img/gantt-inicial1.png
+INPUT ./img/gantt-inicial1.png
+INPUT ./img/gantt-inicial1.png
+INPUT ./img/gantt-inicial1.png
+INPUT ./img/gantt-inicial2.png
+INPUT ./img/gantt-inicial2.png
+INPUT ./img/gantt-inicial2.png
+INPUT ./img/gantt-inicial2.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi5.tfm
@@ -393,7 +397,6 @@ INPUT ./tex/capitulos/4_Investigacion_Conceptos_teoricos.tex
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
 INPUT ./tex/capitulos/5_Alternativas_diferentes_IA.tex
 OUTPUT ./tex/capitulos/5_Alternativas_diferentes_IA.aux
@@ -426,6 +429,7 @@ INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT ./img/img-2.png
 INPUT ./img/img-2.png
 INPUT ./img/img-2.png

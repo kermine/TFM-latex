@@ -17,45 +17,45 @@ A level-1 auxiliary file: ./tex/C_Manual_usuario.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--I didn't find a database entry for "Gpu-Finetuning"
-You've used 21 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            607 strings with 7256 characters,
-and the built_in function-call counts, 4495 in all, are:
-= -- 441
-> -- 147
+            612 strings with 7476 characters,
+and the built_in function-call counts, 4708 in all, are:
+= -- 462
+> -- 154
 < -- 0
-+ -- 63
-- -- 42
-* -- 107
-:= -- 767
-add.period$ -- 84
-call.type$ -- 21
-change.case$ -- 84
++ -- 66
+- -- 44
+* -- 112
+:= -- 803
+add.period$ -- 88
+call.type$ -- 22
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 147
-empty$ -- 463
-format.name$ -- 42
-if$ -- 988
+cite$ -- 22
+duplicate$ -- 154
+empty$ -- 485
+format.name$ -- 44
+if$ -- 1035
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 0
-newline$ -- 129
-num.names$ -- 42
-pop$ -- 210
+newline$ -- 135
+num.names$ -- 44
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 66
 quote$ -- 0
-skip$ -- 104
+skip$ -- 109
 stack$ -- 0
-substring$ -- 105
-swap$ -- 21
+substring$ -- 110
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 88
 warning$ -- 0
-while$ -- 42
-width$ -- 23
-write$ -- 233
+while$ -- 44
+width$ -- 24
+write$ -- 244
 (There was 1 warning)
