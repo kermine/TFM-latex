@@ -1,5 +1,5 @@
-\capitulo{4}{Investigación y conceptos teóricos}
-En este capítulo nos centraremos especialmente en conceptos teóricos que  han tenido que ser investigados, estudiados y comprendidos por el alumno, de tal manera de poder llegar así a la solución planteada.
+\chapter{Investigación y conceptos teóricos}
+En este capítulo nos centraremos especialmente en conceptos teóricos importantes para entender el trabajo realizado.
 \section{Conceptos básicos}
 \begin{itemize}
     \item Inteligencia Artificial (IA): Según la comisión europea son sistemas de software (y posiblemente también de hardware) diseñados por humanos que, ante un objetivo complejo, actúan en la dimensión física o digital percibiendo su entorno, a través de la adquisición e interpretación de datos estructurados o no estructurados y razonando sobre el conocimiento, procesando la información derivada de estos datos y decidiendo las mejores acciones para lograr el objetivo dado \cite{definicionIA}.
@@ -12,7 +12,7 @@ En este capítulo nos centraremos especialmente en conceptos teóricos que  han 
 
 \section{Formas de adaptación de un modelo al contexto}
 
-Este apartado pretende recoger las diferentes formas de conseguir que el modelo seleccionado genere su salida basándose en un conjunto de datos seleccionados por el usuario. En nuestro caso serán los programas Java de la asignatura y los documentos de buenas y malas prácticas. Existen diferentes formas de entrenar a nuestro modelo entre las cuales podemos destacar:  RAG (Retrieval-Augmented Generation), LoRA/QLoRA (Low-Rank Adaptation/ Quantum  Low-Rank Adaptation) y el Ajuste fino completo (ajuste fino entrenando todos los parámetros del modelo). A continuación, para cada técnica se explica como  funciona, las herramientas típicas para implementarla, requisitos de hardware, ventajas, desventajas y escenarios recomendados de uso.
+Este apartado pretende recoger las diferentes formas de conseguir que el modelo seleccionado adapte su salida basándose en un conjunto de datos seleccionados por el usuario. En nuestro caso serán los programas Java de la asignatura y los documentos de buenas y malas prácticas. Existen diferentes formas de adaptar nuestro modelo entre las cuales podemos destacar:  RAG (Retrieval-Augmented Generation), LoRA/QLoRA (Low-Rank Adaptation/ Quantum  Low-Rank Adaptation) y el Ajuste fino completo (ajuste fino entrenando todos los parámetros del modelo). A continuación, para cada técnica se explica como  funciona, las herramientas típicas para implementarla, requisitos de hardware, ventajas, desventajas y escenarios recomendados de uso.
 
 \subsection{RAG}
 RAG (Generación Aumentada con Recuperación de información) es un método que no altera los parámetros del modelo base, sino que lo potencia proporcionándole información adicional relevante extraída de una base de conocimiento externa en cada consulta. RAG extiende las capacidades del LLM hacia un dominio específico o base de conocimiento interna sin necesidad de reentrenar el modelo. Es una forma rentable de mantener las respuestas del modelo actualizadas, precisas y enfocadas al contexto deseado, porque aprovecha información fuera de los datos originales de entrenamiento del modelo \cite{RAG-Amazon}.

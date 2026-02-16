@@ -1,8 +1,8 @@
-\capitulo{1}{Introducción}
+\chapter{Introducción}
 
 \section{Contexto}
 Los avances de los últimos años en Inteligencia Artificial generativa y Grandes Modelos de lenguaje (LLM’s) han llevado a la
-creación de aplicaciones de ámbito general (e.g., ChatGPT, CoPilot, DeepSeek) que actualmente son
+creación de aplicaciones de ámbito general (e.g., ChatGPT, Copilot, DeepSeek) que actualmente son
 utilizadas por la mayoría de estudiantes para resolver dudas y ampliar los conocimientos de sus
 asignaturas.
 
@@ -10,13 +10,13 @@ Sin embargo, sus modelos carecen del contexto del alumno o de los conocimientos 
 
 Fundamentos de Programación es una asignatura del Grado de Ingeniería Informática que se encuentra en el primer cuatrimestre del primer año de carrera, donde típicamente sucede este problema, en el que personas que pueden haber o no empezado en el mundo de la programación por lo que es esencial aprender los conceptos correctamente.
 
-La asignatura hace especial hincapié en las buenas prácticas de programación utilizando el lenguaje de programación Java y el paradigma de programación estructurada. Sin embargo, cuando se pregunta a estas aplicaciones sobre determinados ejercicios de programación, sus respuestas no están contextualizadas al paradigma utilizado. Por esta razón, se quiere adaptar un modelo de IA que sea capaz de indicar a los alumnos los errores que tienen en sus programas y plantear alternativas correctas a los mismos. No se busca que el sistema, como cualquiera de los actuales, dé una solución a un problema, sino que la solución esté contextualizada. Si no es correcta, le puede indicar dónde y por qué y/o proponer soluciones correctas.
+La asignatura hace especial hincapié en las buenas prácticas de programación utilizando el lenguaje de programación Java y el paradigma de programación estructurada. Sin embargo, cuando se pregunta a los modelos de IA generativos generales sobre determinados ejercicios de programación, sus respuestas no están contextualizadas al paradigma utilizado en la asignatura. Por esta razón, se quiere adaptar un modelo de IA que sea capaz de indicar a los alumnos los errores que tienen en sus programas y plantear alternativas correctas a los mismos. No se busca que el sistema, como cualquiera de los actuales, dé una solución a un problema, sino que la solución esté contextualizada. Si no es correcta, le puede indicar dónde y por qué y/o proponer soluciones correctas.
 
 \section{Objetivos}
+\label{sec:Objetivos}
+Como se ha comentado en la introducción, el principal objetivo de este proyecto es la creación de un modelo basado en una IA openSource, que permita a los alumnos enviar preguntas de texto, así como código en el lenguaje de programación Java para comprobar si el código introducido es correcto según el contexto de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería Informática de la Universidad de Valladolid en el primer cuatrimestre del primer año de carrera. Con ella los alumnos serán capaces de obtener los resultados esperados tanto a nivel de programación como aprendizaje, asentando los conceptos básicos impartidos en esta asignatura.
 
-Como se ha comentado en la introducción, el principal objetivo de este proyecto es la creación de un modelo basado en una IA openSource que permita a los alumnos enviar preguntas de texto así como código en el lenguaje de programación Java principalmente para comprobar si el código introducido es correcto según el contexto de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería Informática de la Universidad de Valladolid en el primer cuatrimestre del primer año de carrera. Con ella los alumnos serán capaces de obtener los resultados esperados tanto a nivel de programación como aprendizaje, asentando los conceptos básicos impartidos en esta asignatura.
-
-A parte de este que es el objetivo principal para llegar a el deberemos de cumplir los siguientes objetivos:
+Para lograr este objetivo general se plantean los siguientes objetivos específicos:
 
 \begin{itemize}
     \item Realizar un análisis inicial de los principales modelos de I.A open source, para estudiar cual de ellos se adapta mejor a las necesidades del proyecto.
@@ -40,20 +40,26 @@ Este documento se estructura de la siguiente forma:
 
 \item[Capítulo 2 Metodología y planificación:] En este capítulo se describe la metodología usada durante el desarrollo del proyecto, el análisis y plan de riesgos, asi como un análisis de costes y seguimiento del proyecto
 
-\item[Capítulo 3 Análisis de requisitos]: En este capítulo se describen los requisitos que debe de cumplir el modelo.
+\item[Capítulo 3 Investigación y conceptos teóricos]: En este capítulo se describen los principales conceptos que han sido necesarios para llevar a cabo la realización de este proyecto y su entendimiento.
 
-\item[Capítulo 4 Investigación y conceptos teóricos]: En este capítulo se describen los principales conceptos que han sido necesarios para llevar a cabo la realización de este proyecto y su entendimiento.
+\item[Capítulo 4 compresión del Negocio]: En este capítulo se describen los objetivos del proyecto desde la perspectiva del negocio.
 
-\item[Capítulo 5 Alternativas de diferentes IA´s]: En este capítulo se describe el estudio que se realizó de diferentes modelos de inteligencia artificial con el fin de que cumplieran con el propósito del proyecto y sus objetivos.
+\item[Capítulo 5 Los Datos]: En este capítulo se habla de la comprensión de los datos de los que se dispone asi como su preparación.
 
-\item[Capítulo 6 Selección de modelo y proceso de implementación]: En este capítulo se describe la selección final del modelo escogido para reentrenarlo y su implementación.
+\item[Capítulo 6 Modelos]: En este capítulo se describe la selección inicial de modelos describiendo cada uno de ellos.
 
-\item[Capítulo 7 Dataset de reentrenamiento y frontal]: En este capítulo se habla del conjunto de datos empleado para reentrenar el modelo, que tipo de formato se ha seguido así como ejemplos del mismo, ademas se añade la tecnología empleada para la creación de la interfaz a través de la que los usuarios harán preguntas al modelo.
+\item[Capítulo 7 Evaluación]: En este capítulo se habla de las diferentes etapas de evaluación desde los modelos iniciales hasta la evaluación final del modelo escogido y reentrenado.
 
-\item[Capítulo 8 Evaluación del modelo y discusión]: En este capítulo se desglosa y expone el cuestionario rellenado por los expoertos que han probado el modelo y su valoración en los diferentes aspectos que debe de realizar.
+\item[Capítulo 8 Despliegue]: En este capítulo se desglosa como es el despliegue de la aplicación final.
 
-\item[Capítulo 9 Tecnologías utilizadas]: En este capítulo se habla de las tecnologías software empleadas para la realización del proyecto.
+\item[Capítulo 9 Prueba Preliminar]: En este capítulo se desglosa como se han realizado las pruebas preliminares sobre los modelos candidatos a ser reentrenados.
 
-\item[Capítulo 10 Conclusiones y líneas de trabajo futuras]: En este capítulo se habla de las conclusiones tras la realización del proyecto, las posibles mejoras a realizar y trabajos a futuro. 
+\item[Capítulo 10 Prueba Modelo Inicial]: En este capítulo se habla de una vez seleccionado el Modelo Inicial las pruebas realizadas sobre el antes de ser presentado al cliente.
+
+\item[Capítulo 11 Implementación Final]: En este capítulo se desglosa las pruebas finales realizadas sobre el modelo reentrenado asi como las pruebas realizadas por el cliente.
+
+\item[Capítulo 12 Tecnologías utilizadas]: En este capítulo se habla de las tecnologías software empleadas para la realización del proyecto.
+
+\item[Capítulo 13 Conclusiones y líneas de trabajo futuras]: En este capítulo se habla de las conclusiones tras la realización del proyecto, las posibles mejoras a realizar y trabajos a futuro. 
 
 \end{description}

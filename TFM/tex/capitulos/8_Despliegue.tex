@@ -1,0 +1,20 @@
+\chapter{Despliegue}
+
+\section{Alojar el modelo}
+
+El despliegue del proyecto se realizará en las máquinas locales y es un despliegue muy sencillo.
+
+Para ello necesitamos tener instalado Ollama (ver apartado \ref{sec:ollama}) en el ordenador \cite{Ollama} y bajarnos el modelo subido en un repositorio de HuggingFace (ver apartado \ref{sec:HuggingFace}) \cite{HuggingFace} y  una vez  teniendo esto ya podríamos lanzar el modelo desde un terminal, pero se empleará un frontal con el fin de que mejorar la usabilidad.
+
+\section{Elección del frontal}
+
+En este caso para interactuar con el frontal se ha optado por una solución open source denominada Openwebui (ver apartado \ref{sec:Openwebui}) \cite{openwebui}, esta a través de un contenedor Docker se aloja en el propio ordenador. Además que detecta automáticamente todos los modelos instalados que tenemos en Ollama. Su interfaz es muy similar a la que usa chat-gpt e implementa funciones muy interesantes de manera predeterminada como un motor de inferencia propio para usar con RAG.
+
+Como se aprecia en la Figuras \ref{fig:img-6} y \ref{fig:img-2}, tenemos que acceder a través del puerto 3000 de nuestra maquina al frontal en el nos aparecerán todos los modelos que tenemos instalados en Ollama y podremos seleccionar uno para interactuar con el.
+
+\imagen{img-6}{Imagen de la url donde se despliega el frontal de openwebui \cite{openwebui}}
+
+\imagen{img-2}{Imagen de la interfaz que emplea openwebui \cite{openwebui}}
+
+Para la configuración exacta es recomendable revisar el Apéndice \ref{ap:manual}.
+

@@ -1,0 +1,38 @@
+\chapter{Evaluación}
+
+En este apartado se comentarán los diferentes tipos de evaluación que s han realizado para calificar el modelo y ver si cumple con los objetivos o es necesario realizar un refinamiento.
+
+\section{Tipos de evaluación}
+
+\subsection{Evaluación Preliminar}
+\label{cap:evaluacion-inicial}
+
+En este caso, la evaluación inicial de los modelos se realizará antes de realizar el reentrenamiento, con el fin de obtener de los candidatos al modelo que se empleará para el reentrenamiento. Los criterios de selección utilizados son los siguientes:
+
+\begin{itemize}
+    \item Tamaño del modelo: El modelo es lo suficientemente pequeño para no necesitar de demasiado espacio de almacenamiento ni consumir demasiada memoria RAM en su uso.
+    \item Rendimiento del modelo: Si el modelo es capaz de ejecutarse en una máquina con una tarjeta gráfica de uso doméstico. Para ello se empleará el ordenador del alumno el cual tiene como tarjeta gráfica una GTX 1070 un procesador intel core i7 de 8 generación y 16GB de RAM.
+    \item Idioma del modelo: Ante preguntas sencillas el modelo es capaz de responder en el idioma Español, no solo sea capaz de entenderlo.
+    \item Respuestas a problemas de código Java en lenguaje natural: el modelo es capaz de resolver problemas sencillos de los suministrados en la documentación del cliente.
+    \item Entender código java pasado como entrada al modelo: Que el modelo sea capaz de entender el lenguaje de programación y decirme que estoy haciendo en ese programa.
+\end{itemize}
+
+\subsection{Evaluación Inicial}
+\label{cap:evaluacion}
+
+Una vez el modelo ha superado la evaluación preliminar y lo consideramos un candidato a ser reentrenado con el conjunto de datos. Una vez lo hemos reentrenado pasamos a realizar la evaluación para verificar si cumple los requisitos planteados en el proyecto.
+
+Para ello lo que se quiere ver es si con el conjunto de datos suministrado ha sido posible ''capar'' el modelo para obtener respuestas que cumplan lo dispuesto en el documento del apéndice \ref{ap:malas_praxis}. Dado que se quiere usar para el  aprendizaje de alumnos, solo hay dos posibles resultados de la evaluación:
+\begin{itemize}
+    \item Acierto: la salida del modelo no emplea ninguno los criterios de malas praxis por lo que la salida es apta para que los alumnos puedan aprender de ella y utilizarla.
+    \item Error: la salida contiene algún fallo o varios fallos que aparecen en el documento de malas praxis, lo que provocaría que los alumnos las pudieran emplearlas y generar un mal aprendizaje por el propio uso de la herramienta.
+\end{itemize}
+
+Por ello, es imprescindible que las pruebas realizadas sean por evaluadores conocedores de la materia de la asignatura y de lo que se imparte en ella.
+
+\subsection{Evaluación de Expertos}
+
+Como hemos comentado en el apartado anterior, para ver que el funcionamiento del modelo sea correcto es necesario que sea probado por expertos, es por ello que el modelo una vez superadas las anteriores fases será probado por expertos (profesores y antiguos alumnos de la asignatura) con el fin de verificar que el modelo puede ser de utilidad para aquellos alumnos que la cursan. Para ello se hará uso del cuestionario del Apéndice \ref{ap:encuesta_expertos}
+
+
+

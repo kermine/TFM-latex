@@ -3,14 +3,17 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: memoria.aux
 A level-1 auxiliary file: ./tex/capitulos/1_Introduccion.aux
 A level-1 auxiliary file: ./tex/capitulos/2_Metodologia_y_Planificacion.aux
-A level-1 auxiliary file: ./tex/capitulos/3_Analisis_Requisitos.aux
-A level-1 auxiliary file: ./tex/capitulos/4_Investigacion_Conceptos_teoricos.aux
-A level-1 auxiliary file: ./tex/capitulos/5_Alternativas_diferentes_IA.aux
-A level-1 auxiliary file: ./tex/capitulos/6_Seleccion_modelo_y_adaptacion.aux
-A level-1 auxiliary file: ./tex/capitulos/7_Dataset_reentrenamiento.aux
-A level-1 auxiliary file: ./tex/capitulos/8_Evalacion_del_modelo_y_discusion.aux
-A level-1 auxiliary file: ./tex/capitulos/9_Tecnologias_utilizadas.aux
-A level-1 auxiliary file: ./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras.aux
+A level-1 auxiliary file: ./tex/capitulos/3_Investigacion_Conceptos_teoricos.aux
+A level-1 auxiliary file: ./tex/capitulos/4_Comprension_del_negocio.aux
+A level-1 auxiliary file: ./tex/capitulos/5_Los_datos.aux
+A level-1 auxiliary file: ./tex/capitulos/6_Modelos.aux
+A level-1 auxiliary file: ./tex/capitulos/7_Evaluacion.aux
+A level-1 auxiliary file: ./tex/capitulos/8_Despliegue.aux
+A level-1 auxiliary file: ./tex/capitulos/9_Prueba_Inicial.aux
+A level-1 auxiliary file: ./tex/capitulos/10_Prueba_Modelo_Inicial.aux
+A level-1 auxiliary file: ./tex/capitulos/11_Implementacion_Final.aux
+A level-1 auxiliary file: ./tex/capitulos/12_Tecnologias_utilizadas.aux
+A level-1 auxiliary file: ./tex/capitulos/13_Conclusiones_Lineas_de_trabajo_futuras.aux
 A level-1 auxiliary file: ./tex/A_Documento_Malas_Praxis.aux
 A level-1 auxiliary file: ./tex/B_Encuesta_Expertos.aux
 A level-1 auxiliary file: ./tex/C_Manual_usuario.aux
@@ -19,7 +22,7 @@ Database file #1: bibliografia.bib
 Warning--I didn't find a database entry for "Gpu-Finetuning"
 You've used 22 entries,
             2118 wiz_defined-function locations,
-            612 strings with 7476 characters,
+            617 strings with 7602 characters,
 and the built_in function-call counts, 4708 in all, are:
 = -- 462
 > -- 154

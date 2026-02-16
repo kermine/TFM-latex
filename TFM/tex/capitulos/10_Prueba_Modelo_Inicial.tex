@@ -1,0 +1,39 @@
+\chapter{Prueba Modelo Inicial}
+
+\section{Trabajo Realizado}
+
+Como veíamos en la prueba anterior, el modelo elegido fue \textbf{CodeLlama} por varios motivos:
+
+\begin{itemize}
+    \item Gran soporte y comunidad alrededor de los modelos openSource de Meta: A pesar de ser un modelo especifico para la programación este proviene de Meta 2, que ha sido un Modelo ampliamente usado.
+    \item Permite el uso del lenguaje español tanto en los \textit{prompts} como en las respuestas del propio modelo: Comparándolo con otros de los modelos preseleccionados tras la realización de las pruebas en el entorno local algunos de ellos como DeepSeek si entendía el texto en español, pero las respuestas eran en inglés pudiendo dificultar para algunos alumnos que no tengan conocimientos de este idioma.
+    \item Tamaño ofrecido del modelo: Aunque otros de los modelos propuestos tienen tamaños menores de parámetros he considerado que dado que el tamaño de 7B que ofrece CodeLlama de parámetros es un tamaño adecuado ademas de cumplir con las características del idioma.
+\end{itemize}
+
+\subsection{Forma de adaptación del modelo}
+
+El modelo se adaptará siguiendo el enfoque de Lora (Low Rank Adaptation) a través de Unsloth \cite{Unsloth}.
+
+Para ello usaremos el conjunto de datos  visto en el capítulo \ref{cap:datos} para reentrenar el modelo.
+
+La idea de poder entrenar el modelo con este conjunto de datos es que aprenda de como queremos que los alumnos programen y darles respuestas que vayan asociadas a los conocimientos que se imparten en la asignatura.
+
+\section{Evaluación}
+
+Una vez se ha conseguido obtener el modelo reentrenado, las pruebas que se han hecho como se comenta en el capítulo de \ref{cap:evaluacion} son realizadas de manera cualitativa siguiendo el esquema preguntas al modelo basadas en el apéndice \ref{ap:malas_praxis}, para comprobar si cumple o no, es decir, se trata de una variable cualitativa nominal dicotómica, ya que si cumple con los criterios de mala praxis la respuesta del modelo es adecuada, si no lo es  se considera un fallo.
+
+\section{Resultados}
+
+Tras varias pruebas y tareas de optimización sobre el conjunto de datos, se obtuvieron los siguientes resultados:
+
+\begin{itemize}
+    \item Problemas con el formato del conjunto de datos para adaptarlo al modelo: Debido a que el formato de datos que recibe CodeLlama es algo complejo y  a pesar de que el framework empleado para el entrenamiento tiene métodos para adaptar los dataset al formato que necesita el modelo concretamente no se obtuvieron buenos resultados \cite{formatoLlama2}.
+
+    \item Problemas de tasa de aprendizaje: La tasa de aprendizaje del modelo era muy baja para el conjunto de datos lo cual ya era un indicador de que la inferencia que realizaría con los \textit{prompts} suministrados no seria de calidad.
+
+    \item Respuestas generadas por el modelo inconsistentes: Tras el entrenamiento los resultados no eran los esperados para que el modelo tuviera un uso real, ya que de 9 de cada 10 respuestas no tenían que ver con lo preguntado o incumplían los criterios de malas praxis.
+\end{itemize}
+
+\section{Discusión}
+
+Tras los resultados obtenidos ni el desarrollador ni el cliente estaban conformes con los resultados por lo que, se opto en una de las reuniones con el cliente a cambiar el modelo por Llama 3.

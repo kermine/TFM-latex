@@ -1,0 +1,152 @@
+\chapter{Implementación Final}
+
+\section{Trabajo Realizado}
+
+En esta implementación se opto por cambiar el modelo de CodeLlama a Llama 3
+por los siguientes motivos:
+
+\begin{itemize}
+    \item El conjunto de datos es correcto, por lo que probar en otro modelo por lo que podía ser que un modelo mas avanzado interpretara mejor los datos.
+    \item Mucha mayor facilidad para generar los conjuntos de datos ya que su formato es mucho mas actual y simple \cite{formatoLlama3}
+    \item Al no ser entrenado principalmente con código sino con mezcla de lenguaje natural y también conjuntos de datos que incluyen código sera capaz de entender mejor el lenguaje natural que codeLlama. Además que  modelo reentrenado está pensado para que se use en asignaturas de iniciación a la programación por lo que es mas que suficiente para el objetivo del proyecto.
+    \item El código creado para poder reentrenar Llama3 en lugar de CodeLlama requería de una inversión de horas muy pequeña, por lo que era algo que merecía la pena intentar.
+\end{itemize}
+
+Se decidió, ya que la implementación del código era muy similar, realizar el entrenamiento con el modelo superior Llama 3, ya que este en las pruebas preliminares de selección de modelo había obtenido unos resultados similares en los \textit{prompts} y su compatibilidad multilenguaje es incluso mejor que la de codeLlama. El único problema es que este modelo no esta especializado en código, pero al tratarse de un modelo pensado para que se use en asignaturas de iniciación a la programación es mas que suficiente para el objetivo del proyecto.
+
+\section{Evaluación}
+
+La tasa de aprendizaje con el mismo conjunto de datos era muy superior ademas de que los resultados de los \textit{prompts} tanto en lenguaje natural como con código resultaron ser muy superiores a los ofrecidos por codeLlama.
+
+Además las pruebas realizadas para comprobar si cumplía con los requisitos establecidos en el documento de malas praxis eran bastante positivas y como era de esperar en este caso respondía de manera similar al conjunto de datos con el que se le ha entrenado y con los ejemplos.
+
+Tras los resultado se contacto con el cliente, quien decidió elaborar una encuesta de expertos que realizarían tanto profesores de la Universidad de Valladolid como alumnos expertos de la misma en un entorno de pruebas.
+
+Tras una reunión de nuevo con los clientes me comunicaron que el modelo aunque si era mejor que el anterior, seguía cometiendo errores de malas praxis relativamente graves. Por lo que se realizaron ciertos ajustes en el conjunto de datos y se volvió a evaluar esta vez solo, por falta de tiempo, por una de las profesoras de la asignatura. En el siguiente apartado se muestran los resultados.
+
+\section{Resultados}
+
+En esta prueba se ha evaluado la capacidad del modelo para resolver ejercicios, es decir que se le pase un enunciado y genere un código que se asemeje lo máximo posible a lo que el usuario introduce en lenguaje natural.
+
+Para ello se ha empleado la encuesta del Apéndice \ref{ap:encuesta_expertos}.
+
+\subsection{Resolución de ejercicio de programación}
+En esta prueba, el modelo se ha comportado correctamente. Es cierto que, a la hora de generar código, incluye librerías de Java que, en un programa normal, serían una buena práctica. Sin embargo, dado el contexto de la asignatura, que como se ha visto en el análisis de requisitos presenta restricciones, el modelo no consigue ceñirse estrictamente al código permitido en la asignatura de FPROG, la calificación obtenida la podemos apreciar en la Tabla \ref{tabla:evaluacion-ej1}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Muy incorrecto (incluye errores de mala praxis) \vspace{0.5em} &  Incluye alguna deficiencia menor de eficiencia (sin mala praxis) & Totalmente correcto (óptimo con respecto a eficiencia y uso de estructuras de control) \\ \hline
+     & \multicolumn{1}{|c|}{X} & \\ \hline 
+    \end{tabular}\caption{Prueba resolución de ejercicios modelo}
+    \label{tabla:evaluacion-ej1}
+\end{table}
+
+
+\subsection{Generación de un enunciado en lenguaje natural}
+\label{generacion_enunciado}
+En esta prueba se pretende que el modelo genere un enunciado en lenguaje natural, con el fin de que los alumnos puedan obtener diferentes problemas con los que practicar.
+
+En esta tarea se consiguieron generar diferentes enunciados, uno de ellos el que se aprecia en la Figura \ref{fig:conversacionModelo1}
+
+\imagen{conversacionModelo1}{Prompt realizado por el usuario y respuesta del modelo \cite{openwebui}}
+
+Se consiguieron generar mas enunciados, aun así es cierto que las pruebas han indicado que cuesta obtener este tipo de \textit{prompts} sin que incluya nada de código, lo que puede dificultar o frustrar a los alumnos en el uso del modelo.
+
+\subsection{Evaluación de código correcto por parte del modelo}
+
+En esta prueba se evalúa si al tener como entrada un código java al modelo este es capaz de evaluarlo según los requisitos de la asignatura de FPROG, indicando  que es correcto.
+
+En las pruebas realizadas por los expertos han sido satisfactorias estos han indicado la calificación en la Tabla \ref{tabla:evaluacion-ej2}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de código correcto por parte del modelo}
+    \label{tabla:evaluacion-ej2}
+\end{table}
+
+\subsection{Evaluación de código con error de mala praxis}
+
+En esta prueba se evalúa si al tener como entrada código en lenguaje Java que contenga alguno de los errores que se encuentran en el apartado \ref{ap:analisis_requisitos}, el modelo debe ser capaz de informar en su respuesta al \textit{prompts} de los errores dde malas praxis detectados, asi como generar un código que arregle esos errores.
+
+En los casos probado por los expertos se ha dado la valoración en la Tabla \ref{tabla:evaluacion-ej3}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de código con error de mala praxis}
+    \label{tabla:evaluacion-ej3}
+\end{table}
+
+En las pruebas realizadas por los expertos se ha conseguido el objetivo satisfactoriamente con diferentes problemas de programación vistos en la asignatura.
+
+\subsection{Evaluación generación de código con iteraciones}
+
+En esta evaluación se solicita que el modelo genere un enunciado que trate las iteraciones, en este caso como sucede en la Evaluación \ref{generacion_enunciado}, cuesta que el modelo genere una respuesta adecuada a la petición del usuario un ejemplo de evaluación válida lo podemos ver en la Figura \ref{fig:conversacionModelo2}
+
+\imagen{conversacionModelo2}{Prompt realizado por el usuario y respuesta del modelo \cite{openwebui}}
+
+\subsection{Evaluación respuesta ejercicio corregido}
+
+En esta prueba consiste en suministrar el código corregido y ver si lo indica como que es un código correcto.
+
+En los casos probado por los expertos se ha dado la valoración de la Tabla \ref{tabla:evaluacion-ej4}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de respuesta ejercicio corregido}
+    \label{tabla:evaluacion-ej4}
+\end{table}
+
+\subsection{Evaluación de detección de punto de rotura de la estructuras de control}
+
+En esta prueba se valora si el modelo es capaz de detectar el uso \textit{break} u otras instrucciones que provoquen una modificación intencionada de una estructuras de control, ademas de generar un código que elimine esa problemática.
+
+En los casos probado por los expertos se ha dado la valoración de la Tabla \ref{tabla:evaluacion-ej5}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de detección de punto de rotura de la estructuras de control}
+    \label{tabla:evaluacion-ej5}
+\end{table}
+
+\subsection{Evaluación de detección de bucles infinitos}
+
+En esta prueba se valora si el modelo es capaz de detectar en el código bucles sean infinitos, indicando al usuario el error y la corrección del mismo.
+
+En los casos probado por los expertos se ha dado la valoración de la Tabla \ref{tabla:evaluacion-ej6}
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{4,5cm} | >{\arraybackslash}m{4,5cm}|} \hline
+    \vspace{0.5em}  Evaluación incorrecta (detecta errores que no existen) \vspace{0.5em} &  Evaluación correcta (sin mensajes explicativos) & Evaluación totalmente correcta (incluye mensajes explicativos) \\ \hline
+     &  & \multicolumn{1}{|c|}{X} \\ \hline 
+    \end{tabular}\caption{Prueba evaluación de detección de bucles infinitos}
+    \label{tabla:evaluacion-ej6}
+\end{table}
+
+\section{Discusión}
+
+Tras la evaluación de los expertos y las pruebas realizadas, podemos concluir que el modelo realiza correctamente las labores de generación de código, así como de interpretación, basándose en el documento de malas praxis como guía para diferenciar entre un código correcto o incorrecto según los criterios de la asignatura.
+
+Aunque presenta problemas que debido a la extensión en la fase de investigación se tendrán en cuenta en las líneas de trabajo futuras \ref{ap:lineas de trabajo futuras}, las principales tareas en las que presenta dificultades el modelo son:
+
+\begin{itemize}
+    \item Generación de enunciados en lenguaje natural que no incluyan código: tras las pruebas se ha visto que el modelo necesita de múltiples \textit{prompts} para que genere un enunciado que no contenga código, por lo que el modelo necesita mas ejemplos de este tipo en el conjunto de datos con el fin de que sea capaz de inferir este tipo de respuestas.
+    
+    \item Falsos positivos en el uso de mala praxis en el código: en algunas ocasiones el modelo detecta código que identifica como mala praxis cuando en realidad no lo es, lo que podría llevar a la confusión de los alumnos. alrededor de todas las pruebas realizadas en esta fase por los expertos el 63\% fueron aciertos mientras que el 37\% fueron salidas del modelo que contenían una o mas malas praxis que aparecen en el Apéndice \ref{ap:malas_praxis} o usos del lenguaje de programación de Java que van mas allá de los conocimientos impartidos en la asignatura.
+    
+\end{itemize}
+
+La evaluación final, por falta de tiempo, fue muy limitada. Solo una profesora pudo realizarla y con muy pocos casos, por lo que dar valores de rendimiento cuantitativos carece de validez estadística.

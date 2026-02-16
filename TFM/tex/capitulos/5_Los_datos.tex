@@ -1,0 +1,60 @@
+\chapter{Los Datos}
+
+\section{Comprensión de los datos}
+\label{cap:datos}
+
+El conjunto de datos suministrado son programas .java que habrá que adaptar para alimentar al modelo y reentrenarlo.
+
+Estos programas han sido obtenidos principalmente de dos fuentes:
+
+\begin{itemize}
+    \item Documentos de problemas de programación son proporcionados por los profesores de la asignatura. Consisten en una serie de documentos entre los que se encontraban diferentes problemas de programación vistos en la asignatura de Fundamentos de Programación (FPROG). Estos problemas consistían en problemas de programación en el lenguaje java que cubren conceptos como bucles, condicionales, recursividad, operaciones sobre matrices entre otros.
+    
+    \item Documento de mala praxis: Consiste en una serie de directrices que se siguen en la asignatura con el fin de que los alumnos aprendan las bases de manera correcta. La salida o uso de practicas consideradas erróneas en el documento implica que el código realizado por el alumno no se adecua a los criterios de la asignatura.
+
+    \item Problemas generados: Gracias a los dos anteriores se han podido generar mas ejemplos para tener un conjunto de datos mayor empleando IA generativa que tenía como contexto los documentos de los puntos apartados anteriores.
+\end{itemize}
+
+\section{Preparación de los datos}
+
+Tenemos principalmente dos tipos de ejemplos de ejemplos de pares entrada-salida en el conjunto de datos:
+
+\subsection{Generación de código incorrecto en base a lenguaje natural}
+
+En este caso tenemos un prompt por parte del usuario que es una instrucción en lenguaje natural para que genere un código concreto mal generado a propósito.
+
+Un ejemplo se muestra en el Listado \ref{lst:java1}.
+
+\begin{lstlisting}[style=json,caption={Ejemplo de entrada y salida para la generación de una clase Java},
+captionpos=b,
+label={lst:java1}]
+{
+    "instruction": "Crea una clase Java que sume dos enteros usando nombres no descriptivos.",
+    "input": "",
+    "output": "public class SumaPobre {\n  public static void main(String[] args) {\n    int a = 3;\n    int b = 4;\n    int c = a + b;\n    System.out.println(c);\n  }\n}"
+}
+\end{lstlisting}
+
+\subsection{Generación de código en base a lenguaje natural y una entrada}
+
+En este caso se le pasa como instrucción del usuario que corrija el código que se le pasa como input, que es normalmente un código del registro anterior del dataset.
+
+Pero la salida es el código corregido según el documento de malas praxis y añadiendo comentarios de lo que esta mal y que se ha corregido.
+
+Un ejemplo se muestra en el listado \ref{lst:java2}
+
+\newpage
+\begin{lstlisting}[style=json,caption={Ejemplo de entrada en lenguaje natural con código Java y una salida para la generación de una clase Java},
+captionpos=b,
+label={lst:java2}]
+{
+    "instruction": "Corrige los nombres en la siguiente clase para que sean claros y descriptivos.",
+    "input": "public class SumaPobre {\n  public static void main(String[] args) {\n    int a = 3;\n    int b = 4;\n    int c = a + b;\n    System.out.println(c);\n  }\n}",
+    "output": "**Problemas Encontrados:**\n. *Nombrado Inadecuado*: variables `a`, `b` y `c` carecen de significado.\n. *Nombrado Inadecuado*: el nombre de clase `SumaPobre` no es representativo.\n\n**Analisis de Impacto:**\nEl codigo es dificil de leer y no comunica la intencion. Esto complica la comprension y mantenimiento.\n\n**Codigo Refactorizado:**\n```java\npublic class SumaClara {\n  public static void main(String[] args) {\n    int primerSumando = 3;\n    int segundoSumando = 4;\n    int suma = primerSumando + segundoSumando;\n    System.out.println(\"La suma es: \" + suma);\n  }\n}\n```\n\n**Explicacion:**\nSe renombraron la clase y las variables con nombres que reflejan su funcion real, mejorando legibilidad y claridad."
+}
+\end{lstlisting}
+
+De esta manera conseguimos que el modelo comprenda que le estamos dando ejemplos mal resueltos y, además, como deben de ser solucionados, no solo generando un código correcto, sino que ademas añadiendo qué es lo que estaba mal y que se ha corregido para según lo indicado en el documento de malas praxis.
+
+\subsection{Resultado final}
+El número total de filas generadas para reentrenar el modelo consta de un total de 177 \textit{promts} que tratan los diferentes conceptos de la asignatura.

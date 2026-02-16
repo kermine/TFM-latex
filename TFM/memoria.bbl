@@ -30,12 +30,6 @@
 \newblock \url{https://www.hostinger.com/es/tutoriales/que-es-ollama#Ventajas_de_utilizar_Ollama}.
 \newblock último acceso: Julio de 2025.
 
-\bibitem{ganttProyect}
-{ganttProyect}.
-\newblock {ganttProyect}.
-\newblock \url{https://www.ganttproject.biz/}.
-\newblock Último acceso: Diciembre 2025.
-
 \bibitem{definicionIA}
 {Gobierno de España}.
 \newblock {Definicion IA según la comisión europea}.
@@ -66,23 +60,17 @@
 \newblock \url{https://es.overleaf.com/}.
 \newblock último acceso: Diciembre 2025.
 
-\bibitem{cascada}
-{Lucidchart}.
-\newblock {Waterfall. La historia detrás del error}.
-\newblock \url{https://www.lucidchart.com/blog/es/pros-y-contras-de-la-metodologia-de-cascada}.
-\newblock Último acceso: Octubre 2025.
-
-\bibitem{historiaCascada}
-{Martín Alaimo}.
-\newblock {Modelo de cascada: Ventajas y desventajas}.
-\newblock \url{https://medium.com/@kleer.la/waterfall-la-historia-detr%C3%A1s-del-error-39f589a12115}.
-\newblock Último acceso: Octubre 2025.
-
 \bibitem{formatoLlama2}
 {Meta}.
 \newblock {formatoLlama2}.
 \newblock \url{https://www.llama.com/docs/model-cards-and-prompt-formats/meta-llama-2/}.
 \newblock Último acceso: Diciembre 2025.
+
+\bibitem{formatoLlama3}
+{Meta}.
+\newblock {formatoLlama3}.
+\newblock \url{https://www.llama.com/docs/model-cards-and-prompt-formats/meta-llama-3/}.
+\newblock Último acceso: Febrero 2026.
 
 \bibitem{llama}
 {Meta}.
@@ -108,6 +96,12 @@
 \newblock \url{https://docs.openwebui.com/}.
 \newblock Último acceso: Diciembre 2025.
 
+\bibitem{CrispDM}
+{Pablo Haya}.
+\newblock {La metodología CRISP-DM en ciencia de datos}.
+\newblock \url{https://www.iic.uam.es/innovacion/metodologia-crisp-dm-ciencia-de-datos/#_ftn1}.
+\newblock último acceso: Febrero de 2026.
+
 \bibitem{pytorch}
 {pytorch}.
 \newblock {pytorch}.
@@ -125,6 +119,12 @@
 \newblock {Unsloth}.
 \newblock \url{https://unsloth.ai/}.
 \newblock último acceso: Septiembre de 2025.
+
+\bibitem{CrispDMWiki}
+{Wikipedia}.
+\newblock {Cross-industry standard process for data mining}.
+\newblock \url{https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining}.
+\newblock último acceso: Febrero de 2026.
 
 \bibitem{HuggingFace-LoRA}
 {Younes B Tim Dettmers Artidoro Pagnoni Sylvain Gugger Sourab Mangrulkar}.

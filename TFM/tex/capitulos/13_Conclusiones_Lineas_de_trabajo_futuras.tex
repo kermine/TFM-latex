@@ -1,0 +1,44 @@
+\chapter{Conclusiones y Líneas de trabajo futuras}
+
+\section{Conclusiones}
+
+Tras la realización del proyecto se puede concluir que se han alcanzado los siguientes objetivos con respecto al apartado \ref{sec:Objetivos} :
+
+\begin{itemize}
+    \item Se ha realizado un análisis completo sobre los diferentes modelos de IA de código abierto, dando lugar a varios modelos candidatos para emplear en el proyecto. Su análisis ha sido clave para poder encontrar el modelo mas idóneo para la tarea.
+    
+    \item Se ha realizado un estudio e investigación de las alternativas para conseguir reentrenar un modelo y poder decidir cual de las diferentes formas que existen en la actualidad. De entre estas, se ha elegido la de modelo de reentrenamiento de ajuste fino el cual ha permitido que el modelo reentrenado este especializado en el contexto del proyecto.
+    
+    \item Se ha realizado un análisis de los recursos hardware, tanto los necesarios para el entrenamiento en el cual el cliente ha aportado. Así como un análisis de si el modelo reentrenado es capaz de ejecutarse en máquinas con pocos recursos como las que usarán los alumnos.
+    
+    \item Se ha conseguido generar un script en Python que es capaz de recoger un conjunto de datos y suministrarlo a la biblioteca de Unsloth que se ''encarga'' de reentrenar el modelo, obteniendo como resultado el modelo especializado en el contexto de la asignatura. Además de dejar el modelo reentrenado en un repositorio en la nube para que pueda ser descargado desde cualquier ordenador.
+    
+    \item Se ha realizado una evaluación de los modelos probados.
+\end{itemize}
+
+Tras lo expuesto, se puede concluir que se ha logrado el objetivo planteado con el presente proyecto.
+
+Aunque el modelo final ha tenido un rendimiento muy satisfactorio, dada la alta exigencia del problema abordado (no se permite ningún error), es necesario seguir realizando mejoras para que pueda ser utilizado en el aula. Ahora bien, creemos que este proyecto sienta una base sólida sobre la que continuar el trabajo y lograr una herramienta especializada y útil para Fundamentos de Programación.
+
+
+\section{Reflexiones}
+
+\begin{itemize}
+    \item La búsqueda de un modelo que cumpla con las necesidades del proyecto es clave para su buen funcionamiento, no solo a nivel de que se trate de un modelo adaptado a la tarea, sino que ademas sea capaz de realizar un razonamiento correcto de los datos que se le pasan.
+
+    \item El empleo del ajuste fino sobre un modelo es una forma muy solvente de adaptar un modelo ya correcto al contexto que necesitamos, pero encontrar las tecnologías que nos permiten adaptarlo ha sido una labor de mucho esfuerzo e investigación.
+
+    \item El conseguir un conjunto de datos correcto y lo suficientemente grande para la realización del modelo ha sido un reto, ya que el objetivo de este proyecto no es que el modelo haga mas cosas de las que ya hace, sino restringirlo para que genere un código en lenguaje Java muy limitado a las posibilidades del propio lenguaje.
+
+\end{itemize}
+
+\section{Líneas de trabajo futuras}
+\label{ap:lineas de trabajo futuras}
+Al tratarse de un proyecto principalmente de investigación y que se ha podido implementar una solución funcional, surgen a partir de este proyecto múltiples lineas de mejora.
+
+Una de ellas es la de aumentar el conjunto de datos que se le suministran en el modelo en el dataset, con el fin de que este obtenga aun mejor el contexto y permita realizar mejores inferencias.
+
+ Otra linea de mejora sería ir actualizando el modelo que se emplea. En la actualidad se ha seleccionado llama 3, por la compatibilidad con la herramienta empleada para el entrenamiento Unsloth. Los desarrolladores seguirán actualizando la librería para admitir nuevos modelos open-source que vayan saliendo con el tiempo, por lo que sería muy interesante actualizar el modelo empleado dentro de la familia de Llama a las futuras versiones.
+
+ Otra linea de mejora paralela es emplear el modelo original y la estructura de este proyecto para otras asignaturas de la carrera, ya que lo que uno de los principales logros de este proyecto ha sido encontrar una forma relativamente rápida y fácil de poder generar nuevos modelos adaptados al contexto, a través de las herramientas empleadas. De esta manera cada asignatura podría tener su modelo especializado y obtener respuestas adaptadas siempre al contexto de la asignatura. Esto ayudaría a que los alumnos usasen modelos especializados, en vez de los generales que están usando actualmente, generando respuestas erróneas en muchos casos.
+ 

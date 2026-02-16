@@ -1,4 +1,4 @@
-\capitulo{2}{Metodología y planificación}
+\chapter{Metodología y planificación}
 
 
 \section{Dinámica de trabajo}
@@ -11,86 +11,79 @@ La colaboración con el cliente ha consistido en la realización de Sprints de d
 
 \section{Metodología de trabajo}
 
-Para el desarrollo de este proyecto se ha empleado la metodología Cross-Industry Standard Process for Data Mining (CRISP-DM), ya que se adapta perfectamente al desarrollo realizado en este proyecto de investigación en el cual tras comprender los requisitos y como debería ser el conjunto de datos para el reentrenamiento se ha generado y creado el modelo reentrenado sobre el que se han realizado varias iteraciones hasta conseguir un modelo con unos buenos resultados para poder ser usado.
+Para el desarrollo de este proyecto se ha empleado la metodología \textit{Cross-Industry Standard Process for Data Mining} (CRISP-DM). Ya que es una metodología especialmente pensada para proyectos de ciencia de datos y minería pensando en la evaluación de los resultados y múltiples iteraciones hasta conseguir una evaluación satisfactoria.
 
-En la figura \ref{fig:img-5} podemos ver el ciclo típico de esta metodología
+\subsection{Metodología CRISP-DM}
 
+Esta metodología se desarrollo en 1996 gracias a varias empresas del sector de Tecnologías de la información y minería ya que estas necesitaban de un proceso estructura para este tipo de proyectos que hasta entonces no tenían una estructura clara. En 1997 gracias a un proyecto financiado por la Unión Europea en el marco del programa \textit{European Strategic Program on Research in Information Technology} (ESPRIT) cuyo fin era la creación de un procedimiento común entre diferentes industrias para la minería de datos. En el año 2000 fue cuando se presento su primera versión la cual es muy similar a la que conocemos actualmente \ref{fig:img-5} en el que vemos el  \cite{CrispDM} \cite{CrispDMWiki}.
+
+En la figura \ref{fig:img-5} podemos ver el ciclo típico de esta metodología.
 \imagen[0.6\textwidth]{img-5}{Foto de la metodología CRISP-DM}
 
-\section{Metodología CRISP-DM}
-
-%Metodologia de trabajo en equipo
-
-%Meter historia de la metodologia de trabajo del proyecto
-
-%Meter funcionamiento de la metodologia como la hemos empleado
-
-%Meter ventajas y desventajas de la metodologia
-
-%Motivo de eleccion de la metodologia
-
-Los orígenes de esta metodología \cite{historiaCascada} vienen del teórico de la informática Winston W. Royce, quien en 1970 elaboró su ensayo \textit{Managing the Development of Large Software Systems}, donde proponía que el modelo en cascada se efectuara de manera iterativa.
-Mas tarde, a partir de 1985, este modelo se hizo famoso en el desarrollo del software  cuando el Departamento de Defensa de los Estados Unidos publicó el Estándar 2167  para el desarrollo de software militar, el cual era una variante de su modelo, denominado cascada rígida.
-
-A la hora de emplear la metodología en cascada\cite{cascada} tenemos que tener en cuenta sus ventajas y desventajas.
-Sus principales ventajas son que tiene una estructura clara y permite transmitir al cliente la información de en qué paso del desarrollo nos encontramos exactamente. Además,  la estructura en cascada también permite la realización de las fases en paralelo o el uso de prototipos, según el tipo de proyecto. En cuanto a sus desventajas, las principales son que dificulta la modificación de requisitos durante el desarrollo, así como que la realización de pruebas se debe realizar al final del desarrollo. Sin embargo, este último punto en nuestro caso tiene poca importancia, ya que este proyecto requiere que su implementación sea al menos parcialmente funcional para poder ser probado.
-
-Esta metodología se empleo en la primera fase del proyecto en la cual se realizó una investigación de que modelos de IA serían los adecuados para la tarea, que tipo de entrenamiento se realizaría asi como se realizaría ese entrenamiento, todas estas fases se han realizado de manera secuencial de tal manera que cuando tenía una de ellas se pasaba a la siguiente, siguiendo el modelo en cascada.
-
-El principal motivo de elección de este modelo de gestión del proyecto es debido a la índole de investigación que ha requerido para desarrollar las primeras fases del proyecto y poder tener el flujo completo funcionando. Lo cual ha requerido no solo investigación por mi parte sino contacto con la Universidad de Valladolid para el uso de recursos que permitan el entrenamiento de un modelo de IA de una manera optima.
-
-\subsection{Fases del Proyecto}
-Una vez que hemos decido emplear la metodología en cascada distinguiremos las siguientes fases a lo largo del desarrollo del proyecto:
+Esta metodología esta basada en las fases de:
 
 \begin{itemize}
-\item Documentación: en esta fase se ha dedicado a comprender como poder realizar un reentrenamiento de un modelo de IA, diferentes formas de entrenamiento asi como los componentes de los propios LLM, asentando los conceptos necesarios para realizarlo.
+\item Comprensión del negocio: Entender los objetivos del proyecto desde la perspectiva del negocio.
+\item Comprensión de los datos: Recoger datos iniciales, explorarlos y evaluar su calidad para entender qué información puede ser útil.
+\item Preparación de los datos: Transformar y limpiar los datos para que sean adecuados para el modelado.
+\item Modelado: Aplicar técnicas estadísticas o de aprendizaje automático para crear modelos que respondan a los objetivos definidos.
+\item Evaluación: Evaluar la calidad de los modelos, comprobar que realmente solucionan el problema del negocio.
+\item Despliegue: Implementar el modelo en el entorno deseado y planificar su seguimiento y mantenimiento.
+\end{itemize}
 
-\item Investigación: tras entender la parte teórica, se ha procedido a realizar una investigación de aquellos modelos de IA open source que pueden servir para la realización del proyecto, asi como las herramientas que nos permitirán realizar la tarea de reentrenamiento y los recursos hardware como software necesarios para la tarea.
 
-\item Análisis: tras obtener varios posibles candidatos entre los modelos de IA se ha realizado un estudio en profundidad de los mismos con el fin de obtener el modelo que mejor se ajusta a la tarea de este proyecto
+Para el desarrollo de este proyecto no se ha seguido la metodología CRISP-DM de manera estricta, la principal modificación que se ha realizado es que las iteraciones no volvían hasta la fase de comprensión de negocio sino que se volvía a partir de la fase de preparación de los datos. Además se incluye un último apartado que consiste en la finalización del documento asociado a la memoria de este proyecto.
 
-\item Diseño, implementación: tras obtener el modelo adecuado y las herramientas para poder realizar el entrenamiento se ha realizado su implementación. Este punto ha sido en concreto donde se ha aplicado una metodología de ensayo error. En el cual se han realizado un ciclo de prueba, evaluación y ajuste hasta obtener el resultado que queremos del modelo.
+\subsection{Fases del Proyecto}
+Una vez que hemos decido emplear la metodología CRISP-DM distinguiremos las siguientes fases a lo largo del desarrollo del proyecto:
 
-\item Pruebas de rendimiento del modelo: tras realizar su reentrenamiento se ha pasado el modelo a través de diferentes métricas y evaluaciones con el fin de ver si el modelo reentrenado cumple con las necesidades del proyecto, en el caso de no ser así se han realizado tareas de ajuste sobre los parámetros para obtener la configuración mas optima del mismo
+\begin{itemize}
+\item Comprensión del negocio: esta fase esta centrada principalmente en entender los objetivos del negocio. En el caso de este proyecto esta etapa se ha centrado principalmente en comprender la idea que querían llevar a cabo los clientes con respecto al modelo de IA, de qué recursos disponía, así como, una investigación de los diferentes modelos de IA open-source que podrían valer para el objetivo del proyecto.
 
-\item Finalización de la documentación del proyecto: se han realizado las últimas modificaciones al documento con el fin de la mejora de esta memoria de cara a su presentación.
+\item Comprensión de los datos: a continuación se necesita comprender que tipo de información disponemos para poder entrenar el modelo. El cliente facilitó una serie de documentos que contenían programas Java con el fin de emplearlos, por lo que esta será la base del conjunto de datos que se usarán para entrenar el modelo.
+
+\item Preparación de los datos: en esta fase tras reconocer el tipo de datos de los que disponemos debemos de adaptarlos, con el fin de que el modelo escogido los reconozca y sea capaz de entenderlos correctamente para realizar un reentrenamiento correcto
+
+\item Modelado: una vez se dispuso del conjunto de datos se creo el Jupyter Notebook con el código que permite el reentrenamiento del modelo de IA con el conjunto de datos previamente adaptado, con el fin de que el modelo resultante cumpla las expectativas del cliente.
+
+\item Evaluación: en esta fase se centra en la evaluación propia del modelo con el fin de comprobar si este es capaz de cumplir con las expectativas pautadas por el cliente, a través de la evaluación propia del desarrollador y si los resultados eran validos, se pasaba a una valoración por parte del cliente con el fin de que el mismo comprobara los resultados. En este punto, como nos indica la propia metodología CRISP-DM, ha sido necesario varias veces volver a la fase de Preparación de Datos como veremos en la parte 2 de Desarrollo del trabajo.
+
+\item Despliegue: Una vez se ha cumplido con una evaluación aprobada por el cliente el modelo se integra en un frontal adecuado para su uso y despliegue en entornos locales.
+
+\item Finalización de la documentación y entrega del TFM: fase en la cual se revisa toda la documentación del proyecto para su entrega y presentación.
 
 \end{itemize}
 
 
 %\newpage
 \section{Planificación inicial del proyecto}
-Empleando el modelo en cascada visto en el apartado anterior,  se elaboró al inicio del proyecto una planificación en la cual abarcamos sus distintas fases. Abarcando las 225 horas que aproximadamente se corresponden con los 9 créditos designados al proyecto.
+Empleando la metodología CRISP-DM vista en el apartado anterior,  se elaboró al inicio del proyecto una planificación en la cual abarcamos sus distintas fases. Abarcando las 225 horas que se corresponden con los 9 créditos designados al proyecto.
 
-La Tabla \ref{tabla:planificacion} muestra las fechas establecidas para cada fase del TFG.
+La Tabla \ref{tabla:planificacion} muestra la temporalización establecida para cada fase del TFG.
 \begin{table}[htb]
     \centering
     \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm}|}
     \hline
     \vspace{0.5em} Tarea \vspace{0.5em} &  Duración & Comienzo & Fin\\ \hline \hline  
-    \multicolumn{4}{ |c| }{INVESTIGACIÓN} \\ \hline 
-    Investigación & 100 horas & 25/06/25 & 10/07/25\\ \hline \hline  
-     \multicolumn{4}{ |c| }{ANALISIS} \\ \hline
-    {Análisis de los requisitos del proyecto} & 10 horas  & 11/07/25 & 14/07/25 \\ \hline \hline
-    \multicolumn{4}{ |c| }{DISEÑO, IMPLEMENTACIÓN Y PRUEBAS} \\ \hline
-    Implementación del modelo base & 20 horas & 15/07/2025 & 31/07/25 \\ \hline
-    Implementación del framework para entrenar el modelo & 20 horas & 01/08/2025 & 15/08/2 \\ \hline
-    Evaluación sobre el modelo reentrenado & 30 horas & 16/08/2025 & 20/08/25 \\ \hline
-    Realización del frontal & 20 horas & 21/08/2025 & 25/08/25 \\ \hline \hline 
+    \multicolumn{4}{ |c| }{COMPRENSIÓN DEL NEGOCIO} \\ \hline 
+    Comprensión del negocio & 20 horas & 25/06/25 & 05/07/25\\ \hline \hline  
+     \multicolumn{4}{ |c| }{COMPRENSIÓN DE LOS DATOS} \\ \hline
+    {Comprensión de los datos} & 30 horas  & 06/07/25 & 10/07/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{PREPARACIÓN DE LOS DATOS} \\ \hline
+    {Preparación de los datos} & 40 horas  & 11/07/25 & 20/07/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{MODELADO} \\ \hline
+    Implementación del modelo base & 30 horas & 21/07/2025 & 31/07/25 \\ \hline
+    Implementación del framework para reentrenar el modelo & 30 horas & 01/08/2025 & 15/08/2 \\ \hline \hline
+    \multicolumn{4}{ |c| }{EVALUACION} \\ \hline
+    Evaluación sobre el modelo reentrenado & 50 horas & 16/08/2025 & 24/08/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{DESPLIEGUE} \\ \hline
+    Despliegue en entorno de producción & 10 horas & 25/08/2025 & 27/08/25 \\ \hline \hline 
     \multicolumn{4}{ |c| }{ FINALIZACIÓN DEL PROYECTO} \\ \hline
-        Finalización de la documentación y entrega del TFM & 25 horas & 26/08/25 & 30/08/25 \\
+        Finalización de la documentación y entrega del TFM & 15 horas & 28/08/25 & 31/08/25 \\
     \hline
     \end{tabular}\caption{Planificación inicial del proyecto}
     \label{tabla:planificacion}
 \end{table}
-
-\section{Diagrama de Gantt  inicial del proyecto}
-
-    En la Figura  \ref{fig:gantt-inicial1} y \ref{fig:gantt-inicial2} podemos apreciar la duración prevista de cada una de las etapas del proyecto. En este diagrama aparecen las tareas principales especificadas anteriormente en la Tabla \ref{tabla:planificacion}. 
-
-    \imagen[0.6\textwidth]{gantt-inicial1}{Imagen de las diferentes etapas del diagrama de Gantt previsto al iniciar el proyecto\cite{ganttProyect}}
-
-      \imagen[0.6\textwidth]{gantt-inicial2}{Imagen del diagrama de Gantt del proyecto\cite{ganttProyect}}
 
 \section{Plan de Riesgos}
 
@@ -137,7 +130,7 @@ La Tabla \ref{tabla:riesgo1} muestra el Riesgo 1, el cual es la estimación inco
 \end{table}
 
 La Tabla \ref{tabla:riesgo2} muestra el Riesgo 2, el cual es la perdida de tiempo de trabajo por ausencia del alumno, mientras que la Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual representa el riesgo de ausencia del tutor. 
-%La Tabla \ref{tabla:riesgo3} muestra el Riesgo 3, el cual es el riesgo de que el tutor del proyecto contraiga una enfermedad.
+
 
 \begin{table}[!htb]
     \footnotesize
@@ -259,43 +252,43 @@ Tras haber pasado por todas las fases descritas en la planificación inicial com
 
 Durante el proyecto se llegaron a activar los riesgos que aparecen en las tablas \ref{tabla:riesgo2}, \ref{tabla:riesgo3} y \ref{tabla:riesgo5} lo que produjo que se aplicaran las medidas de contingencia correspondientes a esos riesgos.
 
-A continuación en la Tabla \ref{tabla:planificacion2} muestra las fechas establecidas para cada fase del tfm después de la aparición de los riesgos y como afectaron la aplicación de los planes de contingencia al desarrollo del proyecto.
+A continuación en la Tabla \ref{tabla:planificacion2} muestra la temporalización real para cada fase del TFM después de la aparición de los riesgos y como afectaron la aplicación de los planes de contingencia al desarrollo del proyecto.
 
 \begin{table}[htb]
     \centering
     \begin{tabular}{| >{\arraybackslash}m{4,5cm}| >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm} | >{\arraybackslash}m{2,5cm}|}
     \hline
     \vspace{0.5em} Tarea \vspace{0.5em} &  Duración & Comienzo & Fin\\ \hline \hline  
-    \multicolumn{4}{ |c| }{INVESTIGACIÓN} \\ \hline 
-    Investigación & 120 horas & 25/06/25 & 14/08/25\\ \hline \hline  
-     \multicolumn{4}{ |c| }{ANALISIS} \\ \hline
-    {Análisis de los requisitos del proyecto} & 20 horas  & 15/08/25 & 20/08/25 \\ \hline \hline
-    \multicolumn{4}{ |c| }{DISEÑO, IMPLEMENTACIÓN Y PRUEBAS} \\ \hline
-    Implementación del modelo base & 20 horas & 21/08/2025 & 01/09/25 \\ \hline
-    Implementación del framework para entrenar el modelo & 37 horas & 02/09/2025 & 11/10/25 \\ \hline
-    Evaluación sobre el modelo reentrenado  & 62 horas & 12/10/25 & 08/12/25 \\ \hline
-    Realización del frontal & 20 horas & 09/12/25 & 15/12/25 \\ \hline \hline 
+    \multicolumn{4}{ |c| }{COMPRENSIÓN DEL NEGOCIO} \\ \hline 
+    Comprensión del negocio & 30 horas & 25/06/25 & 27/07/25\\ \hline \hline  
+     \multicolumn{4}{ |c| }{COMPRENSIÓN DE LOS DATOS} \\ \hline
+    {Comprensión de los datos} & 20 horas  & 28/07/25 & 20/08/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{PREPARACIÓN DE LOS DATOS} \\ \hline
+    {Preparación de los datos} & 50 horas & 21/08/2025 & 01/09/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{MODELADO} \\ \hline
+    Implementación del modelo base & 40 horas & 02/09/2025 & 11/10/25 \\ \hline
+    Implementación del framework para reentrenar el modelo & 60 horas & 12/10/25 & 29/11/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{EVALUACION} \\ \hline
+    Evaluación sobre el modelo reentrenado & 50 horas & 30/11/25 & 15/12/25 \\ \hline \hline
+    \multicolumn{4}{ |c| }{DESPLIEGUE} \\ \hline
+    Despliegue en entorno de producción & 5 horas & 16/12/25 & 11/01/26 \\ \hline \hline 
     \multicolumn{4}{ |c| }{ FINALIZACIÓN DEL PROYECTO} \\ \hline
-        Finalización de la documentación y entrega del TFM & 35 horas & 16/12/25 & 11/01/26 \\
+        Finalización de la documentación y entrega del TFM & 35 horas & 12/01/26 & 11/02/26 \\
     \hline
-    \end{tabular}\caption{Planificación inicial del proyecto}
+    \end{tabular}\caption{Planificación final del proyecto}
     \label{tabla:planificacion2}
 \end{table}
 
 
- Como podemos apreciar de las 225 horas planeadas al inicio del proyecto se han elevado a un total de 314 horas las fases con mayor incremento han sido la de investigación y de pruebas del modelo esto se debe principalmente a los siguientes motivos:
+ Como podemos apreciar de las 225 horas planeadas al inicio del proyecto se han elevado a un total de 290 horas las fases con mayor incremento han sido la de investigación y de pruebas del modelo esto se debe principalmente a los siguientes motivos:
 
  \begin{itemize}
-     \item La fase de investigación se alargó mas de lo esperado debido a que fue difícil encontrar un framework que permitiera realizar las tareas de re entrenamiento de modelos de manera sencilla realizando múltiples investigaciones de diferentes proyectos y alternativas tanto de implementación solo con librerías básicas o frameworks hasta dar con el correcto. El cual se emplearía en la implementación final.
+     \item La fase de modelado se alargó mas de lo esperado debido a que fue difícil encontrar un framework que permitiera realizar las tareas de re entrenamiento de modelos de manera sencilla realizando múltiples investigaciones de diferentes proyectos y alternativas tanto de implementación solo con librerías básicas o frameworks hasta dar con el correcto. El cual se emplearía en la implementación final.
 
-     \item La fase de realización de pruebas sobre el modelo reentrenado se ha alargado debido a que ha resultado difícil conseguir un buen resultado del modelo reentrenado, debido al problema de la falta de datos para el entrenamiento así como que el modelo inicial no fue el adecuado a la hora de hacer la inferencia.
+     \item La fase de evaluación sobre el modelo reentrenado se ha alargado debido a que ha resultado difícil conseguir un buen resultado del modelo reentrenado, debido al problema de la falta de datos para el entrenamiento así como que el modelo inicial no fue el adecuado a la hora de hacer la inferencia.
 
      \item A todo esto se suma la realización del proyecto junto con el trabajo del alumno a jornada completa lo que no ha permitido ser del todo consistente con los tiempos estipulados al inicio del proyecto.
  \end{itemize}
-
- La Figura  \ref{fig:gantt-final} muestra el diagrama de Gantt final del proyecto, donde se pueden apreciar la duración de cada una de las etapas una vez finalizado el proyecto. En el diagrama se pueden observar las tareas principales del proyecto. 
-
-\imagen{gantt-final}{Foto del diagrama de gant previsto al iniciar el proyecto\cite{ganttProyect}}
 
 \section{Presupuesto}
 

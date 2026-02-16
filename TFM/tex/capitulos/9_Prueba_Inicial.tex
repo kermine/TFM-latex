@@ -1,0 +1,33 @@
+\part{Desarrollo del trabajo}
+
+\chapter{Prueba Preliminar}
+
+En este apartado se habla de las pruebas realizadas sobre los modelos inicialmente seleccionados con el fin de ver si son útiles para el objetivo del proyecto.
+
+\section{Trabajo realizado}
+Se han realizado diferentes  pruebas en los modelos seleccionados; para ello, se ha empleado Ollama \cite{Ollama}.
+
+Ollama \cite{Ollama} es una herramienta de código abierto que permite ejecutar los modelos en un entorno local y además permite su uso en entornos con pocos recursos, ya que los modelos a comparar consumen demasiados recursos como para ser ejecutados en un ordenador como el usado para este proyecto.
+
+Esto se debe gracias a que Ollama implementa su propio \textit{BackEnd} para la gestión de los modelos que descargamos en la herramienta, como indican en su propio repositorio de Github se pueden llegar a correr modelos de 7B de parámetros con solo 8GB de RAM en el ordenador \cite{GithubOllama} \cite{InformacionOllama}
+
+\section{Evaluación}
+
+Sobre los modelos del capitulo \ref{cap:modelos} se aplicaron los criterios establecidos en el Capítulo \ref{cap:evaluacion-inicial}, apreciando lo siguiente:
+
+\begin{itemize}
+    \item Algunos modelos de IA como DeepSeekCoder y CodeGeeX2 no eran capaces de entender el idioma del español por lo que para los alumnos podría resultar en un impedimento su uso.
+    \item StarCoder ni CodeGeeX2 no disponen de una versión adaptada para la librería de Unsloth \cite{Unsloth} que es la librería empleada para realizar el reentrenamiento del modelo ya que nos permite hacerlo de una manera rápida y con pocos recursos. Por lo que tampoco sería una buena idea elegirlo para el reentrenamiento.
+\end{itemize}
+
+\section{Resultados}
+
+Tras este filtrado inicial se decidió probar a lanzar preguntas a los modelos restantes similares a la batería de programas facilitada por el cliente. Ante la cual tanto codeLlama como Llama 3 obtuvieron buenos resultados en las pruebas cualitativas realizadas por el desarrollador.
+
+Teniendo en cuenta que de los dos el que ha sido entrenado principalmente con código ha sido CodeLlama se decidió escoger este modelo para las siguientes fases.
+
+\section{Discusión}
+
+Estas prueba inicial ha servido principalmente como primer filtro para descartar los modelos que en un principio se pensaba que podían ser de utilidad para el proyecto, pero como se ha visto tras realizar unas pruebas mas en profundidad se puede apreciar que no todos los LLM genéricos sirven para todas las tareas y que es muy necesario saber el contexto del proyecto para elegir el/los adecuados.
+
+Por lo que tras esta evaluación y el análisis de las ventajas y desventajas vistas en el capítulo \ref{cap:modelos} nos hemos decantado por el modelo CodeLlama.

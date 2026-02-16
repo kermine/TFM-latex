@@ -1,8 +1,12 @@
-\capitulo{3}{Análisis de requisitos}
+\part{Planteamiento del Trabajo}
 
-En este apartado se hablará de los diferentes requisítos que debe cumplir el modelo de I.A  generado para la asignatura de FPROG con el fin de que sea util tanto para los alumnos como para los profesores.
+\chapter{Comprensión del negocio}
 
-Este apartado de requisitos se ha elaborado a partir del documento de malas praxis incluido en el apendice  \ref{ap:malas_praxis} Malas prácticas de programacion
+En este capítulo se hablará mas en detalle de los requisitos que debe cumplir el modelo de I.A  generado para la asignatura de FPROG con el fin de que sea util tanto para los alumnos como para los profesores.
+
+Este apartado de requisitos se ha elaborado a partir del documento de malas praxis incluido en el apéndice  \ref{ap:malas_praxis}.
+
+Además los requisitos que el desarrollador ha recabado que debe de incluir con el fin de cumplir el objetivo de su cliente.
 
 \section{Requisitos de estilo y legibilidad}
 \label{ap:analisis_requisitos}
@@ -60,3 +64,20 @@ El modelo debe detectar y eliminar fragmentos de código que nunca se ejecutan (
 
 \subsection{RF-10: Uso de Recursividad}
 El modelo debe priorizar soluciones iterativas. La recursividad solo se permitirá en problemas donde sea la solución natural. Se prohíbe explícitamente la "recursión final" (tail recursion) si encubre una iteración simple.
+
+\section{Conceptos de negocio a tener en cuenta}
+Uno de los dos problemas a la hora de empezar a desarrollar la idea del TFM es encontrar el mejor modelo LLM, que se adapte al caso de uso, teniendo en cuenta las características del problema:
+
+\subsection{Usuarios}
+Los usuarios que emplearán este modelo de IA con el fin de obtener respuesta a preguntas realizadas tanto en lenguaje natural como enviando código Java serán alumnos de 1º de carrera de la Universidad de Valladolid (UVA). Por lo tanto, estamos hablando de personas que están empezando su etapa como ingenieros informáticos así como empezando con la programación. Existirán alumnos que, como fue mi caso, no han programado todavía antes de entrar a la carrera.
+
+\subsection{Asignatura}
+El modelo de IA está destinado, concretamente, para la asignatura de Fundamentos de Programación, que se imparte en el primer cuatrimestre del primer año de ingeniería informática. En esta asignatura se enseñan las bases de la programación estructurada en el lenguaje de programación Java. Por lo que el modelo que tendremos que elegir será un modelo que esté preparado o entrenado de base con un conjunto de datos de texto o información relacionada con los lenguajes de programación y específicamente con Java.
+
+\subsection{Tamaño del modelo}
+El modelo no es necesario que sea muy grande, ya que la tarea que desempeñará está bastante acotada por el contenido de la asignatura.
+
+Pero si es importante que a pesar de que el tamaño del modelo este acotado, se opte por un modelo en el cual la principal fuente de datos con los que ha sido entrenado sea código, en concreto interesaría, sobre todo, con código Java
+
+\subsection{Coste del modelo}
+Debido a la naturaleza del proyecto y su uso universitario, alternativas de pago como la API de ChatGPT, Claude, Sonet, Gemini, entre otros LLM's de pago que quedan descartados, por lo que se optará por buscar LLM's que sean open source y gratuitos ademas de que las licencias que emplean permitan su uso y explotación.

@@ -1,15 +1,26 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
+\addvspace {10pt}
+\addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Foto de la metodología CRISP-DM}}{8}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagen de las diferentes etapas del diagrama de Gantt previsto al iniciar el proyecto\cite {ganttProyect}}}{11}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagen del diagrama de Gantt del proyecto\cite {ganttProyect}}}{11}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Foto del diagrama de gant previsto al iniciar el proyecto\cite {ganttProyect}}}{17}{figure.2.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Grafico de comparación del rendimiento con respecto otros modelos open source basados en código \cite {DeepSeek-coder}}}{35}{figure.5.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Imagen de la interfaz que emplea openwebui \cite {openwebui}}}{46}{figure.7.6}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{48}{figure.8.7}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{49}{figure.8.8}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Foto del terminal indicando los modelos existentes en ollama \cite {openwebui}}}{76}{figure.Alph3.1}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Foto del frontal la primera vez que iniciamos sesión \cite {openwebui}}}{77}{figure.Alph3.2}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Grafico de comparación del rendimiento con respecto otros modelos open source basados en código \cite {DeepSeek-coder}}}{42}{figure.6.1}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Imagen de la url donde se despliega el frontal de openwebui \cite {openwebui}}}{50}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Imagen de la interfaz que emplea openwebui \cite {openwebui}}}{50}{figure.8.2}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{61}{figure.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Prompt realizado por el usuario y respuesta del modelo \cite {openwebui}}}{63}{figure.11.2}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Foto del terminal indicando los modelos existentes en ollama \cite {openwebui}}}{90}{figure.Alph3.1}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Foto del frontal la primera vez que iniciamos sesión \cite {openwebui}}}{91}{figure.Alph3.2}%

@@ -1,25 +1,9 @@
-\capitulo{5}{Alternativas de diferentes IA´s}
-En este capitulo se centra principalmente en la investigación realizada para encontrar un modelo adecuado para la tarea del proyecto partiendo de un análisis inicial del problema hasta los posibles lenguajes candidatos. 
+\chapter{Modelos}
 
-\section{Descripción del problema}
-Uno de los dos problemas a la hora de empezar a desarrollar la idea del TFM es encontrar el mejor modelo LLM que se adapte al caso de uso, teniendo en cuenta las características del problema:
-
-\subsection{Usuarios}
-Los usuarios que emplearán este modelo de IA con el fin de obtener respuesta a preguntas realizadas tanto en lenguaje natural como enviando código Java serán alumnos de 1º de carrera de la Universidad de Valladolid (UVA). Por lo tanto, estamos hablando de personas que están empezando su etapa como ingenieros informáticos así como empezando con la programación, Existirán alumnos que, como fue mi caso, no han programado todavía antes de entrar a la carrera.
-
-\subsection{Asignatura}
-El modelo de IA está destinado concretamente para la asignatura de Fundamentos de Programación, que se imparte en el primer cuatrimestre del primer año de ingeniería informática. en la cual se enseñan las bases de la programación estructurada en el lenguaje de programación Java. Por lo que el modelo que tendremos que elegir será un modelo que esté preparado o entrenado de base con un conjunto de datos de texto o información relacionada con los lenguajes de programación y específicamente con Java.
-
-\subsection{Tamaño del modelo}
-El modelo no es necesario que sea muy grande, ya que la tarea que desempeñará está bastante acotada por el contenido de la asignatura.
-
-Pero si es importante que a pesar de que el tamaño del modelo este acotado, se opte por un modelo en el cual la principal fuente de datos con los que ha sido entrenado sea código, en concreto interesaría, sobre todo, con código Java
-
-\subsection{Coste del modelo}
-Debido a la naturaleza del proyecto y su uso universitario, alternativas de pago como la API de ChatGPT, Claude, Sonet, Gemini, entre otros LLM's de pago que quedan descartados, por lo que se optará por buscar LLM's que sean open source y gratuitos ademas de que las licencias que emplean permitan su uso y explotación.
+Este capitulo se centra principalmente en la investigación realizada para encontrar un modelo adecuado para la tarea del proyecto partiendo de un análisis inicial del problema hasta los posibles lenguajes candidatos. 
 
 \section{Búsqueda de modelos}
-
+\label{cap:modelos}
 Tras realizar una búsqueda con las necesidades del proyecto se han elegido los siguientes candidatos:
 
 \subsection{DeepSeek-Coder}
@@ -60,7 +44,7 @@ Modelo perteneciente a meta permite comprender y generar texto mejor que sus pre
 \subsubsection{Ventajas}
 \begin{itemize}
 	\item Es un modelo mas moderno, su fecha de lanzamiento fue el 18 de abril de 2024.
-	\item Posee varieantes del modelo desde 8B a 70B de parámetros 
+	\item Posee variantes del modelo desde 8B a 70B de parámetros 
     \item Posee un modelo \textit{instruct} que esta adaptado tanto para recibir código como preguntas en lenguaje natural.
     \item Al ser un lenguaje de meta y tener ya dos años en el mercado existen múltiples herramientas e implementaciones para el modelo que nos facilitan su implementación.
     \item Al no ser un modelo adaptado enteramente a código es capaz de entender mejor instrucciones en leguaje natural.

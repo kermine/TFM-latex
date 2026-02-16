@@ -316,7 +316,7 @@
 \newcommand{\capitulo}[2]{
 	\setcounter{chapter}{#1}
 	\setcounter{section}{0}
-	\chapter*{#2}
+	\chapter{#2}
 	\addcontentsline{toc}{chapter}{#1. #2}
 	\markboth{#2}{#2}
 }
@@ -435,22 +435,22 @@ En Burgos, {\large \today}
 \vfill\vfill\vfill
 
 % Author and supervisor
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft} %\large
-Vº. Bº. del Tutor:\\[2cm]
-D. Carlos E. Vivaracho Pascual
-\end{flushleft}
-\end{minipage}
-\hfill
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft} %\large
-Vº. Bº. del co-tutor:\\[2cm]
-D. Alma María Pisabarro Marron
-\end{flushleft}
-\end{minipage}
-\hfill
+%\begin{minipage}{0.45\textwidth}
+%\begin{flushleft} %\large
+%Vº. Bº. del Tutor:\\[2cm]
+%D. Carlos E. Vivaracho Pascual
+%\end{flushleft}
+%\end{minipage}
+%\hfill
+%\begin{minipage}{0.45\textwidth}
+%\begin{flushleft} %\large
+%Vº. Bº. del co-tutor:\\[2cm]
+%D. Alma María Pisabarro Marron
+%\end{flushleft}
+%\end{minipage}
+%\hfill
 
-\vfill
+%\vfill
 
 % para casos con solo un tutor comentar lo anterior
 % y descomentar lo siguiente
@@ -468,9 +468,9 @@ D. Alma María Pisabarro Marron
 % Abstract en castellano
 \renewcommand*\abstractname{Resumen}
 \begin{abstract}
-Este proyecto abarca la necesidad de la creación de un modelo de inteligencia artificial open source el cual esté adaptado a las necesidades de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería informática de la universidad de Valladolid a través de un reentrenamiento con el código en Java y normas impartidas en la asignatura. 
+Este proyecto abarca la necesidad de la creación de un modelo de inteligencia artificial open source, el cual esté adaptado a las necesidades de la asignatura de Fundamentos de Programación impartida en el grado de Ingeniería informática de la universidad de Valladolid. La adaptación se realizará a través de un reentrenamiento con el código en Java y normas impartidas en la asignatura. 
 
-El objetivo es un modelo de IA que este adaptado al contexto de la asignatura que están cursando, no como los modelos que normalmente suelen ser consultados, de esta manera obtendrán respuestas y resolverán las dudas adaptadas a los contenidos de la asignatura.
+El objetivo es un modelo de IA que este adaptado al contexto de la asignatura que están cursando, no como los modelos generales que normalmente suelen ser consultados, de esta manera obtendrán respuestas y resolverán las dudas adaptadas a los contenidos de la asignatura.
 
 El proyecto será desarrollado en el lenguaje de programación de Python y con el hardware de la escuela de ingeniería informática de Valladolid.
 \end{abstract}
@@ -518,14 +518,17 @@ Artificial intelligence, Fundamentals of Programming,Java, LLM
 
 \include{./tex/capitulos/1_Introduccion}
 \include{./tex/capitulos/2_Metodologia_y_Planificacion}
-\include{./tex/capitulos/3_Analisis_Requisitos}
-\include{./tex/capitulos/4_Investigacion_Conceptos_teoricos}
-\include{./tex/capitulos/5_Alternativas_diferentes_IA}
-\include{./tex/capitulos/6_Seleccion_modelo_y_adaptacion}
-\include{./tex/capitulos/7_Dataset_reentrenamiento}
-\include{./tex/capitulos/8_Evalacion_del_modelo_y_discusion}
-\include{./tex/capitulos/9_Tecnologias_utilizadas}
-\include{./tex/capitulos/10_Conclusiones_Lineas_de_trabajo_futuras}
+\include{./tex/capitulos/3_Investigacion_Conceptos_teoricos}
+\include{./tex/capitulos/4_Comprension_del_negocio.tex}
+\include{./tex/capitulos/5_Los_datos.tex}
+\include{./tex/capitulos/6_Modelos}
+\include{./tex/capitulos/7_Evaluacion}
+\include{./tex/capitulos/8_Despliegue}
+\include{./tex/capitulos/9_Prueba_Inicial}
+\include{./tex/capitulos/10_Prueba_Modelo_Inicial}
+\include{./tex/capitulos/11_Implementacion_Final}
+\include{./tex/capitulos/12_Tecnologias_utilizadas}
+\include{./tex/capitulos/13_Conclusiones_Lineas_de_trabajo_futuras}
 
 
 %\renewcommand\chaptername{Anexo}
